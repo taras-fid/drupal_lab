@@ -1,0 +1,8 @@
+uuid: bba4d800-fd42-403d-859d-c54b951c6326
+langcode: en
+status: true
+dependencies: {  }
+id: library
+label: Library
+revision: 0
+description: ''
