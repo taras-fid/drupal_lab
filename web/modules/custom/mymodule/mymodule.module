@@ -1,0 +1,10 @@
+<?php
+
+
+/**
+ * Implements hook_ENTITY_TYPE_load().
+ */
+function mymodule_ENTITY_TYPE_load($entities)
+{
+
+}
