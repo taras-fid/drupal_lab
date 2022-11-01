@@ -1,0 +1,24 @@
+<?php
+
+///**
+// * Implements hook_page_attachments_alter().
+// */
+//function mytheme_page_attachments_alter(array &$attachments)
+//{
+//  $current_uri = \Drupal::request()->getRequestUri();
+//  if (str_contains($current_uri, '/blog')) {
+//    $attachments['#attached']['library'][] = 'mytheme/masonry';
+//  }
+//}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function mytheme_preprocess(&$variables)
+{
+  $current_uri = \Drupal::request()->getRequestUri();
+
+  if (str_contains($current_uri, '/blog')) {
+    $variables['#attached']['library'][] = 'mytheme/masonry';
+  }
+}

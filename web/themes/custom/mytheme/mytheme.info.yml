@@ -33,3 +33,5 @@ regions:
   content_below: 'Content Below'
   footer_top: 'Footer Top'
   footer_bottom: 'Footer Bottom'
+libraries:
+  - mytheme/global-css

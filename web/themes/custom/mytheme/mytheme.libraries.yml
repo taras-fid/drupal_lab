@@ -1,0 +1,21 @@
+global-css:
+  css:
+    theme:
+      css/custom.css: {}
+  js:
+    js/custom.js: {}
+  dependencies:
+    - core/jquery
+
+blog-css:
+  css:
+    theme:
+      css/blog.css: {}
+
+masonry:
+  css:
+    theme:
+      css/blog.css: {}
+  js:
+    https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js: {type: external, minified: true }
+    js/masonry.js: {}

@@ -1,0 +1,14 @@
+mymodule.first:
+  path: '/example/route1/{name}/{age}/{email}'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\TestController::content'
+  requirements:
+    _permission: 'access content'
+
+mymodule.form:
+  path: '/example/route2'
+  defaults:
+    _form: '\Drupal\mymodule\Form\TestForm'
+    _title: 'Test Form'
+  requirements:
+    _permission: 'access content'
