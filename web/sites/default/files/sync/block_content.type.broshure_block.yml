@@ -1,0 +1,8 @@
+uuid: 209a0835-45c0-4dd8-b1a1-666838fc1204
+langcode: en
+status: true
+dependencies: {  }
+id: broshure_block
+label: 'Broshure Block'
+revision: 0
+description: 'Broshure Block custom type'

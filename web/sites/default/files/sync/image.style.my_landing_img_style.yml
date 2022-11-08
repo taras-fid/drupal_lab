@@ -1,0 +1,15 @@
+uuid: 755c2efa-e071-4d89-8a40-f55750c58e10
+langcode: en
+status: true
+dependencies: {  }
+name: my_landing_img_style
+label: 'my landing img style (100x100)'
+effects:
+  36275a34-2d33-4727-8d61-692c2b8d4ee6:
+    uuid: 36275a34-2d33-4727-8d61-692c2b8d4ee6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      anchor: center-center

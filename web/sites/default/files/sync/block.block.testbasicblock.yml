@@ -1,0 +1,25 @@
+uuid: 72dc61d8-ddfe-49ae-a7ba-ae83c46e34ec
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9138b81b-138f-4089-9631-b5b2a53b86d5'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: testbasicblock
+theme: olivero
+region: sidebar
+weight: -7
+provider: null
+plugin: 'block_content:9138b81b-138f-4089-9631-b5b2a53b86d5'
+settings:
+  id: 'block_content:9138b81b-138f-4089-9631-b5b2a53b86d5'
+  label: 'Test Basic Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

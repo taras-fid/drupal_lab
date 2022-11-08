@@ -1,0 +1,25 @@
+uuid: f4ef1194-b8da-4f8e-a2a6-e94f4f491687
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:library:d44f072f-aee6-49e3-99ca-925ab08f6e46'
+  module:
+    - block_content
+  theme:
+    - mytheme
+id: mytheme_mytestlibrary
+theme: mytheme
+region: sidebar
+weight: -9
+provider: null
+plugin: 'block_content:d44f072f-aee6-49e3-99ca-925ab08f6e46'
+settings:
+  id: 'block_content:d44f072f-aee6-49e3-99ca-925ab08f6e46'
+  label: 'My test Library'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

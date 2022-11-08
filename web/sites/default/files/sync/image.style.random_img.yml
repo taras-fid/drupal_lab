@@ -1,0 +1,15 @@
+uuid: c6b60422-681e-4b4c-b129-a8551f032ea7
+langcode: en
+status: true
+dependencies: {  }
+name: random_img
+label: 'random img (80x80)'
+effects:
+  f1017cd7-b1e9-47c7-ae3c-8a871a699dac:
+    uuid: f1017cd7-b1e9-47c7-ae3c-8a871a699dac
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 80
+      height: 80
+      anchor: center-center
