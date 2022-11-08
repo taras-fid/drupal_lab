@@ -1,0 +1,29 @@
+uuid: 4995a17e-3000-4881-9d14-176313dee4cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.broshure_block
+    - field.storage.block_content.field_media
+    - media.type.document
+id: block_content.broshure_block.field_media
+field_name: field_media
+entity_type: block_content
+bundle: broshure_block
+label: Media
+description: 'load your media here'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: document
+field_type: entity_reference

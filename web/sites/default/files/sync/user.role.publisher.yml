@@ -1,0 +1,40 @@
+uuid: c8525e35-00ed-4b33-9d08-d22e887b6b2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+    - taxonomy.vocabulary.category
+    - taxonomy.vocabulary.tags
+    - workflows.workflow.editorial
+  module:
+    - content_moderation
+    - node
+    - system
+    - taxonomy
+    - toolbar
+id: publisher
+label: Publisher
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'create blog content'
+  - 'create terms in category'
+  - 'create terms in tags'
+  - 'delete any blog content'
+  - 'delete terms in category'
+  - 'delete terms in tags'
+  - 'edit any blog content'
+  - 'edit terms in category'
+  - 'edit terms in tags'
+  - 'use editorial transition archive'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'view any unpublished content'
+  - 'view blog revisions'
+  - 'view latest version'
+  - 'view the administration theme'

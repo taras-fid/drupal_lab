@@ -1,0 +1,25 @@
+uuid: b013ecb9-4fed-4123-8df6-cbf1146bc81a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:library:d44f072f-aee6-49e3-99ca-925ab08f6e46'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: mytestlibrary
+theme: olivero
+region: sidebar
+weight: -8
+provider: null
+plugin: 'block_content:d44f072f-aee6-49e3-99ca-925ab08f6e46'
+settings:
+  id: 'block_content:d44f072f-aee6-49e3-99ca-925ab08f6e46'
+  label: 'My test Library'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
