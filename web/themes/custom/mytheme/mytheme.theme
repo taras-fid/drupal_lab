@@ -17,6 +17,7 @@
 function mytheme_preprocess(&$variables)
 {
   $current_uri = \Drupal::request()->getRequestUri();
+  $current_uri2 = \Drupal::routeMatch()->getRouteName();
 
   if (str_contains($current_uri, '/blog')) {
     $variables['#attached']['library'][] = 'mytheme/masonry';

@@ -1,0 +1,14 @@
+student_registration.first:
+  path: '/student/{age}/{name}/{email}/{phone}'
+  defaults:
+    _controller: '\Drupal\student_registration\Controller\StudentController::content'
+  requirements:
+    _permission: 'access content'
+
+student_registration.form:
+  path: '/student/registration'
+  defaults:
+    _form: '\Drupal\student_registration\Form\StudentForm'
+    _title: 'Student registration'
+  requirements:
+    _permission: 'access content'

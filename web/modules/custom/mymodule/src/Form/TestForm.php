@@ -19,26 +19,30 @@ class TestForm extends FormBase
   {
     $form['name'] = [
       '#type' => 'textfield',
-      '#description' => 'name text field',
+      '#description' => $this->t('name text field'),
+      '#required' => TRUE,
       '#default_value' => ''
     ];
 
     $form['age'] = [
       '#type' => 'number',
-      '#description' => 'age number field',
-      '#default_value' => 0
+      '#description' => $this->t('age number field'),
+      '#required' => TRUE,
+      '#min' => 1,
+      '#max' => 120,
     ];
 
     $form['email'] = [
       '#type' => 'email',
-      '#description' => 'email field',
+      '#description' => $this->t('email field'),
+      '#required' => TRUE,
       '#default_value' => ''
     ];
 
     $form['button'] = [
       '#type' => 'submit',
-      '#description' => 'form submit btn',
-      '#value' => 'Submit'
+      '#description' => $this->t('form submit btn'),
+      '#value' => $this->t('Submit')
     ];
 
     return $form;
@@ -46,7 +50,9 @@ class TestForm extends FormBase
 
   public function submitForm(array &$form, FormStateInterface $form_state)
   {
+    $redirect_params = [];
     $form_state_values = $form_state->getValues();
+
     if (isset($form_state_values['name'])) {
       $redirect_params['name'] = $form_state_values['name'];
     }

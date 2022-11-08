@@ -795,7 +795,7 @@ function hook_removed_post_updates() {
  * well as to search for missing dependencies.
  *
  * Implementations of this hook should be placed in a mymodule.install file in
- * the same directory as mymodule.module.
+ * the same directory as student_registration.module.
  *
  * @return array
  *   A multidimensional array containing information about the module update
@@ -841,7 +841,7 @@ function hook_update_dependencies() {
  * ensure that no update is accidentally skipped.
  *
  * Implementations of this hook should be placed in a mymodule.install file in
- * the same directory as mymodule.module.
+ * the same directory as student_registration.module.
  *
  * @return int
  *   An integer, corresponding to hook_update_N() which has been removed from
