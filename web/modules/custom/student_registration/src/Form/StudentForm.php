@@ -9,12 +9,12 @@ use Drupal\Core\Url;
 class StudentForm extends FormBase
 {
 
-  public function getFormId()
+  public function getFormId(): string
   {
     return 'student_registration_form';
   }
 
-  public function buildForm(array $form, FormStateInterface $form_state)
+  public function buildForm(array $form, FormStateInterface $form_state): array
   {
     $form['name'] = [
       '#type' => 'textfield',

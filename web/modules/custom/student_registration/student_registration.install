@@ -1,0 +1,83 @@
+<?php
+
+
+/**
+ * Implements hook_install().
+ */
+function student_registration_install($is_syncing)
+{
+  # TODO
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function student_registration_uninstall($is_syncing)
+{
+
+}
+
+/**
+ * Implements hook_schema().
+ */
+function student_registration_schema()
+{
+  # TODO Для создания таблицы в базе данных использовать hook_schema()
+  $schema['students'] = [
+    'description' => 'Stores the students data.',
+    'fields' => [
+      'id' => [
+        'description' => 'The primary identifier for student',
+        'type' => 'serial',
+        'not null' => TRUE,
+        'unsigned' => TRUE,
+      ],
+      'name' => [
+        'description' => 'Student name',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'age' => [
+        'description' => 'Age of student',
+        'type' => 'int',
+        'length' => 120,
+        'not null' => TRUE,
+
+      ],
+      'email' => [
+        'description' => 'Student`s email',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'phone' => [
+        'description' => 'Student`s phone',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+    ],
+    'primary key' => ['id'],
+  ];
+  return $schema;
+}
+
+/**
+ * Implements hook_update_N().
+ */
+function student_registration_update_8001(&$sandbox)
+{
+  # TODO Через hook_update добавить поле average_mark (float, not null)
+}
+
+/**
+ * Implements hook_update_N().
+ */
+function student_registration_update_8002(&$sandbox)
+{
+  # TODO Во втором hook_update инициализировать поле average_mark для существующих записей
+}
