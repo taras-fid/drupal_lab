@@ -1,6 +1,0 @@
-<!-- TODO Сделать CRUD (create/read/update/delete)-->
-<!-- TODO /registration - create new form, redirect to 'View item' after submition-->
-<!-- TODO /registration/{id} - View item (controller)-->
-<!-- TODO /registrations - listing (table) with title (combine field name and email), view link, edit link (controller)-->
-<!-- TODO /registration/{id}/edit - edit form, redirect to View-->
-<!-- TODO /registration/{id}/delete - confirmation form (remove row from table)"-->

@@ -2,9 +2,12 @@
 
 namespace Drupal\student_registration\Form;
 
-use \Drupal\Core\Form\FormBase;
+use Drupal;
+use Drupal\Core\Database\Database;
+use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
+use Exception;
 
 class StudentForm extends FormBase
 {
@@ -30,7 +33,6 @@ class StudentForm extends FormBase
       '#min' => 16,
       '#max' => 120,
       '#default_value' => 18
-
     ];
 
     $form['email'] = [
@@ -46,6 +48,15 @@ class StudentForm extends FormBase
       '#default_value' => '',
       '#required' => TRUE,
       '#attributes' => []
+    ];
+
+    $form['average_mark'] = [
+      '#type' => 'number',
+      '#step' => 0.01,
+      '#description' => $this->t('average mark field'),
+      '#required' => TRUE,
+      '#min' => 0,
+      '#max' => 5,
     ];
 
     $form['button'] = [
@@ -66,16 +77,36 @@ class StudentForm extends FormBase
       $form_state->setErrorByName('phone', $this->t('Please enter a valid Contact Number'));
     }
 
-    if ($form_state->getValue('email') == !\Drupal::service('email.validator')->isValid($form_state->getValue('email'))) {
+    if ($form_state->getValue('email') == !Drupal::service('email.validator')->isValid($form_state->getValue('email'))) {
       $form_state->setErrorByName('email',
         $this->t('The email address %mail is not valid.', array('%mail' => $form_state->getValue('email'))));
     }
+
+    if($form_state->getValue('average_mark') < 0 || $form_state->getValue('average_mark') > 5) {
+      $form_state->setErrorByName('average_mark', $this->t('Please enter a valid average mark'));
+    }
   }
 
+  /**
+   * @throws Exception
+   */
   public function submitForm(array &$form, FormStateInterface $form_state)
   {
-    $this->messenger()->addStatus($this->t(':name, form was successfully submitted.', [
+    # TODO insert form info to database 'students'
+    $fields = [
+      'name' => $form_state->getValue('name'),
+      'age' => $form_state->getValue('age'),
+      'email' => $form_state->getValue('email'),
+      'phone' => $form_state->getValue('phone'),
+      'average_mark' => $form_state->getValue('average_mark'),
+    ];
+    $database = Drupal::database();
+    $database->insert('students')->fields($fields)->execute();
+
+    $this->messenger()->addStatus($this->t(':name, form was successfully submitted and added to database.', [
       ':name' => $form_state->getValue('name')
     ]));
+    $id = $database->query("SELECT id FROM students ORDER BY id DESC LIMIT 1")->fetchCol(0)[0];
+    $this->redirect('student_registration.view', ['id' => $id])->send();
   }
 }

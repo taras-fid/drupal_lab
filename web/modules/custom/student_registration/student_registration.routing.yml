@@ -12,3 +12,11 @@ student_registration.form:
     _title: 'Student registration'
   requirements:
     _permission: 'access content'
+
+student_registration.view:
+  path: '/student/registration/1'
+  defaults:
+    _controller: '\Drupal\student_registration\Controller\FormController::content'
+    _title: 'Form view'
+  requirements:
+    _permission: 'access content'

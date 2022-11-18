@@ -1,5 +1,7 @@
 <?php
 
+use Drupal\Core\Database\Database;
+
 
 /**
  * Implements hook_install().
@@ -44,7 +46,6 @@ function student_registration_schema()
         'type' => 'int',
         'length' => 120,
         'not null' => TRUE,
-
       ],
       'email' => [
         'description' => 'Student`s email',
@@ -60,9 +61,15 @@ function student_registration_schema()
         'not null' => TRUE,
         'default' => '',
       ],
+      'average_mark' => [
+        'description' => 'Average mark of student',
+        'type' => 'float',
+        'not null' => False,
+      ],
     ],
     'primary key' => ['id'],
   ];
+
   return $schema;
 }
 
@@ -72,6 +79,16 @@ function student_registration_schema()
 function student_registration_update_8001(&$sandbox)
 {
   # TODO Через hook_update добавить поле average_mark (float, not null)
+  $average_mark = [
+    'description' => 'Average mark of student',
+    'type' => 'float',
+    'not null' => False,
+  ];
+  $schema = Database::getConnection()->schema();
+
+  if (!$schema->fieldExists('students', 'average_mark')) {
+    $schema->addField('students', 'average_mark', $average_mark);
+  }
 }
 
 /**
@@ -79,5 +96,9 @@ function student_registration_update_8001(&$sandbox)
  */
 function student_registration_update_8002(&$sandbox)
 {
-  # TODO Во втором hook_update инициализировать поле average_mark для существующих записей
+  # TODO insert average_mark to existed fields
+  $database = Drupal::database();
+  $avg_mark = $database->query("SELECT AVG(average_mark) AS AverageMark FROM students WHERE average_mark")->fetchCol(0)[0];
+  # TODO переробити так щоб замінювались поля в яких NULL
+  $database->query("UPDATE students SET average_mark = {$avg_mark} WHERE average_mark IS NULL");
 }
