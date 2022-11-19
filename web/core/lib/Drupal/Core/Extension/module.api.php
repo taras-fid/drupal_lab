@@ -795,7 +795,7 @@ function hook_removed_post_updates() {
  * well as to search for missing dependencies.
  *
  * Implementations of this hook should be placed in a mymodule.install file in
- * the same directory as student_registration.module.
+ * the same directory as mymodule.module.
  *
  * @return array
  *   A multidimensional array containing information about the module update
@@ -841,7 +841,7 @@ function hook_update_dependencies() {
  * ensure that no update is accidentally skipped.
  *
  * Implementations of this hook should be placed in a mymodule.install file in
- * the same directory as student_registration.module.
+ * the same directory as mymodule.module.
  *
  * @return int
  *   An integer, corresponding to hook_update_N() which has been removed from
@@ -1020,6 +1020,29 @@ function hook_requirements($phase) {
   }
 
   return $requirements;
+}
+
+/**
+ * Alters requirements data.
+ *
+ * Implementations are able to alter the title, value, description or the
+ * severity of certain requirements defined by hook_requirements()
+ * implementations or even remove such entries.
+ *
+ * @param array $requirements
+ *   The requirements data to be altered.
+ *
+ * @see hook_requirements()
+ */
+function hook_requirements_alter(array &$requirements): void {
+  // Change the title from 'PHP' to 'PHP version'.
+  $requirements['php']['title'] = t('PHP version');
+
+  // Decrease the 'update status' requirement severity from warning to info.
+  $requirements['update status']['severity'] = REQUIREMENT_INFO;
+
+  // Remove a requirements entry.
+  unset($requirements['foo']);
 }
 
 /**

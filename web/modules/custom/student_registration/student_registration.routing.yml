@@ -14,9 +14,33 @@ student_registration.form:
     _permission: 'access content'
 
 student_registration.view:
-  path: '/student/registration/1'
+  path: '/student/registration/{id}'
   defaults:
     _controller: '\Drupal\student_registration\Controller\FormController::content'
-    _title: 'Form view'
+    _title: 'Form info{id}'
+  requirements:
+    _permission: 'access content'
+
+student_registration.list:
+  path: '/student/registrations'
+  defaults:
+    _controller: '\Drupal\student_registration\Controller\ListController::content'
+    _title: 'Form list'
+  requirements:
+    _permission: 'access content'
+
+student_registration.edit:
+  path: '/student/registration/{id}/edit'
+  defaults:
+    _form: '\Drupal\student_registration\Form\StudentEditForm'
+    _title: 'Edit student from'
+  requirements:
+    _permission: 'access content'
+
+student_registration.delete:
+  path: '/student/registration/{id}/delete'
+  defaults:
+    _form: '\Drupal\student_registration\Form\StudentDeleteForm'
+    _title: 'Delete student data'
   requirements:
     _permission: 'access content'
