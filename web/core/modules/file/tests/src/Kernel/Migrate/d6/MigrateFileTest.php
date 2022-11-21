@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\file\Kernel\Migrate\d6;
 
+use Drupal\Core\Database\Database;
 use Drupal\file\Entity\File;
 use Drupal\file\FileInterface;
 use Drupal\KernelTests\KernelTestBase;
-use Drupal\Core\Database\Database;
 use Drupal\Tests\migrate\Kernel\MigrateDumpAlterInterface;
 use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 

@@ -4,11 +4,11 @@ namespace Drupal\migrate\Plugin\migrate\process;
 
 use Drupal\Component\Utility\NestedArray;
 use Drupal\Component\Utility\Variable;
-use Drupal\migrate\ProcessPluginBase;
 use Drupal\migrate\MigrateException;
 use Drupal\migrate\MigrateExecutableInterface;
-use Drupal\migrate\Row;
 use Drupal\migrate\MigrateSkipRowException;
+use Drupal\migrate\ProcessPluginBase;
+use Drupal\migrate\Row;
 
 /**
  * Changes the source value based on a static lookup map.

@@ -4,14 +4,14 @@ declare(strict_types = 1);
 
 namespace Drupal\ckeditor5\Plugin\Validation\Constraint;
 
+use Drupal\Core\Config\TypedConfigManagerInterface;
 use Drupal\Core\DependencyInjection\ContainerInjectionInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
+use Drupal\filter\FilterPluginManager;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 use Symfony\Component\Validator\Exception\UnexpectedTypeException;
-use Drupal\filter\FilterPluginManager;
-use Drupal\Core\Config\TypedConfigManagerInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * CKEditor 5 Media plugin in sync with the filter settings validator.

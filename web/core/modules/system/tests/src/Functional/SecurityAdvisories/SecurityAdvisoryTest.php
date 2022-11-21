@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\system\Functional\SecurityAdvisories;
 
+use Drupal\advisory_feed_test\AdvisoriesTestHttpClient;
 use Drupal\Core\Url;
 use Drupal\Tests\BrowserTestBase;
 use Drupal\Tests\Traits\Core\CronRunTrait;
-use Drupal\advisory_feed_test\AdvisoriesTestHttpClient;
 
 /**
  * Tests of security advisories functionality.

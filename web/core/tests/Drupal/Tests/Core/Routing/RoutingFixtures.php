@@ -2,10 +2,9 @@
 
 namespace Drupal\Tests\Core\Routing;
 
+use Drupal\Core\Database\Connection;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
-
-use Drupal\Core\Database\Connection;
 
 /**
  * Utility methods to generate sample data, database configuration, etc.

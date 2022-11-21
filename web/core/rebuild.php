@@ -13,9 +13,9 @@
 use Drupal\Component\Utility\Crypt;
 use Drupal\Core\DrupalKernel;
 use Drupal\Core\Site\Settings;
-use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 
 // Change the directory to the Drupal root.
 chdir('..');

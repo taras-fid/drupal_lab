@@ -2,9 +2,9 @@
 
 namespace Drupal\entity_test_update\Plugin\Field\FieldType;
 
+use Drupal\Core\Field\FieldItemBase;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\Core\TypedData\DataDefinition;
-use Drupal\Core\Field\FieldItemBase;
 
 /**
  * Defines the 'multi_value_test' field type.

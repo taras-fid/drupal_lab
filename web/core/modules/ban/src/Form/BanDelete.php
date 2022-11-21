@@ -2,8 +2,8 @@
 
 namespace Drupal\ban\Form;
 
-use Drupal\Core\Form\ConfirmFormBase;
 use Drupal\ban\BanIpManagerInterface;
+use Drupal\Core\Form\ConfirmFormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
 use Symfony\Component\DependencyInjection\ContainerInterface;

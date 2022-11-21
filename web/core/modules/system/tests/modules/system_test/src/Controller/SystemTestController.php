@@ -5,17 +5,17 @@ namespace Drupal\system_test\Controller;
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Cache\CacheableResponse;
 use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Lock\LockBackendInterface;
 use Drupal\Core\Messenger\MessengerInterface;
-use Drupal\Core\Security\TrustedCallbackInterface;
-use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\Render\Markup;
+use Drupal\Core\Render\RendererInterface;
+use Drupal\Core\Security\TrustedCallbackInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Url;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Drupal\Core\Lock\LockBackendInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Controller routines for system_test routes.

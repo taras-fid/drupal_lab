@@ -4,8 +4,8 @@ namespace Drupal\Tests\Composer\Plugin\ProjectMessage;
 
 use Composer\Package\RootPackageInterface;
 use Drupal\Composer\Plugin\ProjectMessage\Message;
-use PHPUnit\Framework\TestCase;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass Drupal\Composer\Plugin\ProjectMessage\Message

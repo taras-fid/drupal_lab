@@ -2,12 +2,12 @@
 
 namespace Drupal\aggregator;
 
+use Drupal\Core\Config\Config;
 use Drupal\Core\Entity\EntityDisplayRepositoryInterface;
 use Drupal\Core\Entity\EntityRepositoryInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Entity\EntityViewBuilder;
-use Drupal\Core\Config\Config;
 use Drupal\Core\Language\LanguageManagerInterface;
 use Drupal\Core\Theme\Registry;
 use Drupal\Core\Url;

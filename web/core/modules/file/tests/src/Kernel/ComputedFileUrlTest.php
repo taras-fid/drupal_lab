@@ -4,8 +4,8 @@ namespace Drupal\Tests\file\Kernel;
 
 use Drupal\Core\Field\FieldItemInterface;
 use Drupal\Core\TypedData\DataDefinitionInterface;
-use Drupal\file\FileInterface;
 use Drupal\file\ComputedFileUrl;
+use Drupal\file\FileInterface;
 use Drupal\KernelTests\KernelTestBase;
 
 /**

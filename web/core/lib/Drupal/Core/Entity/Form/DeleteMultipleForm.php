@@ -5,14 +5,14 @@ namespace Drupal\Core\Entity\Form;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Form\BaseFormIdInterface;
 use Drupal\Core\Form\ConfirmFormBase;
-use Drupal\Core\Messenger\MessengerInterface;
-use Drupal\Core\TypedData\TranslatableInterface;
-use Drupal\Core\Url;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Messenger\MessengerInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\TempStore\PrivateTempStoreFactory;
-use Symfony\Component\HttpFoundation\RedirectResponse;
+use Drupal\Core\TypedData\TranslatableInterface;
+use Drupal\Core\Url;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 
 /**
  * Provides an entities deletion confirmation form.

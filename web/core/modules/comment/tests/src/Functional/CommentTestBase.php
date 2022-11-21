@@ -2,13 +2,13 @@
 
 namespace Drupal\Tests\comment\Functional;
 
-use Drupal\Component\Render\FormattableMarkup;
-use Drupal\comment\Entity\CommentType;
-use Drupal\comment\Entity\Comment;
 use Drupal\comment\CommentInterface;
-use Drupal\comment\Tests\CommentTestTrait;
-use Drupal\field\Entity\FieldConfig;
+use Drupal\comment\Entity\Comment;
+use Drupal\comment\Entity\CommentType;
 use Drupal\comment\Plugin\Field\FieldType\CommentItemInterface;
+use Drupal\comment\Tests\CommentTestTrait;
+use Drupal\Component\Render\FormattableMarkup;
+use Drupal\field\Entity\FieldConfig;
 use Drupal\node\Entity\NodeType;
 use Drupal\Tests\BrowserTestBase;
 

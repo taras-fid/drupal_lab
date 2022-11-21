@@ -7,8 +7,8 @@
  */
 
 use Drupal\Core\Command\GenerateTheme;
-use Drupal\Core\Command\QuickStartCommand;
 use Drupal\Core\Command\InstallCommand;
+use Drupal\Core\Command\QuickStartCommand;
 use Drupal\Core\Command\ServerCommand;
 use Symfony\Component\Console\Application;
 

@@ -2,8 +2,8 @@
 
 namespace Drupal\taxonomy;
 
-use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\ContentEntityStorageInterface;
+use Drupal\Core\Entity\EntityInterface;
 
 /**
  * Defines an interface for taxonomy_term entity storage classes.

@@ -2,8 +2,8 @@
 
 namespace Drupal\block_content\Entity;
 
-use Drupal\Core\Config\Entity\ConfigEntityBundleBase;
 use Drupal\block_content\BlockContentTypeInterface;
+use Drupal\Core\Config\Entity\ConfigEntityBundleBase;
 
 /**
  * Defines the custom block type entity.

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\contact\Kernel\Migrate;
 
-use Drupal\contact\Entity\ContactForm;
 use Drupal\contact\ContactFormInterface;
+use Drupal\contact\Entity\ContactForm;
 use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 
 /**

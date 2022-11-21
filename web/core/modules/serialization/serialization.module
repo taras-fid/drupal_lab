@@ -5,8 +5,8 @@
  * Provides a service for (de)serializing data to/from formats such as JSON and XML.
  */
 
-use Drupal\Core\Url;
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
 
 /**
  * Implements hook_help().

@@ -2,23 +2,23 @@
 
 namespace Drupal\Tests\views\Kernel;
 
-use Drupal\Component\Render\FormattableMarkup;
 use Drupal\comment\Tests\CommentTestTrait;
+use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Component\Utility\Xss;
 use Drupal\node\Entity\NodeType;
-use Drupal\views\Entity\View;
-use Drupal\views\Views;
-use Drupal\views\ViewExecutable;
-use Drupal\views\ViewExecutableFactory;
 use Drupal\views\DisplayPluginCollection;
+use Drupal\views\Entity\View;
 use Drupal\views\Plugin\views\display\DefaultDisplay;
 use Drupal\views\Plugin\views\display\Page;
-use Drupal\views\Plugin\views\style\DefaultStyle;
-use Drupal\views\Plugin\views\style\Grid;
-use Drupal\views\Plugin\views\row\Fields;
-use Drupal\views\Plugin\views\query\Sql;
 use Drupal\views\Plugin\views\pager\PagerPluginBase;
 use Drupal\views\Plugin\views\query\QueryPluginBase;
+use Drupal\views\Plugin\views\query\Sql;
+use Drupal\views\Plugin\views\row\Fields;
+use Drupal\views\Plugin\views\style\DefaultStyle;
+use Drupal\views\Plugin\views\style\Grid;
+use Drupal\views\ViewExecutable;
+use Drupal\views\ViewExecutableFactory;
+use Drupal\views\Views;
 use Drupal\views_test_data\Plugin\views\display\DisplayTest;
 use PHPUnit\Framework\Error\Warning;
 use Symfony\Component\HttpFoundation\Response;

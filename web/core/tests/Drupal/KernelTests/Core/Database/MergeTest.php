@@ -2,8 +2,8 @@
 
 namespace Drupal\KernelTests\Core\Database;
 
-use Drupal\Core\Database\Query\Merge;
 use Drupal\Core\Database\Query\InvalidMergeQueryException;
+use Drupal\Core\Database\Query\Merge;
 
 /**
  * Tests the MERGE query builder.

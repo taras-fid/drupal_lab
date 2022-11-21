@@ -3,8 +3,8 @@
 namespace Drupal\Core\Asset;
 
 use Drupal\Component\Utility\Unicode;
-use Drupal\Core\StreamWrapper\StreamWrapperManager;
 use Drupal\Core\File\FileUrlGeneratorInterface;
+use Drupal\Core\StreamWrapper\StreamWrapperManager;
 
 /**
  * Optimizes a CSS asset.

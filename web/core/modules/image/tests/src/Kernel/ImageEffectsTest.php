@@ -5,8 +5,8 @@ namespace Drupal\Tests\image\Kernel;
 use Drupal\Core\Form\FormState;
 use Drupal\image\Entity\ImageStyle;
 use Drupal\image\Form\ImageEffectEditForm;
-use Drupal\Tests\Traits\Core\Image\ToolkitTestTrait;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\Tests\Traits\Core\Image\ToolkitTestTrait;
 
 /**
  * Tests image effects.

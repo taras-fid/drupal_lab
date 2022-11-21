@@ -3,10 +3,10 @@
 namespace Drupal\Core\Render\MainContent;
 
 use Drupal\Core\Ajax\AjaxResponse;
+use Drupal\Core\Ajax\OpenOffCanvasDialogCommand;
 use Drupal\Core\Controller\TitleResolverInterface;
 use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\Core\Ajax\OpenOffCanvasDialogCommand;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

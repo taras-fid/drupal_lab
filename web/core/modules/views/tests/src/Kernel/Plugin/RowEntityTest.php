@@ -3,10 +3,10 @@
 namespace Drupal\Tests\views\Kernel\Plugin;
 
 use Drupal\Core\Form\FormState;
-use Drupal\views\Views;
-use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
-use Drupal\taxonomy\Entity\Vocabulary;
 use Drupal\taxonomy\Entity\Term;
+use Drupal\taxonomy\Entity\Vocabulary;
+use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
+use Drupal\views\Views;
 
 /**
  * Tests the generic entity row plugin.

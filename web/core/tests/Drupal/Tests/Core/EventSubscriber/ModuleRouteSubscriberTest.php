@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\Core\EventSubscriber;
 
+use Drupal\Core\EventSubscriber\ModuleRouteSubscriber;
 use Drupal\Core\Routing\RouteBuildEvent;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Core\EventSubscriber\ModuleRouteSubscriber;
-use Symfony\Component\Routing\RouteCollection;
 use Symfony\Component\Routing\Route;
+use Symfony\Component\Routing\RouteCollection;
 
 /**
  * @coversDefaultClass \Drupal\Core\EventSubscriber\ModuleRouteSubscriber

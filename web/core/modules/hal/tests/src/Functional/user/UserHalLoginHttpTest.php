@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\hal\Functional\user;
 
+use Drupal\hal\Encoder\JsonEncoder as HALJsonEncoder;
 use Drupal\Tests\user\Functional\UserLoginHttpTest;
 use GuzzleHttp\Cookie\CookieJar;
-use Drupal\hal\Encoder\JsonEncoder as HALJsonEncoder;
 use Symfony\Component\Serializer\Serializer;
 
 /**

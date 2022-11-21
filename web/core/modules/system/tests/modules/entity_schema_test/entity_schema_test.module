@@ -9,8 +9,8 @@ use Drupal\Core\Entity\ContentEntityTypeInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
 use Drupal\Core\Field\FieldDefinition;
-use Drupal\entity_test\FieldStorageDefinition;
 use Drupal\entity_test\Entity\EntityTestMulRev;
+use Drupal\entity_test\FieldStorageDefinition;
 
 /**
  * Implements hook_entity_type_alter().

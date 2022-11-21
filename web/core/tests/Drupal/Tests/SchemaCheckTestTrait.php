@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests;
 
-use Drupal\Core\Config\TypedConfigManagerInterface;
 use Drupal\Core\Config\Schema\SchemaCheckTrait;
+use Drupal\Core\Config\TypedConfigManagerInterface;
 
 /**
  * Provides a class for checking configuration schema.

@@ -5,8 +5,8 @@ namespace Drupal\Tests\field\Kernel;
 use Drupal\Core\Entity\EntityStorageException;
 use Drupal\Core\Field\FieldException;
 use Drupal\entity_test\Entity\EntityTest;
-use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Create field entities by attaching fields to entities.

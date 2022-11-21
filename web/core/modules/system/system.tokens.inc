@@ -7,9 +7,9 @@
  * This file handles tokens for the global 'site' and 'date' tokens.
  */
 
-use Drupal\Core\Url;
 use Drupal\Core\Datetime\Entity\DateFormat;
 use Drupal\Core\Render\BubbleableMetadata;
+use Drupal\Core\Url;
 
 /**
  * Implements hook_token_info().

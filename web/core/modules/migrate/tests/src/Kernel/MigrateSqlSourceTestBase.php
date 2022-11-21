@@ -3,8 +3,8 @@
 namespace Drupal\Tests\migrate\Kernel;
 
 use Drupal\Core\Cache\MemoryCounterBackendFactory;
-use Drupal\sqlite\Driver\Database\sqlite\Connection;
 use Drupal\Core\DependencyInjection\ContainerBuilder;
+use Drupal\sqlite\Driver\Database\sqlite\Connection;
 
 /**
  * Base class for tests of Migrate source plugins that use a database.

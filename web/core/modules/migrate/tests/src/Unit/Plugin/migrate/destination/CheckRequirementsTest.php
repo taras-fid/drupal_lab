@@ -4,10 +4,10 @@ namespace Drupal\Tests\migrate\Unit\Plugin\migrate\destination;
 
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Language\LanguageManagerInterface;
-use Drupal\Tests\UnitTestCase;
 use Drupal\migrate\Exception\RequirementsException;
-use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\Plugin\migrate\destination\Config;
+use Drupal\migrate\Plugin\MigrationInterface;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * Tests check requirements exception on DestinationBase.

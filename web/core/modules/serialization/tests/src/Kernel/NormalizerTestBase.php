@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\serialization\Kernel;
 
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\KernelTests\KernelTestBase;
 
 /**
  * Helper base class to set up some test fields for serialization testing.

@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\Composer\Plugin\Scaffold\Integration;
 
-use PHPUnit\Framework\TestCase;
-use Drupal\Tests\Composer\Plugin\Scaffold\Fixtures;
 use Drupal\Composer\Plugin\Scaffold\Operations\AppendOp;
-use Drupal\Composer\Plugin\Scaffold\Operations\SkipOp;
 use Drupal\Composer\Plugin\Scaffold\Operations\ScaffoldFileCollection;
+use Drupal\Composer\Plugin\Scaffold\Operations\SkipOp;
+use Drupal\Tests\Composer\Plugin\Scaffold\Fixtures;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \Drupal\Composer\Plugin\Scaffold\Operations\ScaffoldFileCollection

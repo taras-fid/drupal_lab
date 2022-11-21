@@ -3,8 +3,8 @@
 namespace Drupal\Tests\language\Unit\process;
 
 use Drupal\language\Plugin\migrate\process\LanguageNegotiation;
-use Drupal\Tests\migrate\Unit\process\MigrateProcessTestCase;
 use Drupal\migrate\MigrateException;
+use Drupal\Tests\migrate\Unit\process\MigrateProcessTestCase;
 
 /**
  * @coversDefaultClass \Drupal\language\Plugin\migrate\process\LanguageNegotiation

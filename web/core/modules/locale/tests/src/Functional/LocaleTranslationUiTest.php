@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\locale\Functional;
 
-use Drupal\Core\Url;
 use Drupal\Core\Database\Database;
+use Drupal\Core\Language\LanguageInterface;
+use Drupal\Core\Url;
 use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\Tests\BrowserTestBase;
-use Drupal\Core\Language\LanguageInterface;
 
 /**
  * Adds a new locale and translates its name. Checks the validation of

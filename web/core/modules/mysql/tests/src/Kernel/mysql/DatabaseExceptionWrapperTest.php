@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\mysql\Kernel\mysql;
 
-use Drupal\Core\Database\DatabaseExceptionWrapper;
 use Drupal\Core\Database\Database;
+use Drupal\Core\Database\DatabaseExceptionWrapper;
 use Drupal\KernelTests\Core\Database\DriverSpecificKernelTestBase;
 
 /**

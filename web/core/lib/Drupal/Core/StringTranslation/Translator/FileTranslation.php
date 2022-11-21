@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\StringTranslation\Translator;
 
-use Drupal\Component\Gettext\PoStreamReader;
 use Drupal\Component\Gettext\PoMemoryWriter;
+use Drupal\Component\Gettext\PoStreamReader;
 use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\Language\LanguageInterface;
 

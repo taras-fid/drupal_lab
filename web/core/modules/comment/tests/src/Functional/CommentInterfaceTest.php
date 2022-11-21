@@ -2,14 +2,14 @@
 
 namespace Drupal\Tests\comment\Functional;
 
-use Drupal\Core\Url;
 use Drupal\comment\CommentManagerInterface;
-use Drupal\comment\Plugin\Field\FieldType\CommentItemInterface;
 use Drupal\comment\Entity\Comment;
+use Drupal\comment\Plugin\Field\FieldType\CommentItemInterface;
 use Drupal\Core\Entity\Entity\EntityViewDisplay;
 use Drupal\Core\Entity\Entity\EntityViewMode;
-use Drupal\user\RoleInterface;
+use Drupal\Core\Url;
 use Drupal\filter\Entity\FilterFormat;
+use Drupal\user\RoleInterface;
 
 /**
  * Tests comment user interfaces.

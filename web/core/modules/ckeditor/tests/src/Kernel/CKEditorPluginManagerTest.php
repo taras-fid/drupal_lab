@@ -3,8 +3,8 @@
 namespace Drupal\Tests\ckeditor\Kernel;
 
 use Drupal\editor\Entity\Editor;
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\filter\Entity\FilterFormat;
+use Drupal\KernelTests\KernelTestBase;
 
 /**
  * Tests different ways of enabling CKEditor plugins.

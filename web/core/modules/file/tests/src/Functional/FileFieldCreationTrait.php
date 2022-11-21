@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\file\Functional;
 
-use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Provides methods for creating file fields.

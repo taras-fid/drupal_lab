@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Render\Element;
 
+use Drupal\Component\Utility\Number as NumberUtility;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Render\Element;
-use Drupal\Component\Utility\Number as NumberUtility;
 
 /**
  * Provides a form element for numeric input, with special numeric validation.

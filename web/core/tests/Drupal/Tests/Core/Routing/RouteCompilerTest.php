@@ -3,9 +3,8 @@
 namespace Drupal\Tests\Core\Routing;
 
 use Drupal\Core\Routing\RouteCompiler;
-use Symfony\Component\Routing\Route;
-
 use Drupal\Tests\UnitTestCase;
+use Symfony\Component\Routing\Route;
 
 /**
  * @coversDefaultClass \Drupal\Core\Routing\RouteCompiler

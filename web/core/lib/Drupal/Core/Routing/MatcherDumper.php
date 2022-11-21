@@ -2,11 +2,10 @@
 
 namespace Drupal\Core\Routing;
 
+use Drupal\Core\Database\Connection;
 use Drupal\Core\Database\DatabaseException;
 use Drupal\Core\State\StateInterface;
 use Symfony\Component\Routing\RouteCollection;
-
-use Drupal\Core\Database\Connection;
 
 /**
  * Dumps Route information to a database table.

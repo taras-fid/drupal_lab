@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\serialization\Unit\EntityResolver;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\serialization\EntityResolver\ChainEntityResolver;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\serialization\EntityResolver\ChainEntityResolver

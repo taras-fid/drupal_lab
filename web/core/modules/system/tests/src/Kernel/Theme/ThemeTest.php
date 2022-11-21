@@ -3,8 +3,8 @@
 namespace Drupal\Tests\system\Kernel\Theme;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\Component\Render\MarkupInterface;
+use Drupal\KernelTests\KernelTestBase;
 
 /**
  * Tests low-level theme functions.

@@ -5,10 +5,10 @@ namespace Drupal\Tests\field\FunctionalJavascript\EntityReference;
 use Behat\Mink\Element\NodeElement;
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Core\Url;
-use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
-use Drupal\Tests\field_ui\Traits\FieldUiTestTrait;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
+use Drupal\Tests\field_ui\Traits\FieldUiTestTrait;
 
 /**
  * Tests for the administrative UI.

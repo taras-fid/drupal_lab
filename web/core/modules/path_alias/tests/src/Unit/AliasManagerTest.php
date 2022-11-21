@@ -4,8 +4,8 @@ namespace Drupal\Tests\path_alias\Unit;
 
 use Drupal\Core\Language\Language;
 use Drupal\Core\Language\LanguageInterface;
-use Drupal\path_alias\AliasRepositoryInterface;
 use Drupal\path_alias\AliasManager;
+use Drupal\path_alias\AliasRepositoryInterface;
 use Drupal\Tests\UnitTestCase;
 
 /**

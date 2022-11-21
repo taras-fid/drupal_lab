@@ -2,9 +2,9 @@
 
 namespace Drupal\media_library_test_widget\Plugin\Field\FieldWidget;
 
+use Drupal\Core\Entity\Entity\EntityFormDisplay;
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Entity\Entity\EntityFormDisplay;
 use Drupal\media_library\Plugin\Field\FieldWidget\MediaLibraryWidget;
 
 /**

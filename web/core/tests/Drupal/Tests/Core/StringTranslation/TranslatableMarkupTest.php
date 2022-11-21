@@ -3,8 +3,8 @@
 namespace Drupal\Tests\Core\StringTranslation;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\Core\StringTranslation\TranslationInterface;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
+use Drupal\Core\StringTranslation\TranslationInterface;
 use Drupal\Tests\UnitTestCase;
 
 /**

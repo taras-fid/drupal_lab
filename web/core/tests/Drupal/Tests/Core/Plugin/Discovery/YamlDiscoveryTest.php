@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\Core\Plugin\Discovery;
 
+use Drupal\Core\Plugin\Discovery\YamlDiscovery;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Plugin\Discovery\YamlDiscovery;
 use org\bovigo\vfs\vfsStream;
 
 /**

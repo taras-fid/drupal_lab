@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\Session;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\Session\WriteSafeSessionHandler;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * Tests \Drupal\Core\Session\WriteSafeSessionHandler.

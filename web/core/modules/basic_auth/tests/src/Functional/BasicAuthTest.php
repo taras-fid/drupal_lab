@@ -3,8 +3,8 @@
 namespace Drupal\Tests\basic_auth\Functional;
 
 use Drupal\Core\Url;
-use Drupal\Tests\basic_auth\Traits\BasicAuthTestTrait;
 use Drupal\language\Entity\ConfigurableLanguage;
+use Drupal\Tests\basic_auth\Traits\BasicAuthTestTrait;
 use Drupal\Tests\BrowserTestBase;
 use Drupal\user\Entity\Role;
 

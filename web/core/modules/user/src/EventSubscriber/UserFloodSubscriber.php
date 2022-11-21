@@ -2,11 +2,11 @@
 
 namespace Drupal\user\EventSubscriber;
 
+use Drupal\Core\Site\Settings;
 use Drupal\user\Event\UserEvents;
 use Drupal\user\Event\UserFloodEvent;
-use Drupal\Core\Site\Settings;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Psr\Log\LoggerInterface;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * Logs details of User Flood Control events.

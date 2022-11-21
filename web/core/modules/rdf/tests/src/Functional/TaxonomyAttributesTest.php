@@ -3,8 +3,8 @@
 namespace Drupal\Tests\rdf\Functional;
 
 use Drupal\Core\Url;
-use Drupal\Tests\taxonomy\Functional\TaxonomyTestBase;
 use Drupal\Tests\rdf\Traits\RdfParsingTrait;
+use Drupal\Tests\taxonomy\Functional\TaxonomyTestBase;
 
 /**
  * Tests the RDFa markup of Taxonomy terms.

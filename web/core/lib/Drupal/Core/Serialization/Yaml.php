@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Serialization;
 
-use Drupal\Core\Site\Settings;
 use Drupal\Component\Serialization\Yaml as ComponentYaml;
+use Drupal\Core\Site\Settings;
 
 /**
  * Provides a YAML serialization implementation.

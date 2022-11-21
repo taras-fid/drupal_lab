@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\Core\Routing;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\Routing\LazyRouteCollection;
 use Drupal\Core\Routing\RouteProviderInterface;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\Routing\Exception\RouteNotFoundException;
 use Symfony\Component\Routing\Route;
 

@@ -9,10 +9,10 @@
  * - Generic helper for node_mark().
  */
 
-use Drupal\Core\Url;
-use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
 use Drupal\user\UserInterface;
 
 /**

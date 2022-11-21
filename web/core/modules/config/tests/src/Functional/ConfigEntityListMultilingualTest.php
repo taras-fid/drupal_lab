@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\config\Functional;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\language\Entity\ConfigurableLanguage;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests the listing of configuration entities in a multilingual scenario.

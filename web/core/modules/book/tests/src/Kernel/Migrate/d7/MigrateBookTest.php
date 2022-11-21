@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\book\Kernel\Migrate\d7;
 
-use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 use Drupal\node\Entity\Node;
+use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 
 /**
  * Tests migration of book structures from Drupal 7.

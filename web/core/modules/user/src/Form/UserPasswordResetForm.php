@@ -2,9 +2,9 @@
 
 namespace Drupal\user\Form;
 
+use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Session\AccountInterface;
-use Drupal\Core\Form\FormBase;
 use Drupal\Core\Url;
 
 /**

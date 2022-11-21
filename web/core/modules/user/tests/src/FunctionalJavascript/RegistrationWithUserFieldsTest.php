@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\user\FunctionalJavascript;
 
-use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
 
 /**
  * Tests user registration forms with additional fields.

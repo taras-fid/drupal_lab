@@ -3,10 +3,10 @@
 namespace Drupal\Tests\rdf\Functional;
 
 use Drupal\Core\Url;
-use Drupal\image\Entity\ImageStyle;
-use Drupal\Tests\image\Functional\ImageFieldTestBase;
-use Drupal\node\Entity\Node;
 use Drupal\file\Entity\File;
+use Drupal\image\Entity\ImageStyle;
+use Drupal\node\Entity\Node;
+use Drupal\Tests\image\Functional\ImageFieldTestBase;
 use Drupal\Tests\rdf\Traits\RdfParsingTrait;
 use Drupal\Tests\TestFileCreationTrait;
 

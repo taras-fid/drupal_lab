@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\Form;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\Form\OptGroup;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\Core\Form\OptGroup

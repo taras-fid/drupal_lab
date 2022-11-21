@@ -3,10 +3,10 @@
 namespace Drupal\Tests\quickedit\Kernel;
 
 use Drupal\entity_test\Entity\EntityTest;
+use Drupal\filter\Entity\FilterFormat;
 use Drupal\quickedit\EditorSelector;
 use Drupal\quickedit\MetadataGenerator;
 use Drupal\quickedit_test\MockQuickEditEntityFieldAccessCheck;
-use Drupal\filter\Entity\FilterFormat;
 
 /**
  * Tests in-place field editing metadata.

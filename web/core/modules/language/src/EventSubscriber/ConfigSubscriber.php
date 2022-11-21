@@ -2,12 +2,12 @@
 
 namespace Drupal\language\EventSubscriber;
 
+use Drupal\Core\Config\ConfigCrudEvent;
+use Drupal\Core\Config\ConfigEvents;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Language\Language;
 use Drupal\Core\Language\LanguageDefault;
 use Drupal\Core\Language\LanguageManagerInterface;
-use Drupal\Core\Config\ConfigCrudEvent;
-use Drupal\Core\Config\ConfigEvents;
 use Drupal\language\ConfigurableLanguageManager;
 use Drupal\language\HttpKernel\PathProcessorLanguage;
 use Drupal\language\LanguageNegotiatorInterface;

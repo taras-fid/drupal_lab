@@ -2,10 +2,10 @@
 
 namespace Drupal\comment\Plugin\Validation\Constraint;
 
+use Drupal\comment\CommentInterface;
 use Drupal\Core\DependencyInjection\ContainerInjectionInterface;
 use Drupal\user\UserStorageInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Drupal\comment\CommentInterface;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 

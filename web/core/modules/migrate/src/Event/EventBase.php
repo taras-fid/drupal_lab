@@ -2,9 +2,9 @@
 
 namespace Drupal\migrate\Event;
 
-use Drupal\migrate\Plugin\MigrationInterface;
-use Drupal\migrate\MigrateMessageInterface;
 use Drupal\Component\EventDispatcher\Event;
+use Drupal\migrate\MigrateMessageInterface;
+use Drupal\migrate\Plugin\MigrationInterface;
 
 class EventBase extends Event {
 

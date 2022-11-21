@@ -2,9 +2,9 @@
 
 namespace Drupal\FunctionalJavascriptTests;
 
-use WebDriver\Service\CurlService;
-use WebDriver\Exception\CurlExec;
 use WebDriver\Exception as WebDriverException;
+use WebDriver\Exception\CurlExec;
+use WebDriver\Service\CurlService;
 
 /**
  * Provides a curl service to interact with Selenium driver.

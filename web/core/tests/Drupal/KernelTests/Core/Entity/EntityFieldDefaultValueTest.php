@@ -2,8 +2,8 @@
 
 namespace Drupal\KernelTests\Core\Entity;
 
-use Drupal\Component\Uuid\Uuid;
 use Drupal\Component\Render\FormattableMarkup;
+use Drupal\Component\Uuid\Uuid;
 
 /**
  * Tests default values for entity fields.

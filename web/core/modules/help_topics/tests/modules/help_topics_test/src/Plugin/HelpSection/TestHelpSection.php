@@ -2,11 +2,11 @@
 
 namespace Drupal\help_topics_test\Plugin\HelpSection;
 
-use Drupal\help_topics\SearchableHelpInterface;
 use Drupal\Core\Language\LanguageInterface;
-use Drupal\Core\Url;
 use Drupal\Core\Link;
+use Drupal\Core\Url;
 use Drupal\help\Plugin\HelpSection\HelpSectionPluginBase;
+use Drupal\help_topics\SearchableHelpInterface;
 
 // cspell:ignore asdrsad barmm foomm sqruct wcsrefsdf sdeeeee
 

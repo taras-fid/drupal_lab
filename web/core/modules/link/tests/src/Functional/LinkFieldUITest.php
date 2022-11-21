@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\link\Functional;
 
-use Drupal\Core\Url;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Entity\Entity\EntityFormDisplay;
+use Drupal\Core\Url;
 use Drupal\link\LinkItemInterface;
 use Drupal\Tests\BrowserTestBase;
 use Drupal\Tests\field_ui\Traits\FieldUiTestTrait;

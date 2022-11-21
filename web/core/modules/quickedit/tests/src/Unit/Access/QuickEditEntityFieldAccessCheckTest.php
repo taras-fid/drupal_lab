@@ -5,9 +5,9 @@ namespace Drupal\Tests\quickedit\Unit\Access;
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Cache\Context\CacheContextsManager;
 use Drupal\Core\DependencyInjection\Container;
+use Drupal\Core\Language\LanguageInterface;
 use Drupal\quickedit\Access\QuickEditEntityFieldAccessCheck;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Language\LanguageInterface;
 
 /**
  * @coversDefaultClass \Drupal\quickedit\Access\QuickEditEntityFieldAccessCheck

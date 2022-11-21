@@ -4,8 +4,8 @@ namespace Drupal\Tests\Component\Diff\Engine;
 
 use Drupal\Component\Diff\Engine\DiffEngine;
 use Drupal\Component\Diff\Engine\DiffOpAdd;
-use Drupal\Component\Diff\Engine\DiffOpCopy;
 use Drupal\Component\Diff\Engine\DiffOpChange;
+use Drupal\Component\Diff\Engine\DiffOpCopy;
 use Drupal\Component\Diff\Engine\DiffOpDelete;
 use PHPUnit\Framework\TestCase;
 

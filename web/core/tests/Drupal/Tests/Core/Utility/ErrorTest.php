@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\Utility;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\Utility\Error;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\Core\Utility\Error

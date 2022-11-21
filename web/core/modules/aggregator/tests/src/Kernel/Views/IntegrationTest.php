@@ -3,12 +3,12 @@
 namespace Drupal\Tests\aggregator\Kernel\Views;
 
 use Drupal\Component\Utility\Xss;
-use Drupal\Core\Render\RenderContext;
 use Drupal\Core\Link;
+use Drupal\Core\Render\RenderContext;
 use Drupal\Core\Url;
 use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
-use Drupal\views\Views;
 use Drupal\views\Tests\ViewTestData;
+use Drupal\views\Views;
 
 /**
  * Tests basic integration of views data from the aggregator module.

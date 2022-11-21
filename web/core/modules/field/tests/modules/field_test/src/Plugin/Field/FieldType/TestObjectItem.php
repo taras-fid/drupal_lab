@@ -2,9 +2,9 @@
 
 namespace Drupal\field_test\Plugin\Field\FieldType;
 
+use Drupal\Core\Field\FieldItemBase;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\Core\TypedData\DataDefinition;
-use Drupal\Core\Field\FieldItemBase;
 
 /**
  * Defines the 'test_object_field' entity field item.

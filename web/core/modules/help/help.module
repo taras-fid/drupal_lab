@@ -5,9 +5,9 @@
  * Manages displaying online help.
  */
 
-use Drupal\Core\Url;
 use Drupal\Core\Block\BlockPluginInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
 
 /**
  * Implements hook_help().

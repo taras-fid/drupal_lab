@@ -3,9 +3,9 @@
 namespace Drupal\views\Plugin\views\relationship;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\views\ViewExecutable;
 use Drupal\views\Plugin\views\display\DisplayPluginBase;
 use Drupal\views\Plugin\views\HandlerBase;
+use Drupal\views\ViewExecutable;
 use Drupal\views\Views;
 
 /**

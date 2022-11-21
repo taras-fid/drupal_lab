@@ -8,8 +8,8 @@ use Drupal\Core\Entity\EntityFieldManager;
 use Drupal\Core\Entity\EntityTypeBundleInfoInterface;
 use Drupal\Core\Entity\EntityTypeManager;
 use Drupal\Core\Language\Language;
-use Drupal\Tests\UnitTestCase;
 use Drupal\entity_test_deprecated_storage\Storage\DeprecatedEntityStorage;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\Core\Entity\EntityStorageBase

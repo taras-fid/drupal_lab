@@ -7,8 +7,8 @@
 
 namespace Drupal\Tests\Component\Assertion;
 
-use PHPUnit\Framework\TestCase;
 use Drupal\Component\Assertion\Inspector;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \Drupal\Component\Assertion\Inspector

@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Ajax;
 
-use Drupal\Core\Render\BubbleableMetadata;
 use Drupal\Core\Render\AttachmentsInterface;
 use Drupal\Core\Render\AttachmentsTrait;
+use Drupal\Core\Render\BubbleableMetadata;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 /**

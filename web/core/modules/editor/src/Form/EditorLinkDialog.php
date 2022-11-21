@@ -2,13 +2,13 @@
 
 namespace Drupal\editor\Form;
 
+use Drupal\Core\Ajax\AjaxResponse;
+use Drupal\Core\Ajax\CloseModalDialogCommand;
+use Drupal\Core\Ajax\HtmlCommand;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\editor\Entity\Editor;
-use Drupal\Core\Ajax\AjaxResponse;
-use Drupal\Core\Ajax\HtmlCommand;
 use Drupal\editor\Ajax\EditorDialogSave;
-use Drupal\Core\Ajax\CloseModalDialogCommand;
+use Drupal\editor\Entity\Editor;
 
 /**
  * Provides a link dialog for text editors.

@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Menu;
 
-use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Component\Utility\Unicode;
+use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\Core\StringTranslation\TranslationInterface;

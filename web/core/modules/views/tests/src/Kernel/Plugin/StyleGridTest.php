@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\views\Kernel\Plugin;
 
-use Drupal\views\Views;
 use Drupal\views\ViewExecutable;
+use Drupal\views\Views;
 
 /**
  * Tests the grid style plugin.

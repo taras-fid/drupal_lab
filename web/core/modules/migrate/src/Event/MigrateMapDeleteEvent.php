@@ -2,8 +2,8 @@
 
 namespace Drupal\migrate\Event;
 
-use Drupal\migrate\Plugin\MigrateIdMapInterface;
 use Drupal\Component\EventDispatcher\Event;
+use Drupal\migrate\Plugin\MigrateIdMapInterface;
 
 /**
  * Wraps a migrate map delete event for event listeners.

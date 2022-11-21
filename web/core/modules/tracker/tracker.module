@@ -5,10 +5,10 @@
  * Tracks recent content posted by a user or users.
  */
 
-use Drupal\Core\Url;
-use Drupal\Core\Entity\EntityInterface;
 use Drupal\comment\CommentInterface;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
 use Drupal\node\Entity\Node;
 use Drupal\node\NodeInterface;
 

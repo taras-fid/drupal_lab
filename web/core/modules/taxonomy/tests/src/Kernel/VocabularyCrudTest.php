@@ -3,9 +3,9 @@
 namespace Drupal\Tests\taxonomy\Kernel;
 
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\KernelTests\KernelTestBase;
 use Drupal\taxonomy\Entity\Vocabulary;
-use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\Tests\taxonomy\Traits\TaxonomyTestTrait;
 
 /**

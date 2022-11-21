@@ -3,8 +3,8 @@
 namespace Drupal\Tests\node\Kernel\Migrate\d6;
 
 use Drupal\field\Entity\FieldConfig;
-use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 use Drupal\node\Entity\NodeType;
+use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 
 /**
  * Upgrade node types to node.type.*.yml.

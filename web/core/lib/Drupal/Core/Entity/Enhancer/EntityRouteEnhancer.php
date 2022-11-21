@@ -3,8 +3,8 @@
 namespace Drupal\Core\Entity\Enhancer;
 
 use Drupal\Core\Routing\EnhancerInterface;
-use Symfony\Component\HttpFoundation\Request;
 use Drupal\Core\Routing\RouteObjectInterface;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Route;
 
 /**

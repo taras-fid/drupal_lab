@@ -3,9 +3,9 @@
 namespace Drupal\Tests\comment\Functional;
 
 use Drupal\comment\CommentManagerInterface;
+use Drupal\comment\Entity\Comment;
 use Drupal\Component\Render\MarkupInterface;
 use Drupal\Core\Datetime\DrupalDateTime;
-use Drupal\comment\Entity\Comment;
 use Drupal\Tests\TestFileCreationTrait;
 
 /**

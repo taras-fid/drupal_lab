@@ -4,8 +4,8 @@ namespace Drupal\editor\EditorXssFilter;
 
 use Drupal\Component\Utility\Html;
 use Drupal\Component\Utility\Xss;
-use Drupal\filter\FilterFormatInterface;
 use Drupal\editor\EditorXssFilterInterface;
+use Drupal\filter\FilterFormatInterface;
 
 /**
  * Defines the standard text editor XSS filter.

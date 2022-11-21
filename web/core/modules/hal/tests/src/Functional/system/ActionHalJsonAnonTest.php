@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\hal\Functional\system;
 
-use Drupal\Tests\system\Functional\Rest\ActionResourceTestBase;
 use Drupal\Tests\rest\Functional\AnonResourceTestTrait;
+use Drupal\Tests\system\Functional\Rest\ActionResourceTestBase;
 
 /**
  * @group hal

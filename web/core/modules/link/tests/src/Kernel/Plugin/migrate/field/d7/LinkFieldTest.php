@@ -3,8 +3,8 @@
 namespace Drupal\Tests\link\Kernel\Plugin\migrate\field\d7;
 
 use Drupal\KernelTests\KernelTestBase;
-use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\link\Plugin\migrate\field\d7\LinkField;
+use Drupal\migrate\Plugin\MigrationInterface;
 use Prophecy\Argument;
 
 /**

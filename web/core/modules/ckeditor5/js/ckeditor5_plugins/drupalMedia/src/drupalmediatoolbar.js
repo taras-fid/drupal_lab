@@ -1,9 +1,9 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* cspell:words drupalmediatoolbar */
-import { Plugin } from 'ckeditor5/src/core';
-import { WidgetToolbarRepository } from 'ckeditor5/src/widget';
+import {Plugin} from 'ckeditor5/src/core';
+import {WidgetToolbarRepository} from 'ckeditor5/src/widget';
 
-import { getClosestSelectedDrupalMediaWidget, isObject } from './utils';
+import {getClosestSelectedDrupalMediaWidget, isObject} from './utils';
 
 /**
  * @module drupalMedia/drupalmediatoolbar

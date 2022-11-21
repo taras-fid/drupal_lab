@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\language\Functional;
 
+use Drupal\Core\Language\LanguageInterface;
 use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\language\Plugin\LanguageNegotiation\LanguageNegotiationUrl;
 use Drupal\menu_link_content\Entity\MenuLinkContent;
-use Drupal\Core\Language\LanguageInterface;
 use Drupal\Tests\BrowserTestBase;
 
 /**

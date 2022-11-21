@@ -2,11 +2,11 @@
 
 namespace Drupal\views\Plugin\views\field;
 
+use Drupal\Core\Datetime\DateFormatterInterface;
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\views\ResultRow;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Drupal\Core\Datetime\DateFormatterInterface;
 
 /**
  * A handler to provide proper displays for dates.

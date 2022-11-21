@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\system\Functional\Form;
 
-use Drupal\Component\Serialization\Json;
 use Drupal\Component\Render\FormattableMarkup;
+use Drupal\Component\Serialization\Json;
 use Drupal\Tests\BrowserTestBase;
 
 /**

@@ -3,8 +3,8 @@
 namespace Drupal\Tests\migrate_drupal\Unit\Plugin\migrate\field\d6;
 
 use Drupal\migrate\Plugin\MigrationInterface;
-use Drupal\Tests\UnitTestCase;
 use Drupal\migrate_drupal\Plugin\migrate\field\NodeReference;
+use Drupal\Tests\UnitTestCase;
 use Prophecy\Argument;
 
 /**

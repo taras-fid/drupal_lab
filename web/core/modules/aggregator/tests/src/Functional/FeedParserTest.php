@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\aggregator\Functional;
 
-use Drupal\aggregator\FeedStorageInterface;
-use Drupal\Core\Url;
 use Drupal\aggregator\Entity\Feed;
 use Drupal\aggregator\Entity\Item;
+use Drupal\aggregator\FeedStorageInterface;
+use Drupal\Core\Url;
 
 /**
  * Tests the built-in feed parser with valid feed samples.

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\language\Kernel\Condition;
 
-use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\language\Entity\ConfigurableLanguage;
 
 /**
  * Tests that the language condition, provided by the language module, is

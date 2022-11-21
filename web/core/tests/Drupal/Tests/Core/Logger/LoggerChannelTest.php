@@ -10,10 +10,10 @@ namespace Drupal\Tests\Core\Logger;
 use Drupal\Core\Logger\LoggerChannel;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Tests\UnitTestCase;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\RequestStack;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LoggerTrait;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\RequestStack;
 
 /**
  * @coversDefaultClass \Drupal\Core\Logger\LoggerChannel

@@ -3,8 +3,8 @@
 namespace Drupal\Tests\filter\Functional;
 
 use Drupal\filter\Entity\FilterFormat;
-use Drupal\Tests\BrowserTestBase;
 use Drupal\filter\Plugin\FilterInterface;
+use Drupal\Tests\BrowserTestBase;
 use Drupal\user\RoleInterface;
 
 /**

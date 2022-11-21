@@ -2,12 +2,12 @@
 
 namespace Drupal\big_pipe\EventSubscriber;
 
-use Drupal\Core\Render\HtmlResponse;
 use Drupal\big_pipe\Render\BigPipe;
 use Drupal\big_pipe\Render\BigPipeResponse;
+use Drupal\Core\Render\HtmlResponse;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\ResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * Response subscriber to replace the HtmlResponse with a BigPipeResponse.

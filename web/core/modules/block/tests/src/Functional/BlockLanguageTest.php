@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\block\Functional;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\block\Entity\Block;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests if a block can be configured to be only visible on a particular

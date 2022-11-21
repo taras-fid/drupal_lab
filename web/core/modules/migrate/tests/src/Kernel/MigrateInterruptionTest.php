@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\migrate\Kernel;
 
-use Drupal\migrate\Event\MigratePostRowSaveEvent;
-use Drupal\migrate\Plugin\MigrationInterface;
-use Drupal\migrate\Event\MigrateEvents;
-use Drupal\migrate\MigrateExecutable;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\migrate\Event\MigrateEvents;
+use Drupal\migrate\Event\MigratePostRowSaveEvent;
+use Drupal\migrate\MigrateExecutable;
+use Drupal\migrate\Plugin\MigrationInterface;
 
 /**
  * Tests interruptions triggered during migrations.

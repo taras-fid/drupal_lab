@@ -2,8 +2,8 @@
 
 namespace Drupal\migrate\Event;
 
-use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\Component\EventDispatcher\Event;
+use Drupal\migrate\Plugin\MigrationInterface;
 
 /**
  * Wraps a row deletion event for event listeners.

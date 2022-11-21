@@ -3,8 +3,8 @@
 namespace Drupal\menu_link_content\Plugin\migrate\source\d7;
 
 use Drupal\content_translation\Plugin\migrate\source\I18nQueryTrait;
-use Drupal\migrate\Row;
 use Drupal\menu_link_content\Plugin\migrate\source\MenuLink;
+use Drupal\migrate\Row;
 
 /**
  * Drupal 7 i18n menu link translations source from database.

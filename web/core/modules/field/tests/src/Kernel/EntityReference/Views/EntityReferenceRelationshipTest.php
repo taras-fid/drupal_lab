@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\field\Kernel\EntityReference\Views;
 
-use Drupal\entity_test\Entity\EntityTestMulChanged;
-use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\entity_test\Entity\EntityTest;
 use Drupal\entity_test\Entity\EntityTestMul;
+use Drupal\entity_test\Entity\EntityTestMulChanged;
+use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\Tests\field\Traits\EntityReferenceTestTrait;
 use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Drupal\views\Tests\ViewTestData;

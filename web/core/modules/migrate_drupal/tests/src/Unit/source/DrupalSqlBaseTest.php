@@ -3,9 +3,9 @@
 namespace Drupal\Tests\migrate_drupal\Unit\source;
 
 use Drupal\Core\Database\Connection;
-use Drupal\Tests\migrate\Unit\MigrateTestCase;
 use Drupal\migrate\Exception\RequirementsException;
 use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
+use Drupal\Tests\migrate\Unit\MigrateTestCase;
 
 /**
  * @coversDefaultClass \Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase

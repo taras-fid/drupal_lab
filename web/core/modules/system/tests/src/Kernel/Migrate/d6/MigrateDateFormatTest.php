@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\system\Kernel\Migrate\d6;
 
-use Drupal\Core\Datetime\Entity\DateFormat;
 use Drupal\Core\Database\Database;
+use Drupal\Core\Datetime\Entity\DateFormat;
 use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 
 /**

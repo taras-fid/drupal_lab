@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\views\Kernel\Plugin;
 
+use Drupal\Core\Database\DatabaseExceptionWrapper;
 use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Drupal\views\Views;
-use Drupal\Core\Database\DatabaseExceptionWrapper;
 
 /**
  * Tests the views exception handling.

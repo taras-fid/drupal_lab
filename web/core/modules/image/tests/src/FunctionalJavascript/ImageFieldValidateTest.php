@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\image\FunctionalJavascript;
 
-use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Tests validation functions such as min/max resolution.

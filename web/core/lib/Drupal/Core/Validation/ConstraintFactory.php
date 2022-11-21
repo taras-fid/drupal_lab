@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Validation;
 
+use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\Plugin\Factory\ContainerFactory;
 use Symfony\Component\Validator\Constraint;
-use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 
 /**
  * Constraint plugin factory.

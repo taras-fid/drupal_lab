@@ -4,8 +4,8 @@ namespace Drupal\file_test;
 
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Session\AccountInterface;
-use Drupal\file\FileAccessFormatterControlHandlerInterface;
 use Drupal\file\FileAccessControlHandler;
+use Drupal\file\FileAccessFormatterControlHandlerInterface;
 
 /**
  * Defines a class for an alternate file access control handler.

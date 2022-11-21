@@ -3,8 +3,8 @@
 namespace Drupal\Tests\field\Functional\Boolean;
 
 use Drupal\entity_test\Entity\EntityTest;
-use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\Tests\BrowserTestBase;
 
 /**

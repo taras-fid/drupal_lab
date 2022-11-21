@@ -2,17 +2,17 @@
 
 namespace Drupal\Tests\jsonapi\Unit\EventSubscriber;
 
+use Drupal\Core\Extension\Extension;
+use Drupal\Core\Extension\ModuleHandlerInterface;
+use Drupal\Core\Routing\RouteObjectInterface;
 use Drupal\jsonapi\EventSubscriber\ResourceResponseValidator;
 use Drupal\jsonapi\ResourceType\ResourceType;
 use Drupal\jsonapi\Routing\Routes;
-use JsonSchema\Validator;
-use Drupal\Core\Extension\Extension;
-use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\rest\ResourceResponse;
 use Drupal\Tests\UnitTestCase;
+use JsonSchema\Validator;
 use Prophecy\Argument;
 use Psr\Log\LoggerInterface;
-use Drupal\Core\Routing\RouteObjectInterface;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

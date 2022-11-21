@@ -3,11 +3,11 @@
 namespace Drupal\Tests\aggregator\Functional\Views\Handler;
 
 use Drupal\Tests\views\Functional\ViewTestBase;
-use Drupal\views\Plugin\views\filter\NumericFilter;
-use Drupal\views\ViewExecutable;
-use Drupal\views\Plugin\views\HandlerBase;
-use Drupal\views\Plugin\views\filter\InOperator;
 use Drupal\views\Entity\View;
+use Drupal\views\Plugin\views\filter\InOperator;
+use Drupal\views\Plugin\views\filter\NumericFilter;
+use Drupal\views\Plugin\views\HandlerBase;
+use Drupal\views\ViewExecutable;
 
 /**
  * Tests instances of the aggregator related view handlers.

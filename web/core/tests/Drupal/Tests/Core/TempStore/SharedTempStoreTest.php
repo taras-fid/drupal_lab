@@ -7,11 +7,11 @@ use Drupal\Core\Http\RequestStack;
 use Drupal\Core\KeyValueStore\KeyValueExpirableFactoryInterface;
 use Drupal\Core\Session\AccountProxyInterface;
 use Drupal\Core\TempStore\Lock;
-use Drupal\Core\Test\TestKernel;
-use Drupal\Core\TempStore\SharedTempStoreFactory;
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\TempStore\SharedTempStore;
+use Drupal\Core\TempStore\SharedTempStoreFactory;
 use Drupal\Core\TempStore\TempStoreException;
+use Drupal\Core\Test\TestKernel;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 

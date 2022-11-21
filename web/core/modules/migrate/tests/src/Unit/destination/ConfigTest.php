@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\migrate\Unit\destination;
 
-use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\Plugin\migrate\destination\Config;
+use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\Tests\UnitTestCase;
 
 /**

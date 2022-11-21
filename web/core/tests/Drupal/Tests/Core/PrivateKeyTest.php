@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\Core;
 
+use Drupal\Component\Utility\Crypt;
 use Drupal\Core\PrivateKey;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Component\Utility\Crypt;
 
 /**
  * Tests the PrivateKey class.

@@ -5,8 +5,8 @@
  * Provides views runtime hooks for views.module.
  */
 
-use Drupal\views\ViewExecutable;
 use Drupal\views\Plugin\views\PluginBase;
+use Drupal\views\ViewExecutable;
 
 /**
  * Implements hook_views_query_substitutions().

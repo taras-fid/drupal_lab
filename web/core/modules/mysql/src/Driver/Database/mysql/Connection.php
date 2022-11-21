@@ -2,14 +2,14 @@
 
 namespace Drupal\mysql\Driver\Database\mysql;
 
-use Drupal\Core\Database\DatabaseAccessDeniedException;
-use Drupal\Core\Database\IntegrityConstraintViolationException;
-use Drupal\Core\Database\DatabaseExceptionWrapper;
-use Drupal\Core\Database\StatementWrapper;
-use Drupal\Core\Database\Database;
-use Drupal\Core\Database\DatabaseNotFoundException;
-use Drupal\Core\Database\DatabaseException;
 use Drupal\Core\Database\Connection as DatabaseConnection;
+use Drupal\Core\Database\Database;
+use Drupal\Core\Database\DatabaseAccessDeniedException;
+use Drupal\Core\Database\DatabaseException;
+use Drupal\Core\Database\DatabaseExceptionWrapper;
+use Drupal\Core\Database\DatabaseNotFoundException;
+use Drupal\Core\Database\IntegrityConstraintViolationException;
+use Drupal\Core\Database\StatementWrapper;
 use Drupal\Core\Database\TransactionNoActiveException;
 
 /**

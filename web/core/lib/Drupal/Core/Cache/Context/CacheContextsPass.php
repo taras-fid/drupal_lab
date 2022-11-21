@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Cache\Context;
 
-use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
  * Adds cache_contexts parameter to the container.

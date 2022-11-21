@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\views\Functional\Plugin;
 
-use Drupal\Tests\Traits\Core\PathAliasTestTrait;
-use Drupal\Tests\views\Functional\ViewTestBase;
 use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\node\Entity\Node;
+use Drupal\Tests\Traits\Core\PathAliasTestTrait;
+use Drupal\Tests\views\Functional\ViewTestBase;
 
 /**
  * Tests the feed display plugin with translated content.

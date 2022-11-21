@@ -2,9 +2,9 @@
 
 namespace Drupal\config_translation\FormElement;
 
+use Drupal\config_translation\Form\ConfigTranslationFormBase;
 use Drupal\Core\Config\Config;
 use Drupal\Core\Language\LanguageInterface;
-use Drupal\config_translation\Form\ConfigTranslationFormBase;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\Core\TypedData\DataDefinitionInterface;
 use Drupal\Core\TypedData\TraversableTypedDataInterface;

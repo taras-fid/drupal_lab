@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\Core\Config;
 
+use Drupal\Core\Config\Config;
+use Drupal\Core\Config\ConfigValueException;
 use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Core\Render\Markup;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Config\Config;
-use Drupal\Core\Config\ConfigValueException;
 
 /**
  * Tests the Config.

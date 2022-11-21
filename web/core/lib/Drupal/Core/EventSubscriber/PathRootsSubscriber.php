@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\EventSubscriber;
 
-use Drupal\Core\State\StateInterface;
 use Drupal\Core\Routing\RouteBuildEvent;
 use Drupal\Core\Routing\RoutingEvents;
+use Drupal\Core\State\StateInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**

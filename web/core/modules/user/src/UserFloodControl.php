@@ -2,11 +2,11 @@
 
 namespace Drupal\user;
 
+use Drupal\Core\Flood\FloodInterface;
 use Drupal\user\Event\UserEvents;
 use Drupal\user\Event\UserFloodEvent;
-use Drupal\Core\Flood\FloodInterface;
-use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
+use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 /**
  * User Flood Control service.

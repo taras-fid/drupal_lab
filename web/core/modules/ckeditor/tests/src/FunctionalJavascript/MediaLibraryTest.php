@@ -8,8 +8,8 @@ use Drupal\file\Entity\File;
 use Drupal\filter\Entity\FilterFormat;
 use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
 use Drupal\media\Entity\Media;
-use Drupal\Tests\ckeditor\Traits\CKEditorTestTrait;
 use Drupal\Tests\ckeditor\Traits\CKEditorAdminSortTrait;
+use Drupal\Tests\ckeditor\Traits\CKEditorTestTrait;
 use Drupal\Tests\media\Traits\MediaTypeCreationTrait;
 use Drupal\Tests\TestFileCreationTrait;
 

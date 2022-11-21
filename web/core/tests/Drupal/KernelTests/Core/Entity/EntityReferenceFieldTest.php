@@ -2,19 +2,19 @@
 
 namespace Drupal\KernelTests\Core\Entity;
 
-use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityStorageException;
 use Drupal\Core\Field\BaseFieldDefinition;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
+use Drupal\entity_test\Entity\EntityTestStringId;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\Tests\field\Traits\EntityReferenceTestTrait;
+use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\user\Entity\Role;
 use Drupal\user\Entity\User;
 use Drupal\user\RoleInterface;
 use Drupal\user\UserInterface;
-use Drupal\entity_test\Entity\EntityTestStringId;
 
 /**
  * Tests for the entity reference field.

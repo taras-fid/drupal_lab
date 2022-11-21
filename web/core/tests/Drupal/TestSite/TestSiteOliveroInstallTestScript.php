@@ -2,10 +2,10 @@
 
 namespace Drupal\TestSite;
 
+use Drupal\comment\Entity\Comment;
 use Drupal\Core\Extension\ModuleInstallerInterface;
 use Drupal\Core\Extension\ThemeInstallerInterface;
 use Drupal\node\Entity\Node;
-use Drupal\comment\Entity\Comment;
 
 /**
  * Setup file used by TestSiteInstallTestScript.

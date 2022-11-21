@@ -2,9 +2,9 @@
 
 namespace Drupal\node\ParamConverter;
 
+use Drupal\Core\ParamConverter\ParamConverterInterface;
 use Drupal\Core\TempStore\PrivateTempStoreFactory;
 use Symfony\Component\Routing\Route;
-use Drupal\Core\ParamConverter\ParamConverterInterface;
 
 /**
  * Provides upcasting for a node entity in preview.

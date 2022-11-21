@@ -3,8 +3,8 @@
 namespace Drupal\filter\Element;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Render\Element\RenderElement;
 use Drupal\Core\Render\Element;
+use Drupal\Core\Render\Element\RenderElement;
 use Drupal\Core\Url;
 
 /**

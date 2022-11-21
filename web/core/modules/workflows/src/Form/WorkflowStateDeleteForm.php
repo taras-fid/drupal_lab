@@ -2,9 +2,9 @@
 
 namespace Drupal\workflows\Form;
 
-use Drupal\workflows\WorkflowInterface;
 use Drupal\Core\Form\ConfirmFormBase;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\workflows\WorkflowInterface;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 /**

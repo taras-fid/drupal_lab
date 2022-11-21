@@ -2,13 +2,13 @@
 
 namespace Drupal\Tests\views\Unit;
 
+use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Tests\UnitTestCase;
-use Drupal\views\Views;
 use Drupal\views\Entity\View;
 use Drupal\views\ViewExecutableFactory;
-use Drupal\Core\DependencyInjection\ContainerBuilder;
+use Drupal\views\Views;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;
 

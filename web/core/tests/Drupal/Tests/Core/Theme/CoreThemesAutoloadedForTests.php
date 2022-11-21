@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\Theme;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\claro\ClaroPreRender;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * Confirms that core/themes is autoloaded for tests.

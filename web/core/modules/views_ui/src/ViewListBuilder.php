@@ -3,8 +3,8 @@
 namespace Drupal\views_ui;
 
 use Drupal\Component\Plugin\PluginManagerInterface;
-use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Config\Entity\ConfigEntityListBuilder;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Link;

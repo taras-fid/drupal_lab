@@ -6,8 +6,8 @@ use Drupal\Component\PhpStorage\MTimeProtectedFileStorage;
 use Drupal\Core\PhpStorage\PhpStorageFactory;
 use Drupal\Core\Site\Settings;
 use Drupal\Core\StreamWrapper\PublicStream;
-use Drupal\system\PhpStorage\MockPhpStorage;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\system\PhpStorage\MockPhpStorage;
 
 /**
  * Tests the PHP storage factory.

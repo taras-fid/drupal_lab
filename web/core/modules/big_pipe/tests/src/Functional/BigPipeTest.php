@@ -3,8 +3,8 @@
 namespace Drupal\Tests\big_pipe\Functional;
 
 use Behat\Mink\Element\NodeElement;
-use Drupal\big_pipe\Render\Placeholder\BigPipeStrategy;
 use Drupal\big_pipe\Render\BigPipe;
+use Drupal\big_pipe\Render\Placeholder\BigPipeStrategy;
 use Drupal\big_pipe_test\BigPipePlaceholderTestCases;
 use Drupal\Component\Serialization\Json;
 use Drupal\Component\Utility\Html;

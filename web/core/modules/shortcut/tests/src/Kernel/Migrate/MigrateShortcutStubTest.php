@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\shortcut\Kernel\Migrate;
 
-use Drupal\Tests\migrate_drupal\Kernel\MigrateDrupalTestBase;
 use Drupal\migrate_drupal\Tests\StubTestTrait;
+use Drupal\Tests\migrate_drupal\Kernel\MigrateDrupalTestBase;
 
 /**
  * Test stub creation for shortcut entities.

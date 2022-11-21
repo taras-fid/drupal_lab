@@ -3,8 +3,8 @@
 namespace Drupal\Tests\image\Kernel\Migrate\d6;
 
 use Drupal\node\Entity\Node;
-use Drupal\Tests\node\Kernel\Migrate\d6\MigrateNodeTestBase;
 use Drupal\Tests\file\Kernel\Migrate\d6\FileMigrationTestTrait;
+use Drupal\Tests\node\Kernel\Migrate\d6\MigrateNodeTestBase;
 
 /**
  * Image migration test.

@@ -3,12 +3,12 @@
 namespace Drupal\Tests\taxonomy\Kernel\Views;
 
 use Drupal\Core\Render\RenderContext;
+use Drupal\taxonomy\Entity\Vocabulary;
 use Drupal\Tests\taxonomy\Traits\TaxonomyTestTrait;
 use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Drupal\user\Entity\User;
 use Drupal\views\Tests\ViewTestData;
 use Drupal\views\Views;
-use Drupal\taxonomy\Entity\Vocabulary;
 
 /**
  * Tests the taxonomy term VID field handler.

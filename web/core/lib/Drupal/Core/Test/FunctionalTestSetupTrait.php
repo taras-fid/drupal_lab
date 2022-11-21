@@ -13,6 +13,7 @@ use Drupal\Core\Database\Database;
 use Drupal\Core\DrupalKernel;
 use Drupal\Core\Extension\MissingDependencyException;
 use Drupal\Core\File\FileSystemInterface;
+use Drupal\Core\Routing\RouteObjectInterface;
 use Drupal\Core\Serialization\Yaml;
 use Drupal\Core\Session\UserSession;
 use Drupal\Core\Site\Settings;
@@ -20,9 +21,8 @@ use Drupal\Core\StreamWrapper\StreamWrapperInterface;
 use Drupal\Tests\SessionTestTrait;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Yaml\Yaml as SymfonyYaml;
-use Drupal\Core\Routing\RouteObjectInterface;
 use Symfony\Component\Routing\Route;
+use Symfony\Component\Yaml\Yaml as SymfonyYaml;
 
 /**
  * Defines a trait for shared functional test setup functionality.

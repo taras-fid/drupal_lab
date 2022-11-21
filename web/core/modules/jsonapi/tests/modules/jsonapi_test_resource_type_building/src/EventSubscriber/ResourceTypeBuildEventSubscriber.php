@@ -2,8 +2,8 @@
 
 namespace Drupal\jsonapi_test_resource_type_building\EventSubscriber;
 
-use Drupal\jsonapi\ResourceType\ResourceTypeBuildEvents;
 use Drupal\jsonapi\ResourceType\ResourceTypeBuildEvent;
+use Drupal\jsonapi\ResourceType\ResourceTypeBuildEvents;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**

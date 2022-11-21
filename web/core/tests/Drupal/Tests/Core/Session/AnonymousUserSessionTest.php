@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\Session;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\Session\AnonymousUserSession;
+use Drupal\Tests\UnitTestCase;
 use Drupal\user\RoleInterface;
 
 /**

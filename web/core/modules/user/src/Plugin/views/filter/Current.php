@@ -3,8 +3,8 @@
 namespace Drupal\user\Plugin\views\filter;
 
 use Drupal\views\Plugin\views\display\DisplayPluginBase;
-use Drupal\views\ViewExecutable;
 use Drupal\views\Plugin\views\filter\BooleanOperator;
+use Drupal\views\ViewExecutable;
 
 /**
  * Filter handler for the current user.

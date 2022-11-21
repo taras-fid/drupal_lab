@@ -2,8 +2,8 @@
 
 namespace Drupal\views\Plugin\Block;
 
-use Drupal\Core\Cache\Cache;
 use Drupal\Component\Utility\Xss;
+use Drupal\Core\Cache\Cache;
 
 /**
  * Provides a 'Views Exposed Filter' block.

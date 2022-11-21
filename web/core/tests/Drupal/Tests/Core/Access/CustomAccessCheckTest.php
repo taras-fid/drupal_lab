@@ -10,12 +10,12 @@ namespace Drupal\Tests\Core\Access;
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Access\CustomAccessCheck;
 use Drupal\Core\Controller\ControllerResolver;
+use Drupal\Core\DependencyInjection\ClassResolverInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Tests\UnitTestCase;
-use Symfony\Component\Routing\Route;
-use Drupal\Core\DependencyInjection\ClassResolverInterface;
 use Symfony\Bridge\PsrHttpMessage\HttpMessageFactoryInterface;
+use Symfony\Component\Routing\Route;
 
 /**
  * @coversDefaultClass \Drupal\Core\Access\CustomAccessCheck

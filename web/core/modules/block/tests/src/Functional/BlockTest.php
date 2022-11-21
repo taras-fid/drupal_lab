@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\block\Functional;
 
-use Drupal\Component\Utility\Html;
 use Drupal\block\Entity\Block;
+use Drupal\Component\Utility\Html;
 use Drupal\Core\Url;
 use Drupal\user\Entity\Role;
 use Drupal\user\RoleInterface;

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\Config\Entity;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\Config\Entity\ConfigDependencyManager;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * Tests the ConfigDependencyManager class.

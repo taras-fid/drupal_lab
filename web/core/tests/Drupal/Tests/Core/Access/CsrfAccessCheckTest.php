@@ -3,10 +3,10 @@
 namespace Drupal\Tests\Core\Access;
 
 use Drupal\Core\Access\AccessResult;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Routing\Route;
 use Drupal\Core\Access\CsrfAccessCheck;
 use Drupal\Tests\UnitTestCase;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Routing\Route;
 
 /**
  * @coversDefaultClass \Drupal\Core\Access\CsrfAccessCheck

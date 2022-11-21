@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\language\Kernel;
 
-use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\language\Entity\ConfigurableLanguage;
 
 /**
  * Tests \Drupal\language\Config\LanguageConfigFactoryOverride.

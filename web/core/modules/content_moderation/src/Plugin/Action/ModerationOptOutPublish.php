@@ -2,6 +2,7 @@
 
 namespace Drupal\content_moderation\Plugin\Action;
 
+use Drupal\content_moderation\ModerationInformationInterface;
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Action\Plugin\Action\PublishAction;
 use Drupal\Core\Entity\EntityTypeBundleInfoInterface;
@@ -9,7 +10,6 @@ use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Messenger\MessengerInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\Session\AccountInterface;
-use Drupal\content_moderation\ModerationInformationInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

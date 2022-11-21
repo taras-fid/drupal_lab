@@ -8,8 +8,8 @@
 namespace Drupal\Tests\Core\Template;
 
 use Drupal\Core\Template\Attribute;
-use Drupal\Core\Template\TwigSandboxPolicy;
 use Drupal\Core\Template\Loader\StringLoader;
+use Drupal\Core\Template\TwigSandboxPolicy;
 use Drupal\Tests\UnitTestCase;
 use Twig\Environment;
 use Twig\Extension\SandboxExtension;

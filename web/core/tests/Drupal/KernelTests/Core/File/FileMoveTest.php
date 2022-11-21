@@ -4,9 +4,9 @@ namespace Drupal\KernelTests\Core\File;
 
 use Drupal\Core\File\Exception\FileException;
 use Drupal\Core\File\Exception\FileNotExistsException;
+use Drupal\Core\File\FileSystem;
 use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\Site\Settings;
-use Drupal\Core\File\FileSystem;
 
 /**
  * Tests the unmanaged file move function.

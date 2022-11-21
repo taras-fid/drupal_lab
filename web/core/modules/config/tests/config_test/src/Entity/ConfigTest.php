@@ -2,8 +2,8 @@
 
 namespace Drupal\config_test\Entity;
 
-use Drupal\Core\Config\Entity\ConfigEntityBase;
 use Drupal\config_test\ConfigTestInterface;
+use Drupal\Core\Config\Entity\ConfigEntityBase;
 use Drupal\Core\Config\Entity\ConfigEntityInterface;
 use Drupal\Core\Entity\EntityStorageInterface;
 

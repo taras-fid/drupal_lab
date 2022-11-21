@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Component\PhpStorage;
 
-use Drupal\Component\PhpStorage\FileStorage;
 use Drupal\Component\PhpStorage\FileReadOnlyStorage;
+use Drupal\Component\PhpStorage\FileStorage;
 use Drupal\Component\Utility\Random;
 
 /**

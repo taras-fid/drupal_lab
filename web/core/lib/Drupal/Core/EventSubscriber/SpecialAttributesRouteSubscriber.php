@@ -3,8 +3,8 @@
 namespace Drupal\Core\EventSubscriber;
 
 use Drupal\Core\Routing\RouteBuildEvent;
-use Drupal\Core\Routing\RouteSubscriberBase;
 use Drupal\Core\Routing\RouteObjectInterface;
+use Drupal\Core\Routing\RouteSubscriberBase;
 use Symfony\Component\Routing\RouteCollection;
 
 /**

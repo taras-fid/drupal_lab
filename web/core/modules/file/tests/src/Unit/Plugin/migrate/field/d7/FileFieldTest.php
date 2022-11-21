@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\file\Unit\Plugin\migrate\field\d7;
 
+use Drupal\file\Plugin\migrate\field\d7\FileField;
 use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\Row;
 use Drupal\Tests\UnitTestCase;
-use Drupal\file\Plugin\migrate\field\d7\FileField;
 use Prophecy\Argument;
 
 // cspell:ignore filefield imagefield

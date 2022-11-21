@@ -3,9 +3,9 @@
 namespace Drupal\Tests\migrate_drupal\Unit;
 
 use Drupal\Core\Logger\LoggerChannelInterface;
+use Drupal\field_discovery_test\FieldDiscoveryTestClass;
 use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\Plugin\MigrationPluginManagerInterface;
-use Drupal\field_discovery_test\FieldDiscoveryTestClass;
 use Drupal\migrate_drupal\FieldDiscoveryInterface;
 use Drupal\migrate_drupal\Plugin\MigrateFieldPluginManagerInterface;
 use Drupal\Tests\UnitTestCase;

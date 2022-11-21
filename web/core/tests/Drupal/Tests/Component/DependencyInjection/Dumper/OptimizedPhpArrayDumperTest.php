@@ -11,14 +11,14 @@ namespace Drupal\Tests\Component\DependencyInjection\Dumper {
   use Drupal\Tests\PhpUnitCompatibilityTrait;
   use PHPUnit\Framework\TestCase;
   use Symfony\Bridge\PhpUnit\ExpectDeprecationTrait;
-  use Symfony\Component\DependencyInjection\Definition;
-  use Symfony\Component\DependencyInjection\Reference;
-  use Symfony\Component\DependencyInjection\Parameter;
-  use Symfony\Component\ExpressionLanguage\Expression;
-  use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
   use Symfony\Component\DependencyInjection\ContainerInterface;
+  use Symfony\Component\DependencyInjection\Definition;
   use Symfony\Component\DependencyInjection\Exception\InvalidArgumentException;
   use Symfony\Component\DependencyInjection\Exception\RuntimeException;
+  use Symfony\Component\DependencyInjection\Parameter;
+  use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
+  use Symfony\Component\DependencyInjection\Reference;
+  use Symfony\Component\ExpressionLanguage\Expression;
 
   /**
    * @coversDefaultClass \Drupal\Component\DependencyInjection\Dumper\OptimizedPhpArrayDumper

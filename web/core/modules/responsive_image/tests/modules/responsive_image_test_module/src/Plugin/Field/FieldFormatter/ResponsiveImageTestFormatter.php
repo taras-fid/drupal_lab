@@ -2,8 +2,8 @@
 
 namespace Drupal\responsive_image_test_module\Plugin\Field\FieldFormatter;
 
-use Drupal\responsive_image\Plugin\Field\FieldFormatter\ResponsiveImageFormatter;
 use Drupal\Core\Field\FieldItemListInterface;
+use Drupal\responsive_image\Plugin\Field\FieldFormatter\ResponsiveImageFormatter;
 
 /**
  * Plugin to test responsive image formatter.

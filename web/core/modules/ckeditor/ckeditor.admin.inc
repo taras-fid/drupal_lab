@@ -6,8 +6,8 @@
  */
 
 use Drupal\Component\Utility\Html;
-use Drupal\Core\Template\Attribute;
 use Drupal\Core\Language\LanguageInterface;
+use Drupal\Core\Template\Attribute;
 
 /**
  * Prepares variables for CKEditor settings toolbar templates.

@@ -4,8 +4,8 @@ namespace Drupal\locale\Form;
 
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Language\LanguageManagerInterface;
-use Drupal\locale\StringStorageInterface;
 use Drupal\Core\State\StateInterface;
+use Drupal\locale\StringStorageInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

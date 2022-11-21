@@ -3,9 +3,9 @@
 namespace Drupal\Tests\Core\Plugin\Discovery;
 
 use Drupal\Component\Discovery\YamlDirectoryDiscovery as ComponentYamlDirectoryDiscovery;
+use Drupal\Core\Plugin\Discovery\YamlDirectoryDiscovery;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Plugin\Discovery\YamlDirectoryDiscovery;
 use org\bovigo\vfs\vfsStream;
 
 /**

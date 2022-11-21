@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\views\Kernel\Plugin;
 
-use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Drupal\block\Entity\Block;
+use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 
 /**
  * Tests views block config dependencies functionality.

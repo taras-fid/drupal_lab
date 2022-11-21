@@ -2,8 +2,8 @@
 
 namespace Drupal\field\Plugin\migrate\process\d7;
 
-use Drupal\migrate\ProcessPluginBase;
 use Drupal\migrate\MigrateExecutableInterface;
+use Drupal\migrate\ProcessPluginBase;
 use Drupal\migrate\Row;
 
 /**

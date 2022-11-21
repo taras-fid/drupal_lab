@@ -2,9 +2,9 @@
 
 namespace Drupal\sqlite\Driver\Database\sqlite;
 
+use Drupal\Core\Database\Connection as DatabaseConnection;
 use Drupal\Core\Database\DatabaseExceptionWrapper;
 use Drupal\Core\Database\DatabaseNotFoundException;
-use Drupal\Core\Database\Connection as DatabaseConnection;
 use Drupal\Core\Database\StatementInterface;
 
 /**

@@ -2,12 +2,12 @@
 
 namespace Drupal\Tests\views\Kernel\Plugin;
 
-use Drupal\Core\Url;
 use Drupal\Core\Menu\MenuTreeParameters;
 use Drupal\Core\Session\AnonymousUserSession;
+use Drupal\Core\Url;
+use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Drupal\views\Entity\View;
 use Drupal\views\Views;
-use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 

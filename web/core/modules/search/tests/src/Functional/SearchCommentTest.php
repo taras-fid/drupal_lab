@@ -6,10 +6,10 @@ use Behat\Mink\Exception\ResponseTextException;
 use Drupal\comment\Plugin\Field\FieldType\CommentItemInterface;
 use Drupal\comment\Tests\CommentTestTrait;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\filter\Entity\FilterFormat;
 use Drupal\Tests\BrowserTestBase;
 use Drupal\Tests\Traits\Core\CronRunTrait;
 use Drupal\user\RoleInterface;
-use Drupal\filter\Entity\FilterFormat;
 
 /**
  * Tests integration searching comments.

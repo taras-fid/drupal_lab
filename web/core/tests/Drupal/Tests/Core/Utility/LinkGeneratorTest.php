@@ -3,6 +3,7 @@
 namespace Drupal\Tests\Core\Utility;
 
 use Drupal\Component\Render\MarkupInterface;
+use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Core\GeneratedButton;
 use Drupal\Core\GeneratedNoLink;
 use Drupal\Core\GeneratedUrl;
@@ -12,7 +13,6 @@ use Drupal\Core\Render\Markup;
 use Drupal\Core\Url;
 use Drupal\Core\Utility\LinkGenerator;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Core\DependencyInjection\ContainerBuilder;
 
 /**
  * @coversDefaultClass \Drupal\Core\Utility\LinkGenerator

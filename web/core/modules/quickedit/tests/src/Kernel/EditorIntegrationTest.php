@@ -7,13 +7,13 @@ use Drupal\Core\EventSubscriber\AjaxResponseSubscriber;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\editor\Entity\Editor;
 use Drupal\entity_test\Entity\EntityTest;
+use Drupal\filter\Entity\FilterFormat;
 use Drupal\quickedit\MetadataGenerator;
 use Drupal\quickedit\QuickEditController;
 use Drupal\quickedit_test\MockQuickEditEntityFieldAccessCheck;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\ResponseEvent;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
-use Drupal\filter\Entity\FilterFormat;
 
 /**
  * Tests Edit module integration (Editor module's inline editing support).

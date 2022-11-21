@@ -1,6 +1,6 @@
-import { execSync } from 'child_process';
-import { URL } from 'url';
-import { commandAsWebserver } from '../globals';
+import {execSync} from 'child_process';
+import {URL} from 'url';
+import {commandAsWebserver} from '../globals';
 
 /**
  * Installs a Drupal test site.

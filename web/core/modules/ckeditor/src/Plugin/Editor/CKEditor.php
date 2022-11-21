@@ -2,18 +2,18 @@
 
 namespace Drupal\ckeditor\Plugin\Editor;
 
+use Drupal\ckeditor\CKEditorPluginManager;
 use Drupal\Core\Extension\ModuleExtensionList;
 use Drupal\Core\Extension\ModuleHandlerInterface;
-use Drupal\ckeditor\CKEditorPluginManager;
 use Drupal\Core\File\FileUrlGeneratorInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Language\LanguageManagerInterface;
+use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\Render\Element;
 use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\State\StateInterface;
-use Drupal\editor\Plugin\EditorBase;
-use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\editor\Entity\Editor;
+use Drupal\editor\Plugin\EditorBase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

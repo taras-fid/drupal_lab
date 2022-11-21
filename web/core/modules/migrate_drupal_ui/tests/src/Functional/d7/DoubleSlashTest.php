@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\migrate_drupal_ui\Functional\d7;
 
-use Drupal\Tests\migrate_drupal_ui\Functional\MigrateUpgradeExecuteTestBase;
 use Drupal\migrate\Plugin\MigrationInterface;
+use Drupal\Tests\migrate_drupal_ui\Functional\MigrateUpgradeExecuteTestBase;
 
 /**
  * Tests that a double slash is not in d7_file file not found migrate messages.

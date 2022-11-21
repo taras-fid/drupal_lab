@@ -5,10 +5,10 @@
  * Image field access for hidden fields.
  */
 
-use Drupal\Core\Field\FieldDefinitionInterface;
-use Drupal\Core\Session\AccountInterface;
-use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Field\FieldDefinitionInterface;
+use Drupal\Core\Field\FieldItemListInterface;
+use Drupal\Core\Session\AccountInterface;
 
 /**
  * Implements hook_entity_field_access().

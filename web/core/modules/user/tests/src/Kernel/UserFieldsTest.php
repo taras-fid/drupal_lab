@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\user\Kernel;
 
-use Drupal\user\Entity\User;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\user\Entity\User;
 
 /**
  * Tests available user fields in twig.

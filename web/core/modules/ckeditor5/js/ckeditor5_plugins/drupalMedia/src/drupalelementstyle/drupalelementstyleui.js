@@ -1,11 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* cspell:words drupalelementstyleediting splitbutton imagestyle componentfactory buttonview */
-import { Plugin } from 'ckeditor5/src/core';
-import { Collection, toMap } from 'ckeditor5/src/utils';
+import {Plugin} from 'ckeditor5/src/core';
+import {Collection, toMap} from 'ckeditor5/src/utils';
 import utils from '@ckeditor/ckeditor5-image/src/imagestyle/utils';
 import {
-  addToolbarToDropdown,
   addListToDropdown,
+  addToolbarToDropdown,
   ButtonView,
   createDropdown,
   DropdownButtonView,
@@ -13,8 +13,8 @@ import {
   SplitButtonView,
 } from 'ckeditor5/src/ui';
 import DrupalElementStyleEditing from './drupalelementstyleediting';
-import { isObject } from '../utils';
-import { getClosestElementWithElementStyleAttribute } from './utils';
+import {isObject} from '../utils';
+import {getClosestElementWithElementStyleAttribute} from './utils';
 
 /**
  * @module drupalMedia/drupalelementstyle/drupalelementstyleui

@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Config;
 
-use Drupal\Core\Extension\ExtensionDiscovery;
 use Drupal\Core\Extension\Extension;
+use Drupal\Core\Extension\ExtensionDiscovery;
 
 /**
  * Storage used by the Drupal installer.

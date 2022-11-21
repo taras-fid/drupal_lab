@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\node\Functional;
 
+use Drupal\Core\Language\LanguageInterface;
 use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\language\Plugin\LanguageNegotiation\LanguageNegotiationUrl;
-use Drupal\Core\Language\LanguageInterface;
 use Drupal\Tests\BrowserTestBase;
 
 /**

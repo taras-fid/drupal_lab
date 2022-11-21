@@ -7,11 +7,11 @@ use Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException;
 use Drupal\Core\Cache\CacheBackendInterface;
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\Extension\ThemeHandlerInterface;
+use Drupal\Core\Layout\Annotation\Layout;
 use Drupal\Core\Plugin\DefaultPluginManager;
 use Drupal\Core\Plugin\Discovery\AnnotatedClassDiscovery;
 use Drupal\Core\Plugin\Discovery\ContainerDerivativeDiscoveryDecorator;
 use Drupal\Core\Plugin\Discovery\YamlDiscoveryDecorator;
-use Drupal\Core\Layout\Annotation\Layout;
 use Drupal\Core\Plugin\FilteredPluginManagerTrait;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
 

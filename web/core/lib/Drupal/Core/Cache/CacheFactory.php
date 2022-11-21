@@ -5,6 +5,7 @@ namespace Drupal\Core\Cache;
 /**
  * Defines the cache backend factory.
  */
+
 use Drupal\Core\Site\Settings;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerAwareTrait;

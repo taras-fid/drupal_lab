@@ -3,9 +3,9 @@
 namespace Drupal\Tests\shortcut\Functional;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\Tests\content_translation\Functional\ContentTranslationUITestBase;
 use Drupal\Core\Entity\EntityChangedInterface;
 use Drupal\Core\Language\Language;
+use Drupal\Tests\content_translation\Functional\ContentTranslationUITestBase;
 
 /**
  * Tests the shortcut translation UI.

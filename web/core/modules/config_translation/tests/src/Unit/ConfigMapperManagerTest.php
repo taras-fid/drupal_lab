@@ -5,9 +5,9 @@ namespace Drupal\Tests\config_translation\Unit;
 use Drupal\config_translation\ConfigMapperManager;
 use Drupal\Core\Language\Language;
 use Drupal\Core\Language\LanguageInterface;
+use Drupal\Core\TypedData\DataDefinition;
 use Drupal\Core\TypedData\TypedDataInterface;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Core\TypedData\DataDefinition;
 
 /**
  * Tests the functionality provided by configuration translation mapper manager.

@@ -2,8 +2,8 @@
 
 namespace Drupal\KernelTests\Core\Test;
 
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\deprecation_test\Deprecation\FixtureDeprecatedClass;
+use Drupal\KernelTests\KernelTestBase;
 
 /**
  * Test how kernel tests interact with deprecation errors.

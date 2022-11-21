@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\language\Functional;
 
-use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\Tests\BrowserTestBase;
+use Drupal\Tests\SchemaCheckTestTrait;
 
 /**
  * Ensures the language config schema is correct.

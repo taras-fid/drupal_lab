@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\Core\Field;
 
-use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Field\FieldFilteredMarkup;
 use Drupal\Component\Render\MarkupInterface;
+use Drupal\Core\Field\FieldFilteredMarkup;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\Core\Field\FieldFilteredMarkup

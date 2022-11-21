@@ -2,8 +2,8 @@
 
 namespace Drupal\ajax_forms_test\Form;
 
-use Drupal\Core\Form\FormBase;
 use Drupal\ajax_forms_test\Callbacks;
+use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 
 /**

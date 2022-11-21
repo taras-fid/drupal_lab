@@ -3,8 +3,8 @@
 namespace Drupal\Tests\rdf\Kernel\Field;
 
 use Drupal\field\Entity\FieldConfig;
-use Drupal\Tests\field\Kernel\FieldKernelTestBase;
 use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\Tests\field\Kernel\FieldKernelTestBase;
 use Drupal\Tests\rdf\Traits\RdfParsingTrait;
 
 abstract class FieldRdfaTestBase extends FieldKernelTestBase {

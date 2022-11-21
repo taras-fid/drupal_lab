@@ -2,8 +2,8 @@
 
 namespace Drupal\comment\Plugin\views\field;
 
-use Drupal\views\Plugin\views\field\Date;
 use Drupal\views\Plugin\views\display\DisplayPluginBase;
+use Drupal\views\Plugin\views\field\Date;
 use Drupal\views\ResultRow;
 use Drupal\views\ViewExecutable;
 

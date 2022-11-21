@@ -3,8 +3,8 @@
 namespace Drupal\file;
 
 use Drupal\Core\Entity\ContentEntityInterface;
-use Drupal\user\EntityOwnerInterface;
 use Drupal\Core\Entity\EntityChangedInterface;
+use Drupal\user\EntityOwnerInterface;
 
 /**
  * Defines getter and setter methods for file entity base fields.

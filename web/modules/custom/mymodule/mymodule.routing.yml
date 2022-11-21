@@ -12,3 +12,19 @@ mymodule.form:
     _title: 'Test Form'
   requirements:
     _permission: 'access content'
+
+mymodule.ajax:
+  path: '/example/ajax'
+  defaults:
+    _form: '\Drupal\mymodule\Form\AjaxForm'
+    _title: 'Ajax Form'
+  requirements:
+    _permission: 'access content'
+
+mymodule.ajax2:
+  path: '/example/ajax2'
+  defaults:
+    _form: '\Drupal\mymodule\Form\Ajax2Form'
+    _title: 'Ajax 2 Form'
+  requirements:
+    _permission: 'access content'

@@ -3,8 +3,8 @@
 namespace Drupal\Tests\file\Kernel\Migrate\d6;
 
 use Drupal\file\Entity\File;
-use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 use Drupal\node\Entity\Node;
+use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 
 /**
  * Migrate association data between nodes and files.

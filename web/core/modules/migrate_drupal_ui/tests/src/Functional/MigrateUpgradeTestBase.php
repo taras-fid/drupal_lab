@@ -5,8 +5,8 @@ namespace Drupal\Tests\migrate_drupal_ui\Functional;
 use Drupal\Core\Database\Database;
 use Drupal\migrate\Plugin\MigrateIdMapInterface;
 use Drupal\migrate_drupal\MigrationConfigurationTrait;
-use Drupal\user\Entity\User;
 use Drupal\Tests\BrowserTestBase;
+use Drupal\user\Entity\User;
 
 /**
  * Provides a base class for testing migration upgrades in the UI.

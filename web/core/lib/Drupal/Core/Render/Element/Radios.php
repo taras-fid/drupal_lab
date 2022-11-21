@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Render\Element;
 
-use Drupal\Core\Form\FormStateInterface;
 use Drupal\Component\Utility\Html as HtmlUtility;
+use Drupal\Core\Form\FormStateInterface;
 
 /**
  * Provides a form element for a set of radio buttons.

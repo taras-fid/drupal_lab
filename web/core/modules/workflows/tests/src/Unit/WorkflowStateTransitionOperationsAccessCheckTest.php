@@ -6,8 +6,8 @@ use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Routing\RouteMatch;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Tests\UnitTestCase;
-use Drupal\workflows\WorkflowStateTransitionOperationsAccessCheck;
 use Drupal\workflows\WorkflowInterface;
+use Drupal\workflows\WorkflowStateTransitionOperationsAccessCheck;
 use Prophecy\Argument;
 use Symfony\Component\Routing\Route;
 

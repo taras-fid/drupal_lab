@@ -2,8 +2,8 @@
 
 namespace Drupal\taxonomy\Plugin\views\argument;
 
-use Drupal\views\Plugin\views\argument\NumericArgument;
 use Drupal\taxonomy\VocabularyStorageInterface;
+use Drupal\views\Plugin\views\argument\NumericArgument;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

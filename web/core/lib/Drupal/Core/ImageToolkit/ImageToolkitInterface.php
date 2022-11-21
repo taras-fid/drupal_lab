@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\ImageToolkit;
 
+use Drupal\Component\Plugin\PluginInspectionInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\Plugin\PluginFormInterface;
-use Drupal\Component\Plugin\PluginInspectionInterface;
 
 /**
  * @defgroup image Image toolkits

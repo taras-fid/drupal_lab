@@ -3,10 +3,10 @@
 namespace Drupal\Tests\comment\Functional;
 
 use Drupal\comment\CommentInterface;
+use Drupal\comment\Entity\Comment;
 use Drupal\comment\Tests\CommentTestTrait;
 use Drupal\node\Entity\Node;
 use Drupal\Tests\BrowserTestBase;
-use Drupal\comment\Entity\Comment;
 
 /**
  * Tests visibility of comments on book pages.

@@ -3,9 +3,9 @@
 namespace Drupal\Core\EventSubscriber;
 
 use Drupal\Core\ParamConverter\ParamConverterManagerInterface;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use Drupal\Core\Routing\RoutingEvents;
 use Drupal\Core\Routing\RouteBuildEvent;
+use Drupal\Core\Routing\RoutingEvents;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * Event subscriber for registering parameter converters with routes.

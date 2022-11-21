@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\forum\Functional;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\node\Entity\NodeType;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests forum block view for private node access.

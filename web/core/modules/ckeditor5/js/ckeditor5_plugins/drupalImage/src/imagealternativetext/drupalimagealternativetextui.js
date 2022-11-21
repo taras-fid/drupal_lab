@@ -5,16 +5,9 @@
  * @module drupalImage/imagealternativetext/drupalimagealternativetextui
  */
 
-import { Plugin, icons } from 'ckeditor5/src/core';
-import {
-  ButtonView,
-  ContextualBalloon,
-  clickOutsideHandler,
-} from 'ckeditor5/src/ui';
-import {
-  repositionContextualBalloon,
-  getBalloonPositionData,
-} from '@ckeditor/ckeditor5-image/src/image/ui/utils';
+import {icons, Plugin} from 'ckeditor5/src/core';
+import {ButtonView, clickOutsideHandler, ContextualBalloon,} from 'ckeditor5/src/ui';
+import {getBalloonPositionData, repositionContextualBalloon,} from '@ckeditor/ckeditor5-image/src/image/ui/utils';
 import ImageAlternativeTextFormView from './ui/imagealternativetextformview';
 import MissingAlternativeTextView from './ui/missingalternativetextview';
 

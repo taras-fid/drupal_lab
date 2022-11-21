@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\jsonapi\Functional;
 
-use Drupal\path_alias\Entity\PathAlias;
 use Drupal\Core\Url;
+use Drupal\path_alias\Entity\PathAlias;
 
 /**
  * JSON:API integration test for the "PathAlias" content entity type.

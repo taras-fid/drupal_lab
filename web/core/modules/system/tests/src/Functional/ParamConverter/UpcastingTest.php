@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\system\Functional\ParamConverter;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\language\Entity\ConfigurableLanguage;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests upcasting of url arguments to entities.

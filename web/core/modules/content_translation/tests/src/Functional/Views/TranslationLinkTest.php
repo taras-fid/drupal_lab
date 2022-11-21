@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\content_translation\Functional\Views;
 
-use Drupal\Tests\content_translation\Functional\ContentTranslationTestBase;
-use Drupal\views\Tests\ViewTestData;
 use Drupal\Core\Language\Language;
+use Drupal\Tests\content_translation\Functional\ContentTranslationTestBase;
 use Drupal\user\Entity\User;
+use Drupal\views\Tests\ViewTestData;
 
 /**
  * Tests the content translation overview link field handler.

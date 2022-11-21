@@ -3,8 +3,8 @@
 namespace Drupal\Core\DependencyInjection\Compiler;
 
 use Drupal\Core\Access\AccessCheckInterface;
-use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
  * Adds services tagged 'access_check' to the access_manager service.

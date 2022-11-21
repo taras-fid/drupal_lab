@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\comment\Functional;
 
-use Drupal\Core\Language\LanguageInterface;
 use Drupal\comment\CommentInterface;
-use Drupal\user\RoleInterface;
 use Drupal\comment\Entity\Comment;
+use Drupal\Core\Language\LanguageInterface;
 use Drupal\Tests\Traits\Core\GeneratePermutationsTrait;
+use Drupal\user\RoleInterface;
 
 /**
  * Tests CSS classes on comments.

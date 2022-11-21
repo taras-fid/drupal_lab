@@ -4,11 +4,11 @@ namespace Drupal\Tests\migrate_drupal\Kernel\d7;
 
 use Drupal\comment\Entity\CommentType;
 use Drupal\field\Plugin\migrate\source\d7\FieldInstance;
+use Drupal\field_discovery_test\FieldDiscoveryTestClass;
 use Drupal\migrate_drupal\FieldDiscoveryInterface;
 use Drupal\node\Entity\NodeType;
 use Drupal\taxonomy\Entity\Vocabulary;
 use Drupal\Tests\migrate_drupal\Traits\FieldDiscoveryTestTrait;
-use Drupal\field_discovery_test\FieldDiscoveryTestClass;
 
 // cspell:ignore filefield imagelink entityreference nodelink spamspan
 

@@ -8,8 +8,8 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\views\Plugin\DependentWithRemovalPluginInterface;
-use Drupal\views\Views;
 use Drupal\views\ViewEntityInterface;
+use Drupal\views\Views;
 
 /**
  * Defines a View configuration entity class.

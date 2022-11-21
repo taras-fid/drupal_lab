@@ -5,10 +5,10 @@ namespace Drupal\language\Entity;
 use Drupal\Core\Config\Entity\ConfigEntityBase;
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Language\LanguageManager;
+use Drupal\language\ConfigurableLanguageInterface;
 use Drupal\language\ConfigurableLanguageManager;
 use Drupal\language\ConfigurableLanguageManagerInterface;
 use Drupal\language\Exception\DeleteDefaultLanguageException;
-use Drupal\language\ConfigurableLanguageInterface;
 
 /**
  * Defines the ConfigurableLanguage entity.

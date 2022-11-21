@@ -2,8 +2,8 @@
 
 namespace Drupal\KernelTests\Core\Config;
 
-use Drupal\Component\Utility\Html;
 use Drupal\Component\Render\FormattableMarkup;
+use Drupal\Component\Utility\Html;
 use Drupal\Core\Config\ConfigImporter;
 use Drupal\Core\Config\ConfigImporterException;
 use Drupal\KernelTests\KernelTestBase;

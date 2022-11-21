@@ -3,8 +3,8 @@
 namespace Drupal\Tests\Core\Entity\Enhancer;
 
 use Drupal\Core\Entity\Enhancer\EntityRouteEnhancer;
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\Routing\RouteObjectInterface;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Route;
 

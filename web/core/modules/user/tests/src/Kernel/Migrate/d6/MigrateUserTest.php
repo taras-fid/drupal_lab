@@ -2,13 +2,13 @@
 
 namespace Drupal\Tests\user\Kernel\Migrate\d6;
 
+use Drupal\Core\Database\Database;
+use Drupal\file\Entity\File;
 use Drupal\migrate\MigrateExecutable;
 use Drupal\Tests\file\Kernel\Migrate\d6\FileMigrationTestTrait;
-use Drupal\user\Entity\User;
-use Drupal\file\Entity\File;
-use Drupal\Core\Database\Database;
-use Drupal\user\RoleInterface;
 use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
+use Drupal\user\Entity\User;
+use Drupal\user\RoleInterface;
 
 /**
  * Users migration.

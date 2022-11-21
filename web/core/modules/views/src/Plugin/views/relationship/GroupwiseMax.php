@@ -4,8 +4,8 @@ namespace Drupal\views\Plugin\views\relationship;
 
 use Drupal\Core\Database\Query\AlterableInterface;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\views\Views;
 use Drupal\views\Entity\View;
+use Drupal\views\Views;
 
 /**
  * Relationship handler that allows a groupwise maximum of the linked in table.

@@ -2,8 +2,8 @@
 
 namespace Drupal\statistics\Plugin\views\field;
 
-use Drupal\views\Plugin\views\field\Date;
 use Drupal\Core\Session\AccountInterface;
+use Drupal\views\Plugin\views\field\Date;
 
 /**
  * Field handler to display the most recent time the node has been viewed.

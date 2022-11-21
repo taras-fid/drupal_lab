@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Template;
 
-use Drupal\Component\Utility\Html;
 use Drupal\Component\Render\MarkupInterface;
+use Drupal\Component\Utility\Html;
 use Drupal\Core\Cache\CacheableDependencyInterface;
 use Drupal\Core\Datetime\DateFormatterInterface;
 use Drupal\Core\File\FileUrlGeneratorInterface;

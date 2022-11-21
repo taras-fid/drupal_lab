@@ -6,8 +6,8 @@ use Drupal\Core\TypedData\DataDefinition;
 use Drupal\Core\TypedData\Plugin\DataType\BooleanData;
 use Drupal\Core\TypedData\Plugin\DataType\IntegerData;
 use Drupal\Core\TypedData\Plugin\DataType\StringData;
-use Drupal\Tests\UnitTestCase;
 use Drupal\serialization\Normalizer\PrimitiveDataNormalizer;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\serialization\Normalizer\PrimitiveDataNormalizer

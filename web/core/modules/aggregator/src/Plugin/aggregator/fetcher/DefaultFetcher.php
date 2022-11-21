@@ -2,8 +2,8 @@
 
 namespace Drupal\aggregator\Plugin\aggregator\fetcher;
 
-use Drupal\aggregator\Plugin\FetcherInterface;
 use Drupal\aggregator\FeedInterface;
+use Drupal\aggregator\Plugin\FetcherInterface;
 use Drupal\Component\Datetime\DateTimePlus;
 use Drupal\Core\Http\ClientFactory;
 use Drupal\Core\Messenger\MessengerInterface;

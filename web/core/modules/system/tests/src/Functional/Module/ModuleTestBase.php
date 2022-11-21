@@ -3,9 +3,9 @@
 namespace Drupal\Tests\system\Functional\Module;
 
 use Drupal\Component\Render\FormattableMarkup;
+use Drupal\Core\Config\FileStorage;
 use Drupal\Core\Config\InstallStorage;
 use Drupal\Core\Database\Database;
-use Drupal\Core\Config\FileStorage;
 use Drupal\Core\Logger\RfcLogLevel;
 use Drupal\Tests\BrowserTestBase;
 use Drupal\TestTools\Extension\SchemaInspector;

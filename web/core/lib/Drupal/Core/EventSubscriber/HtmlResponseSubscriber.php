@@ -2,11 +2,11 @@
 
 namespace Drupal\Core\EventSubscriber;
 
-use Drupal\Core\Render\HtmlResponse;
 use Drupal\Core\Render\AttachmentsResponseProcessorInterface;
+use Drupal\Core\Render\HtmlResponse;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\ResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * Response subscriber to handle HTML responses.

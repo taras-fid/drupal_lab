@@ -3,11 +3,11 @@
 namespace Drupal\Tests\migrate\Unit;
 
 use Drupal\Component\Utility\Html;
+use Drupal\migrate\MigrateException;
 use Drupal\migrate\Plugin\MigrateDestinationInterface;
+use Drupal\migrate\Plugin\MigrateIdMapInterface;
 use Drupal\migrate\Plugin\MigrateProcessInterface;
 use Drupal\migrate\Plugin\MigrationInterface;
-use Drupal\migrate\Plugin\MigrateIdMapInterface;
-use Drupal\migrate\MigrateException;
 use Drupal\migrate\Row;
 use Prophecy\Argument;
 

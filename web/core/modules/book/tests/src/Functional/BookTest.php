@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\book\Functional;
 
+use Drupal\book\Cache\BookNavigationCacheContext;
 use Drupal\Core\Cache\Cache;
 use Drupal\Tests\BrowserTestBase;
 use Drupal\user\RoleInterface;
-use Drupal\book\Cache\BookNavigationCacheContext;
 
 /**
  * Create a book, add pages, and test book interface.

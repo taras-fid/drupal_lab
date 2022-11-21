@@ -3,11 +3,11 @@
 namespace Drupal\quickedit;
 
 use Drupal\Component\Plugin\PluginManagerInterface;
+use Drupal\Core\Entity\Entity\EntityViewDisplay;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
 use Drupal\quickedit\Access\QuickEditEntityFieldAccessCheckInterface;
-use Drupal\Core\Entity\Entity\EntityViewDisplay;
 
 /**
  * Generates in-place editing metadata for an entity field.

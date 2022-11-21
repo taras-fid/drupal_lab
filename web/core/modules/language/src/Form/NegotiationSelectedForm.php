@@ -2,9 +2,9 @@
 
 namespace Drupal\language\Form;
 
+use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Language\LanguageInterface;
-use Drupal\Core\Form\ConfigFormBase;
 
 /**
  * Configure the selected language negotiation method for this site.

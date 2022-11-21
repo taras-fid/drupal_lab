@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\views\Functional\Plugin;
 
+use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\Tests\system\Functional\Cache\AssertPageCacheContextsAndTagsTrait;
 use Drupal\Tests\views\Functional\ViewTestBase;
 use Drupal\views\Views;
-use Drupal\language\Entity\ConfigurableLanguage;
 
 /**
  * Tests the pluggable pager system.

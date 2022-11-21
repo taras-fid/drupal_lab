@@ -2,9 +2,9 @@
 
 namespace Drupal\KernelTests\Core\Config\Storage;
 
-use Drupal\Core\Config\StorageManagerInterface;
 use Drupal\Core\Config\ManagedStorage;
 use Drupal\Core\Config\MemoryStorage;
+use Drupal\Core\Config\StorageManagerInterface;
 
 /**
  * Tests ManagedStorage operations.

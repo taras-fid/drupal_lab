@@ -4,9 +4,9 @@ namespace Drupal\help_topics\Controller;
 
 use Drupal\Component\Utility\SortArray;
 use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\Url;
 use Drupal\help_topics\HelpTopicPluginManagerInterface;
-use Drupal\Core\Render\RendererInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 

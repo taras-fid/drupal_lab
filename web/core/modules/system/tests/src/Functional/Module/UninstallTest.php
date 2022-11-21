@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\system\Functional\Module;
 
-use Drupal\Core\Cache\Cache;
 use Drupal\Component\Render\FormattableMarkup;
+use Drupal\Core\Cache\Cache;
 use Drupal\Core\Entity\EntityMalformedException;
 use Drupal\node\Entity\Node;
 use Drupal\node\Entity\NodeType;

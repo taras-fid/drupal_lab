@@ -2,9 +2,10 @@
 
 namespace Drupal\Tests\ckeditor5\FunctionalJavascript;
 
+use Drupal\ckeditor5\Plugin\Editor\CKEditor5;
+use Drupal\Core\Database\Database;
 use Drupal\Core\Entity\Entity\EntityViewDisplay;
 use Drupal\Core\Entity\Entity\EntityViewMode;
-use Drupal\Core\Database\Database;
 use Drupal\editor\Entity\Editor;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\file\Entity\File;
@@ -13,10 +14,9 @@ use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
 use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\language\Entity\ContentLanguageSettings;
 use Drupal\media\Entity\Media;
+use Drupal\Tests\ckeditor5\Traits\CKEditor5TestTrait;
 use Drupal\Tests\media\Traits\MediaTypeCreationTrait;
 use Drupal\Tests\TestFileCreationTrait;
-use Drupal\Tests\ckeditor5\Traits\CKEditor5TestTrait;
-use Drupal\ckeditor5\Plugin\Editor\CKEditor5;
 use Drupal\user\Entity\Role;
 use Drupal\user\RoleInterface;
 use Symfony\Component\Validator\ConstraintViolation;

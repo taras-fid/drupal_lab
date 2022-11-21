@@ -7,11 +7,11 @@ use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\PathProcessor\InboundPathProcessorInterface;
 use Drupal\Core\PathProcessor\OutboundPathProcessorInterface;
 use Drupal\Core\Render\BubbleableMetadata;
+use Drupal\Core\Session\AccountInterface;
 use Drupal\language\ConfigurableLanguageManagerInterface;
 use Drupal\language\EventSubscriber\ConfigSubscriber;
 use Drupal\language\LanguageNegotiatorInterface;
 use Symfony\Component\HttpFoundation\Request;
-use Drupal\Core\Session\AccountInterface;
 
 /**
  * Processes the inbound path using path alias lookups.

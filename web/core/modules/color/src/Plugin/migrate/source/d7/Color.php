@@ -2,12 +2,12 @@
 
 namespace Drupal\color\Plugin\migrate\source\d7;
 
-use Drupal\Core\Extension\ThemeHandler;
-use Drupal\migrate\Row;
-use Drupal\migrate_drupal\Plugin\migrate\source\VariableMultiRow;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
+use Drupal\Core\Extension\ThemeHandler;
 use Drupal\Core\State\StateInterface;
 use Drupal\migrate\Plugin\MigrationInterface;
+use Drupal\migrate\Row;
+use Drupal\migrate_drupal\Plugin\migrate\source\VariableMultiRow;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

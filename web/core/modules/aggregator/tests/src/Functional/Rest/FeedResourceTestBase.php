@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\aggregator\Functional\Rest;
 
-use Drupal\Tests\rest\Functional\EntityResource\EntityResourceTestBase;
 use Drupal\aggregator\Entity\Feed;
+use Drupal\Tests\rest\Functional\EntityResource\EntityResourceTestBase;
 
 abstract class FeedResourceTestBase extends EntityResourceTestBase {
 

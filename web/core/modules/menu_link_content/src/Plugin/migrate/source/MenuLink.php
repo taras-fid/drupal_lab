@@ -3,8 +3,8 @@
 namespace Drupal\menu_link_content\Plugin\migrate\source;
 
 use Drupal\Component\Utility\Unicode;
-use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 use Drupal\migrate\Row;
+use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 
 /**
  * Drupal 6/7 menu link source from database.

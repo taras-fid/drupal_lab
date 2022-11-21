@@ -5,8 +5,8 @@ namespace Drupal\Tests\quickedit\FunctionalJavascript;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
-use Drupal\taxonomy\Entity\Vocabulary;
 use Drupal\taxonomy\Entity\Term;
+use Drupal\taxonomy\Entity\Vocabulary;
 use Drupal\Tests\contextual\FunctionalJavascript\ContextualLinkClickTrait;
 use Drupal\Tests\field\Traits\EntityReferenceTestTrait;
 

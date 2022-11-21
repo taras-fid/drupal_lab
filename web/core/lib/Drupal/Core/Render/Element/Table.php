@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Render\Element;
 
+use Drupal\Component\Utility\Html as HtmlUtility;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Render\Element;
-use Drupal\Component\Utility\Html as HtmlUtility;
 
 /**
  * Provides a render element for a table.

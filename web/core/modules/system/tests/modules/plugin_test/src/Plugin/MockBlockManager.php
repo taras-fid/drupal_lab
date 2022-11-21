@@ -2,10 +2,10 @@
 
 namespace Drupal\plugin_test\Plugin;
 
-use Drupal\Component\Plugin\PluginManagerBase;
-use Drupal\Component\Plugin\Discovery\StaticDiscovery;
 use Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator;
+use Drupal\Component\Plugin\Discovery\StaticDiscovery;
 use Drupal\Component\Plugin\Factory\ReflectionFactory;
+use Drupal\Component\Plugin\PluginManagerBase;
 use Drupal\Core\Plugin\Context\ContextDefinition;
 use Drupal\Core\Plugin\Context\EntityContextDefinition;
 use Drupal\Core\StringTranslation\StringTranslationTrait;

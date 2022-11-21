@@ -3,14 +3,14 @@
 namespace Drupal\FunctionalTests\Update;
 
 use Drupal\Component\Utility\Crypt;
-use Drupal\Core\Site\Settings;
-use Drupal\Core\Test\TestRunnerKernel;
-use Drupal\Tests\BrowserTestBase;
 use Drupal\Core\Database\Database;
 use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\Language\Language;
+use Drupal\Core\Site\Settings;
+use Drupal\Core\Test\TestRunnerKernel;
 use Drupal\Core\Url;
+use Drupal\Tests\BrowserTestBase;
 use Drupal\Tests\UpdatePathTestTrait;
 use Drupal\user\Entity\User;
 use Symfony\Component\DependencyInjection\Reference;

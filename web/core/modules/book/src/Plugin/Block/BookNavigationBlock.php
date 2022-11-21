@@ -2,15 +2,15 @@
 
 namespace Drupal\book\Plugin\Block;
 
-use Drupal\Core\Block\BlockBase;
 use Drupal\book\BookManagerInterface;
+use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Cache\Cache;
+use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
+use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\node\NodeInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\Core\Entity\EntityStorageInterface;
 
 /**
  * Provides a 'Book navigation' block.

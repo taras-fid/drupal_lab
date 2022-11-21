@@ -2,9 +2,9 @@
 
 namespace Drupal\aggregator_test\Plugin\aggregator\parser;
 
-use Drupal\aggregator\Plugin\ParserInterface;
 use Drupal\aggregator\FeedInterface;
 use Drupal\aggregator\Plugin\aggregator\parser\DefaultParser;
+use Drupal\aggregator\Plugin\ParserInterface;
 
 /**
  * Defines a Test parser implementation.

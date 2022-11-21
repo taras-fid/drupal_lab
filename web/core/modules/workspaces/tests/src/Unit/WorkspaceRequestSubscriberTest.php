@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\workspaces\Unit;
 
-use Drupal\path_alias\AliasManagerInterface;
 use Drupal\Core\Path\CurrentPathStack;
 use Drupal\Core\Routing\CacheableRouteProviderInterface;
 use Drupal\Core\Routing\RouteProviderInterface;
+use Drupal\path_alias\AliasManagerInterface;
 use Drupal\Tests\UnitTestCase;
 use Drupal\workspaces\EventSubscriber\WorkspaceRequestSubscriber;
 use Drupal\workspaces\WorkspaceInterface;

@@ -4,8 +4,8 @@ namespace Drupal\Tests\menu_link_content\Kernel;
 
 use Drupal\Core\Menu\MenuTreeParameters;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
-use Drupal\menu_link_content\Entity\MenuLinkContent;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\menu_link_content\Entity\MenuLinkContent;
 use Symfony\Component\Routing\Route;
 
 /**

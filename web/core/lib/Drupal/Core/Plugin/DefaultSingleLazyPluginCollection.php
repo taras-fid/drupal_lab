@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Plugin;
 
+use Drupal\Component\Plugin\LazyPluginCollection;
 use Drupal\Component\Plugin\PluginHelper;
 use Drupal\Component\Plugin\PluginManagerInterface;
-use Drupal\Component\Plugin\LazyPluginCollection;
 use Drupal\Core\DependencyInjection\DependencySerializationTrait;
 
 /**

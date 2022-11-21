@@ -3,10 +3,10 @@
 namespace Drupal\Tests\Core\Cache;
 
 use Drupal\Core\Cache\Cache;
-use Drupal\Tests\UnitTestCase;
-use Prophecy\Argument;
 use Drupal\Core\Cache\Context\CacheContextsManager;
 use Drupal\Core\DependencyInjection\Container;
+use Drupal\Tests\UnitTestCase;
+use Prophecy\Argument;
 
 /**
  * @coversDefaultClass \Drupal\Core\Cache\Cache

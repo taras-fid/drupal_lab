@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\language\Functional;
 
-use Drupal\Core\Url;
-use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\Core\Language\Language;
 use Drupal\Core\Language\LanguageInterface;
+use Drupal\Core\Url;
+use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\Tests\BrowserTestBase;
 
 /**

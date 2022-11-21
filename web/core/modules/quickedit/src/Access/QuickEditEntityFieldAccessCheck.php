@@ -3,9 +3,9 @@
 namespace Drupal\quickedit\Access;
 
 use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Routing\Access\AccessInterface;
 use Drupal\Core\Session\AccountInterface;
-use Drupal\Core\Entity\EntityInterface;
 
 /**
  * Access check for in-place editing entity fields.

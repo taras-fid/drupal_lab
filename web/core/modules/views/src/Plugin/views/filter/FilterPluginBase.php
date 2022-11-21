@@ -2,6 +2,7 @@
 
 namespace Drupal\views\Plugin\views\filter;
 
+use Drupal\Component\Utility\Html;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Cache\CacheableDependencyInterface;
 use Drupal\Core\Form\FormHelper;
@@ -9,9 +10,8 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Render\Element;
 use Drupal\Core\Render\Element\Checkboxes;
 use Drupal\user\RoleInterface;
-use Drupal\views\Plugin\views\HandlerBase;
-use Drupal\Component\Utility\Html;
 use Drupal\views\Plugin\views\display\DisplayPluginBase;
+use Drupal\views\Plugin\views\HandlerBase;
 use Drupal\views\ViewExecutable;
 
 /**

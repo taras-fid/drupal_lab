@@ -3,9 +3,9 @@
 namespace Drupal\Tests\field\Functional\Views;
 
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\node\Entity\NodeType;
 use Drupal\Tests\views\Functional\ViewTestBase;
-use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Provides some helper methods for testing fieldapi integration into views.

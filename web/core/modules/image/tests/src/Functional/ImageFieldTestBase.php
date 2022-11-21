@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\image\Functional;
 
-use Drupal\Tests\image\Kernel\ImageFieldCreationTrait;
 use Drupal\Tests\BrowserTestBase;
+use Drupal\Tests\image\Kernel\ImageFieldCreationTrait;
 
 /**
  * TODO: Test the following functions.

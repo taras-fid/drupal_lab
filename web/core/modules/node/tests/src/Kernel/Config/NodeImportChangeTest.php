@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\node\Kernel\Config;
 
-use Drupal\node\Entity\NodeType;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\node\Entity\NodeType;
 
 /**
  * Change content types during config create method invocation.

@@ -4,10 +4,10 @@ namespace Drupal\views\Plugin\views\field;
 
 use Drupal\Component\Utility\Xss as UtilityXss;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\views\Plugin\views\display\DisplayPluginBase;
 use Drupal\views\Render\ViewsRenderPipelineMarkup;
 use Drupal\views\ResultRow;
 use Drupal\views\ViewExecutable;
-use Drupal\views\Plugin\views\display\DisplayPluginBase;
 
 /**
  * A handler to provide proper displays for booleans.

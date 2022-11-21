@@ -2,12 +2,12 @@
 
 namespace Drupal\Core\Utility;
 
+use Drupal\Component\Render\MarkupInterface;
 use Drupal\Component\Serialization\Json;
 use Drupal\Component\Utility\Html;
-use Drupal\Component\Render\MarkupInterface;
 use Drupal\Core\Extension\ModuleHandlerInterface;
-use Drupal\Core\GeneratedLink;
 use Drupal\Core\GeneratedButton;
+use Drupal\Core\GeneratedLink;
 use Drupal\Core\GeneratedNoLink;
 use Drupal\Core\Link;
 use Drupal\Core\Render\RendererInterface;

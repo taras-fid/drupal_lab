@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\system\Functional\Rest;
 
-use Drupal\Tests\rest\Functional\EntityResource\ConfigEntityResourceTestBase;
 use Drupal\system\Entity\Action;
+use Drupal\Tests\rest\Functional\EntityResource\ConfigEntityResourceTestBase;
 use Drupal\user\RoleInterface;
 
 abstract class ActionResourceTestBase extends ConfigEntityResourceTestBase {

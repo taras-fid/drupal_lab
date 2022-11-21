@@ -2,13 +2,13 @@
 
 namespace Drupal\Tests\views\Functional\Entity;
 
+use Drupal\comment\Entity\Comment;
 use Drupal\comment\Tests\CommentTestTrait;
 use Drupal\node\Entity\Node;
-use Drupal\user\Entity\User;
 use Drupal\Tests\views\Functional\ViewTestBase;
+use Drupal\user\Entity\User;
 use Drupal\views\Tests\ViewTestData;
 use Drupal\views\Views;
-use Drupal\comment\Entity\Comment;
 
 /**
  * Tests the field plugin base integration with the entity system.

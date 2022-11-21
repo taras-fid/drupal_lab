@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\content_translation\Functional;
 
-use Drupal\Component\Render\FormattableMarkup;
 use Drupal\comment\Plugin\Field\FieldType\CommentItemInterface;
 use Drupal\comment\Tests\CommentTestTrait;
+use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Core\Field\Entity\BaseFieldOverride;
 use Drupal\Core\Language\Language;
 use Drupal\field\Entity\FieldConfig;

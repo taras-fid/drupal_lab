@@ -5,9 +5,9 @@ namespace Drupal\path_alias\EventSubscriber;
 use Drupal\Core\Path\CurrentPathStack;
 use Drupal\path_alias\AliasManagerInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\HttpKernel\Event\ControllerEvent;
 use Symfony\Component\HttpKernel\Event\TerminateEvent;
+use Symfony\Component\HttpKernel\KernelEvents;
 
 /**
  * Provides a path subscriber that converts path aliases.

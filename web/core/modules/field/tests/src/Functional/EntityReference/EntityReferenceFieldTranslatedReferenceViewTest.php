@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\field\Functional\EntityReference;
 
-use Drupal\field\Entity\FieldConfig;
-use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
-use Drupal\Tests\BrowserTestBase;
+use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\language\Entity\ConfigurableLanguage;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests the translation of entity reference field display on nodes.

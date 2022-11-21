@@ -2,8 +2,8 @@
 
 namespace Drupal\system\Plugin\migrate\source;
 
-use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 use Drupal\migrate\Row;
+use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 
 /**
  * Drupal action source from database.

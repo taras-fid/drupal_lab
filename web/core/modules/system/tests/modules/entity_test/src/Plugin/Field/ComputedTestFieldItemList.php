@@ -2,8 +2,8 @@
 
 namespace Drupal\entity_test\Plugin\Field;
 
-use Drupal\Core\TypedData\ComputedItemListTrait;
 use Drupal\Core\Field\FieldItemList;
+use Drupal\Core\TypedData\ComputedItemListTrait;
 
 /**
  * A computed field item list.

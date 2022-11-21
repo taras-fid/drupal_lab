@@ -3,9 +3,9 @@
 namespace Drupal\FunctionalTests\Installer;
 
 use Drupal\Core\Database\Database;
+use Drupal\Core\Extension\ModuleUninstallValidatorException;
 use Drupal\Core\Routing\RoutingEvents;
 use Drupal\Core\Test\PerformanceTestRecorder;
-use Drupal\Core\Extension\ModuleUninstallValidatorException;
 
 /**
  * Tests the interactive installer.

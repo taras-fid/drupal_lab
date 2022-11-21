@@ -2,8 +2,8 @@
 
 namespace Drupal\editor_test\EditorXssFilter;
 
-use Drupal\filter\FilterFormatInterface;
 use Drupal\editor\EditorXssFilterInterface;
+use Drupal\filter\FilterFormatInterface;
 
 /**
  * Defines an insecure text editor XSS filter (for testing purposes).

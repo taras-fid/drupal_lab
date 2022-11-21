@@ -2,8 +2,8 @@
 
 namespace Drupal\comment;
 
-use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\ContentEntityStorageInterface;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\FieldableEntityInterface;
 
 /**

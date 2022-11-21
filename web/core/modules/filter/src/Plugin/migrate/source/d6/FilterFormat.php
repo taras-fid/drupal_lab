@@ -2,8 +2,8 @@
 
 namespace Drupal\filter\Plugin\migrate\source\d6;
 
-use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 use Drupal\migrate\Row;
+use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 
 /**
  * Drupal 6 filter source from database.

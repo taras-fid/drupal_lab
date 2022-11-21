@@ -3,8 +3,8 @@
 namespace Drupal\Tests\views\Unit;
 
 use Drupal\Tests\UnitTestCase;
-use Drupal\views\ViewsDataHelper;
 use Drupal\views\Tests\ViewTestData;
+use Drupal\views\ViewsDataHelper;
 
 /**
  * @coversDefaultClass \Drupal\views\ViewsDataHelper

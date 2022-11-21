@@ -3,6 +3,7 @@
 namespace Drupal\Tests\content_moderation\Unit;
 
 use Drupal\content_moderation\Entity\Handler\ModerationHandler;
+use Drupal\content_moderation\ModerationInformation;
 use Drupal\Core\Entity\ContentEntityInterface;
 use Drupal\Core\Entity\ContentEntityType;
 use Drupal\Core\Entity\EntityStorageInterface;
@@ -10,7 +11,6 @@ use Drupal\Core\Entity\EntityTypeBundleInfoInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Session\AccountInterface;
-use Drupal\content_moderation\ModerationInformation;
 use Drupal\Tests\UnitTestCase;
 use Drupal\workflows\WorkflowInterface;
 use Prophecy\Argument;

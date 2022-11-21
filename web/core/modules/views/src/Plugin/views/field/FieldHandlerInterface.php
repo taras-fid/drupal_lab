@@ -2,8 +2,8 @@
 
 namespace Drupal\views\Plugin\views\field;
 
-use Drupal\views\ResultRow;
 use Drupal\views\Plugin\views\ViewsHandlerInterface;
+use Drupal\views\ResultRow;
 
 /**
  * Base field handler that has no options and renders an unformatted field.

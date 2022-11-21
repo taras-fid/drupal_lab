@@ -5,7 +5,7 @@
  * Allows users to change the color scheme of themes.
  */
 
-use Drupal\Core\Url;
+use Drupal\color\ColorSystemBrandingBlockAlter;
 use Drupal\Component\Utility\Bytes;
 use Drupal\Component\Utility\Color;
 use Drupal\Component\Utility\Environment;
@@ -17,7 +17,7 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Render\Element\Textfield;
 use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\color\ColorSystemBrandingBlockAlter;
+use Drupal\Core\Url;
 
 /**
  * Implements hook_help().

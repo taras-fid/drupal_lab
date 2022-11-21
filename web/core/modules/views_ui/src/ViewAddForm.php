@@ -3,8 +3,8 @@
 namespace Drupal\views_ui;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\views\Plugin\views\wizard\WizardPluginBase;
 use Drupal\views\Plugin\views\wizard\WizardException;
+use Drupal\views\Plugin\views\wizard\WizardPluginBase;
 use Drupal\views\Plugin\ViewsPluginManager;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

@@ -2,8 +2,8 @@
 
 namespace Drupal\file\Plugin\Field\FieldType;
 
-use Drupal\Component\Utility\Bytes;
 use Drupal\Component\Render\PlainTextOutput;
+use Drupal\Component\Utility\Bytes;
 use Drupal\Component\Utility\Environment;
 use Drupal\Component\Utility\Random;
 use Drupal\Core\Field\FieldDefinitionInterface;

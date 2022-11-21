@@ -4,11 +4,11 @@ namespace Drupal\Tests\field_layout\Unit;
 
 use Drupal\Core\Entity\EntityFieldManagerInterface;
 use Drupal\Core\Field\FieldDefinitionInterface;
-use Drupal\field_layout\Display\EntityDisplayWithLayoutInterface;
-use Drupal\field_layout\FieldLayoutBuilder;
-use Drupal\Core\Layout\LayoutPluginManagerInterface;
 use Drupal\Core\Layout\LayoutDefault;
 use Drupal\Core\Layout\LayoutDefinition;
+use Drupal\Core\Layout\LayoutPluginManagerInterface;
+use Drupal\field_layout\Display\EntityDisplayWithLayoutInterface;
+use Drupal\field_layout\FieldLayoutBuilder;
 use Drupal\Tests\UnitTestCase;
 use Prophecy\Argument;
 

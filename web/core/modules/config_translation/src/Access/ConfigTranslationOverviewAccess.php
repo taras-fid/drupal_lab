@@ -3,10 +3,10 @@
 namespace Drupal\config_translation\Access;
 
 use Drupal\config_translation\ConfigMapperInterface;
-use Drupal\config_translation\Exception\ConfigMapperLanguageException;
-use Drupal\Core\Language\LanguageManagerInterface;
 use Drupal\config_translation\ConfigMapperManagerInterface;
+use Drupal\config_translation\Exception\ConfigMapperLanguageException;
 use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Language\LanguageManagerInterface;
 use Drupal\Core\Routing\Access\AccessInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Session\AccountInterface;

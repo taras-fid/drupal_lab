@@ -2,8 +2,8 @@
 
 namespace Drupal\hold_test\EventSubscriber;
 
-use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+use Symfony\Component\HttpKernel\KernelEvents;
 
 /**
  * Response subscriber to test hold.

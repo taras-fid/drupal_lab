@@ -4,8 +4,8 @@ namespace Drupal\content_moderation\Plugin\Field\FieldFormatter;
 
 use Drupal\content_moderation\ModerationInformationInterface;
 use Drupal\Core\Field\FieldDefinitionInterface;
-use Drupal\Core\Field\FormatterBase;
 use Drupal\Core\Field\FieldItemListInterface;
+use Drupal\Core\Field\FormatterBase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

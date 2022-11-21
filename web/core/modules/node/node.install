@@ -5,8 +5,8 @@
  * Install, update and uninstall functions for the node module.
  */
 
-use Drupal\Core\Url;
 use Drupal\Core\Database\Database;
+use Drupal\Core\Url;
 use Drupal\user\RoleInterface;
 
 /**

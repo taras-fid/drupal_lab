@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\aggregator\Functional;
 
-use Drupal\Component\Render\FormattableMarkup;
 use Drupal\aggregator\Entity\Feed;
 use Drupal\aggregator\Entity\Item;
+use Drupal\Component\Render\FormattableMarkup;
 
 /**
  * Update feed items from a feed.

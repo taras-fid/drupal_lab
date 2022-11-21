@@ -2,12 +2,12 @@
 
 namespace Drupal\Core\ImageToolkit;
 
-use Drupal\Core\Cache\CacheBackendInterface;
-use Drupal\Core\Extension\ModuleHandlerInterface;
-use Drupal\Core\Plugin\DefaultPluginManager;
 use Drupal\Component\Plugin\Exception\PluginNotFoundException;
 use Drupal\Component\Plugin\Factory\DefaultFactory;
 use Drupal\Component\Render\FormattableMarkup;
+use Drupal\Core\Cache\CacheBackendInterface;
+use Drupal\Core\Extension\ModuleHandlerInterface;
+use Drupal\Core\Plugin\DefaultPluginManager;
 use Psr\Log\LoggerInterface;
 
 /**

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\comment\Functional\Views;
 
-use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\comment\Entity\Comment;
+use Drupal\language\Entity\ConfigurableLanguage;
 
 /**
  * Tests comment field filters with translations.

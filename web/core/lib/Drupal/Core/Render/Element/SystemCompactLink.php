@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Render\Element;
 
+use Drupal\Component\Utility\NestedArray;
 use Drupal\Core\Link as BaseLink;
 use Drupal\Core\Url as BaseUrl;
-use Drupal\Component\Utility\NestedArray;
 
 /**
  * Provides a link to show or hide help text on administration pages.

@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\views\FunctionalJavascript\Plugin\views\Handler;
 
-use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
 use Drupal\node\Entity\NodeType;
+use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\views\Tests\ViewTestData;
 
 /**

@@ -2,8 +2,8 @@
 
 namespace Drupal\user;
 
-use Drupal\Core\Discovery\YamlDiscovery;
 use Drupal\Core\Controller\ControllerResolverInterface;
+use Drupal\Core\Discovery\YamlDiscovery;
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\Core\StringTranslation\TranslationInterface;

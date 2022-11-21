@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Entity\Plugin\DataType;
 
-use Drupal\Core\Entity\FieldableEntityInterface;
 use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Entity\FieldableEntityInterface;
 use Drupal\Core\Entity\TypedData\EntityDataDefinition;
 use Drupal\Core\TypedData\ComplexDataInterface;
 use Drupal\Core\TypedData\Exception\MissingDataException;

@@ -2,13 +2,13 @@
 
 namespace Drupal\Tests\demo_umami\Functional;
 
+use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Core\Config\FileStorage;
 use Drupal\Core\Config\InstallStorage;
 use Drupal\Core\Config\StorageInterface;
+use Drupal\Core\Session\AccountInterface;
 use Drupal\KernelTests\AssertConfigTrait;
 use Drupal\Tests\BrowserTestBase;
-use Drupal\Core\Session\AccountInterface;
-use Drupal\Component\Render\FormattableMarkup;
 
 /**
  * Tests demo_umami profile.

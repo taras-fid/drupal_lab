@@ -2,6 +2,7 @@
 
 namespace Drupal\forum;
 
+use Drupal\comment\CommentManagerInterface;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Database\Connection;
 use Drupal\Core\Database\Query\PagerSelectExtender;
@@ -10,9 +11,8 @@ use Drupal\Core\DependencyInjection\DependencySerializationTrait;
 use Drupal\Core\Entity\EntityFieldManagerInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Session\AccountInterface;
-use Drupal\Core\StringTranslation\TranslationInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
-use Drupal\comment\CommentManagerInterface;
+use Drupal\Core\StringTranslation\TranslationInterface;
 use Drupal\node\NodeInterface;
 
 /**

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\user\Unit\Plugin\migrate\process;
 
-use Drupal\user\Plugin\migrate\process\ConvertTokens;
 use Drupal\Tests\migrate\Unit\process\MigrateProcessTestCase;
+use Drupal\user\Plugin\migrate\process\ConvertTokens;
 
 /**
  * Tests the ConvertTokens plugin.

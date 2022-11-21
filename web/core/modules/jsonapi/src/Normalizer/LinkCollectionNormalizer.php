@@ -5,8 +5,8 @@ namespace Drupal\jsonapi\Normalizer;
 use Drupal\Component\Utility\Crypt;
 use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Session\AccountInterface;
-use Drupal\jsonapi\JsonApiResource\LinkCollection;
 use Drupal\jsonapi\JsonApiResource\Link;
+use Drupal\jsonapi\JsonApiResource\LinkCollection;
 use Drupal\jsonapi\Normalizer\Value\CacheableNormalization;
 use Drupal\jsonapi\Normalizer\Value\CacheableOmission;
 

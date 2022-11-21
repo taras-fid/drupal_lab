@@ -4,11 +4,11 @@ namespace Drupal\update;
 
 use Drupal\Component\Utility\Crypt;
 use Drupal\Core\Config\ConfigFactoryInterface;
-use Drupal\Core\KeyValueStore\KeyValueFactoryInterface;
 use Drupal\Core\KeyValueStore\KeyValueExpirableFactoryInterface;
-use Drupal\Core\State\StateInterface;
+use Drupal\Core\KeyValueStore\KeyValueFactoryInterface;
 use Drupal\Core\PrivateKey;
 use Drupal\Core\Queue\QueueFactory;
+use Drupal\Core\State\StateInterface;
 
 /**
  * Process project update information.

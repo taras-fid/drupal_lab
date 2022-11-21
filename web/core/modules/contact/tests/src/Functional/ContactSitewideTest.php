@@ -3,12 +3,12 @@
 namespace Drupal\Tests\contact\Functional;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\Core\Url;
 use Drupal\contact\Entity\ContactForm;
+use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Mail\MailFormatHelper;
 use Drupal\Core\Test\AssertMailTrait;
+use Drupal\Core\Url;
 use Drupal\Tests\BrowserTestBase;
-use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Tests\field_ui\Traits\FieldUiTestTrait;
 use Drupal\user\RoleInterface;
 

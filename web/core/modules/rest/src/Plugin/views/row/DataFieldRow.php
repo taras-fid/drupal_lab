@@ -3,9 +3,9 @@
 namespace Drupal\rest\Plugin\views\row;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\views\ViewExecutable;
 use Drupal\views\Plugin\views\display\DisplayPluginBase;
 use Drupal\views\Plugin\views\row\RowPluginBase;
+use Drupal\views\ViewExecutable;
 
 /**
  * Plugin which displays fields as raw data.

@@ -3,9 +3,9 @@
 namespace Drupal\Core\EventSubscriber;
 
 use Drupal\Core\Entity\EntityResolverManager;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use Drupal\Core\Routing\RoutingEvents;
 use Drupal\Core\Routing\RouteBuildEvent;
+use Drupal\Core\Routing\RoutingEvents;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * Registers the 'type' of route parameter names that match an entity type.

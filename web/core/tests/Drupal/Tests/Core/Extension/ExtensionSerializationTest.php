@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\Core\Extension;
 
-use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Extension\Extension;
 use Drupal\Core\DependencyInjection\ContainerBuilder;
+use Drupal\Core\Extension\Extension;
+use Drupal\Tests\UnitTestCase;
 use org\bovigo\vfs\vfsStream;
 
 /**

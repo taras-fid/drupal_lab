@@ -4,10 +4,10 @@ namespace Drupal\Tests\config\Functional;
 
 use Drupal\Component\Utility\Crypt;
 use Drupal\Component\Uuid\Uuid;
-use Drupal\Core\Config\InstallStorage;
-use Drupal\Tests\BrowserTestBase;
 use Drupal\Core\Config\FileStorage;
+use Drupal\Core\Config\InstallStorage;
 use Drupal\system\Entity\Action;
+use Drupal\Tests\BrowserTestBase;
 use Drupal\tour\Entity\Tour;
 use Drupal\user\Entity\Role;
 

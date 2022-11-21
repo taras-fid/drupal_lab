@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Session;
 
-use Drupal\Core\PrivateKey;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Cache\CacheBackendInterface;
+use Drupal\Core\PrivateKey;
 use Drupal\Core\Site\Settings;
 
 /**

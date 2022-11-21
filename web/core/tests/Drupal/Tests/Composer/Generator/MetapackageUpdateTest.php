@@ -7,7 +7,6 @@ use Drupal\Composer\Generator\Builder\DrupalDevDependenciesBuilder;
 use Drupal\Composer\Generator\Builder\DrupalPinnedDevDependenciesBuilder;
 use Drupal\Composer\Generator\PackageGenerator;
 use Drupal\Composer\Generator\Util\DrupalCoreComposer;
-
 use PHPUnit\Framework\TestCase;
 
 /**

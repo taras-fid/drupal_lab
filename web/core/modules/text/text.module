@@ -5,10 +5,10 @@
  * Defines simple text field types.
  */
 
-use Drupal\Core\Url;
 use Drupal\Component\Utility\Html;
 use Drupal\Component\Utility\Unicode;
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
 use Drupal\filter\Entity\FilterFormat;
 
 /**

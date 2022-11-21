@@ -3,8 +3,8 @@
 namespace Drupal\Tests\views\Kernel\Plugin;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\views\Views;
 use Drupal\views\ViewExecutable;
+use Drupal\views\Views;
 
 /**
  * Tests mapping style functionality.

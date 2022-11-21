@@ -3,9 +3,9 @@
 namespace Drupal\views_ui\Form\Ajax;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\views\Views;
 use Drupal\views\ViewEntityInterface;
 use Drupal\views\ViewExecutable;
+use Drupal\views\Views;
 
 /**
  * Provides a form for configuring grouping information for a Views UI handler.

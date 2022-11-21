@@ -2,8 +2,8 @@
 
 namespace Drupal\contact\Entity;
 
-use Drupal\Core\Config\Entity\ConfigEntityBundleBase;
 use Drupal\contact\ContactFormInterface;
+use Drupal\Core\Config\Entity\ConfigEntityBundleBase;
 use Drupal\Core\Url;
 
 /**

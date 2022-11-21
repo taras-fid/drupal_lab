@@ -3,8 +3,8 @@
 namespace Drupal\file\Plugin\views\argument;
 
 use Drupal\Core\Entity\EntityTypeManagerInterface;
-use Drupal\views\Plugin\views\argument\NumericArgument;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
+use Drupal\views\Plugin\views\argument\NumericArgument;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

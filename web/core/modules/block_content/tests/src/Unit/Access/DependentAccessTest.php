@@ -3,9 +3,9 @@
 namespace Drupal\Tests\block_content\Unit\Access;
 
 use Drupal\block_content\Access\AccessGroupAnd;
-use Drupal\Core\Access\AccessResult;
 use Drupal\block_content\Access\RefinableDependentAccessInterface;
 use Drupal\block_content\Access\RefinableDependentAccessTrait;
+use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Tests\UnitTestCase;
 

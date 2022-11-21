@@ -3,9 +3,9 @@
 namespace Drupal\views\Plugin\Block;
 
 use Drupal\Component\Utility\Xss;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\views\Element\View;
-use Drupal\Core\Entity\EntityInterface;
 
 /**
  * Provides a generic Views block.

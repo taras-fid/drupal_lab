@@ -7,9 +7,9 @@
 
 namespace Drupal\Tests\views\Unit\Plugin\pager;
 
-use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Database\StatementInterface;
 use Drupal\Core\Database\Query\Select;
+use Drupal\Core\Database\StatementInterface;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\views\Plugin\views\pager\PagerPluginBase

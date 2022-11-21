@@ -3,8 +3,8 @@
 namespace Drupal\Tests\comment\Functional\Views;
 
 use Drupal\comment\Tests\CommentTestTrait;
-use Drupal\views\Views;
 use Drupal\Tests\views\Functional\Wizard\WizardTestBase;
+use Drupal\views\Views;
 
 /**
  * Tests the comment module integration into the wizard.

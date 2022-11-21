@@ -3,8 +3,8 @@
 namespace Drupal\Tests\content_translation\Kernel\Migrate\d6;
 
 use Drupal\taxonomy\Entity\Term;
-use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 use Drupal\taxonomy\TermInterface;
+use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 
 /**
  * Test migration of translated taxonomy terms.

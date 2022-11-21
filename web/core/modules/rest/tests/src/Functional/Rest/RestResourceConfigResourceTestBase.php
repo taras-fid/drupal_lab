@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\rest\Functional\Rest;
 
-use Drupal\Tests\rest\Functional\EntityResource\ConfigEntityResourceTestBase;
 use Drupal\rest\Entity\RestResourceConfig;
+use Drupal\Tests\rest\Functional\EntityResource\ConfigEntityResourceTestBase;
 
 abstract class RestResourceConfigResourceTestBase extends ConfigEntityResourceTestBase {
 

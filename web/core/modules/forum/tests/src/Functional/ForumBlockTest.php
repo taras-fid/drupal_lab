@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\forum\Functional;
 
+use Drupal\comment\Entity\Comment;
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Core\Datetime\DrupalDateTime;
-use Drupal\comment\Entity\Comment;
 use Drupal\Tests\BrowserTestBase;
 
 /**

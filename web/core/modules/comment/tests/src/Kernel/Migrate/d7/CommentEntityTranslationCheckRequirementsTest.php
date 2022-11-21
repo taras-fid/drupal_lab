@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\comment\Kernel\Migrate\d7;
 
-use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 use Drupal\migrate\Exception\RequirementsException;
+use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 
 /**
  * Tests check requirements for comment entity translation source plugin.

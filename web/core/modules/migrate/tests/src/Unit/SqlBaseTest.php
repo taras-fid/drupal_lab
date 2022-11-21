@@ -7,8 +7,8 @@
 
 namespace Drupal\Tests\migrate\Unit;
 
-use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\Plugin\migrate\source\SqlBase;
+use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\Tests\UnitTestCase;
 
 /**

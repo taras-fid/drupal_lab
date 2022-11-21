@@ -2,12 +2,12 @@
 
 namespace Drupal\Tests\Core\EventSubscriber;
 
+use Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher as EventDispatcher;
 use Drupal\Core\EventSubscriber\RedirectResponseSubscriber;
 use Drupal\Core\Routing\TrustedRedirectResponse;
 use Drupal\Core\Utility\UnroutedUrlAssemblerInterface;
 use Drupal\Tests\UnitTestCase;
 use Symfony\Component\DependencyInjection\Container;
-use Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher as EventDispatcher;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\ResponseEvent;

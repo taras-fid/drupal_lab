@@ -3,8 +3,8 @@
 namespace Drupal\Tests\comment\Kernel\Views;
 
 use Drupal\comment\CommentManagerInterface;
-use Drupal\Core\Session\AnonymousUserSession;
 use Drupal\Core\Link;
+use Drupal\Core\Session\AnonymousUserSession;
 use Drupal\Core\Url;
 use Drupal\entity_test\Entity\EntityTest;
 use Drupal\field\Entity\FieldConfig;

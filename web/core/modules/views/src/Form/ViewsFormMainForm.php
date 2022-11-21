@@ -7,9 +7,9 @@ use Drupal\Component\Utility\Html;
 use Drupal\Core\Form\FormInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Security\TrustedCallbackInterface;
+use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\views\Render\ViewsRenderPipelineMarkup;
 use Drupal\views\ViewExecutable;
-use Drupal\Core\StringTranslation\StringTranslationTrait;
 
 class ViewsFormMainForm implements FormInterface, TrustedCallbackInterface {
 

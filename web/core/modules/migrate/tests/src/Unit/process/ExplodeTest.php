@@ -3,8 +3,8 @@
 namespace Drupal\Tests\migrate\Unit\process;
 
 use Drupal\migrate\MigrateException;
-use Drupal\migrate\Plugin\migrate\process\Explode;
 use Drupal\migrate\Plugin\migrate\process\Concat;
+use Drupal\migrate\Plugin\migrate\process\Explode;
 
 /**
  * Tests the Explode process plugin.

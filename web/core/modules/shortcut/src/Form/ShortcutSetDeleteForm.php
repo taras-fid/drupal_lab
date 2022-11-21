@@ -2,11 +2,11 @@
 
 namespace Drupal\shortcut\Form;
 
+use Drupal\Core\Database\Connection;
 use Drupal\Core\Entity\EntityDeleteForm;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\shortcut\ShortcutSetStorageInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Drupal\Core\Database\Connection;
 
 /**
  * Builds the shortcut set deletion form.

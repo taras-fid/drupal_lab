@@ -3,8 +3,8 @@
 namespace Drupal\user\Plugin\migrate\source;
 
 use Drupal\migrate\Exception\RequirementsException;
-use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 use Drupal\migrate\Row;
+use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 
 /**
  * Drupal 6/7 profile field source from database.

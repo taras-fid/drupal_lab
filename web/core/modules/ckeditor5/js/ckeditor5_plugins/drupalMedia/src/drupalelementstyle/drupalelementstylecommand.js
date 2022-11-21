@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { Command } from 'ckeditor5/src/core';
-import { getClosestElementWithElementStyleAttribute } from './utils';
-import { groupNameToModelAttributeKey } from '../utils';
+import {Command} from 'ckeditor5/src/core';
+import {getClosestElementWithElementStyleAttribute} from './utils';
+import {groupNameToModelAttributeKey} from '../utils';
 
 /**
  * @module drupalMedia/drupalelementstyle/drupalelementstylecommand

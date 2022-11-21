@@ -3,11 +3,11 @@
 namespace Drupal\Tests\node\Functional;
 
 use Drupal\Core\Entity\EntityInterface;
-use Drupal\Tests\content_translation\Functional\ContentTranslationUITestBase;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Url;
-use Drupal\node\Entity\Node;
 use Drupal\language\Entity\ConfigurableLanguage;
+use Drupal\node\Entity\Node;
+use Drupal\Tests\content_translation\Functional\ContentTranslationUITestBase;
 
 /**
  * Tests the Node Translation UI.

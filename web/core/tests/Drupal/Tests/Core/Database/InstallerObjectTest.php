@@ -3,10 +3,10 @@
 namespace Drupal\Tests\Core\Database;
 
 use Composer\Autoload\ClassLoader;
-use Drupal\mysql\Driver\Database\mysql\Install\Tasks as MysqlInstallTasks;
-use Drupal\Driver\Database\fake\Install\Tasks as FakeInstallTasks;
 use Drupal\Driver\Database\corefake\Install\Tasks as CustomCoreFakeInstallTasks;
+use Drupal\Driver\Database\fake\Install\Tasks as FakeInstallTasks;
 use Drupal\driver_test\Driver\Database\DrivertestMysql\Install\Tasks as DriverTestMysqlInstallTasks;
+use Drupal\mysql\Driver\Database\mysql\Install\Tasks as MysqlInstallTasks;
 use Drupal\Tests\UnitTestCase;
 
 /**

@@ -2,14 +2,14 @@
 
 namespace Drupal\Core\Render;
 
+use Drupal\Component\Utility\Html;
 use Drupal\Core\Asset\AssetCollectionRendererInterface;
 use Drupal\Core\Asset\AssetResolverInterface;
 use Drupal\Core\Asset\AttachedAssets;
 use Drupal\Core\Asset\AttachedAssetsInterface;
 use Drupal\Core\Config\ConfigFactoryInterface;
-use Drupal\Core\Form\EnforcedResponseException;
 use Drupal\Core\Extension\ModuleHandlerInterface;
-use Drupal\Component\Utility\Html;
+use Drupal\Core\Form\EnforcedResponseException;
 use Symfony\Component\HttpFoundation\RequestStack;
 
 /**

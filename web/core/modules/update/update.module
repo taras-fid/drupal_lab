@@ -13,9 +13,9 @@
 
 use Drupal\Core\File\Exception\FileException;
 use Drupal\Core\Link;
-use Drupal\Core\Url;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Site\Settings;
+use Drupal\Core\Url;
 use Drupal\update\UpdateFetcherInterface;
 use Drupal\update\UpdateManagerInterface;
 

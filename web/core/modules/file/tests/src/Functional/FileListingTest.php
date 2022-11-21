@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\file\Functional;
 
-use Drupal\node\Entity\Node;
-use Drupal\file\Entity\File;
 use Drupal\entity_test\Entity\EntityTestConstraints;
+use Drupal\file\Entity\File;
+use Drupal\node\Entity\Node;
 
 /**
  * Tests file listing page functionality.

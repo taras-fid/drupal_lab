@@ -33,8 +33,8 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 use Symfony\Component\HttpKernel\TerminableInterface;
-use TYPO3\PharStreamWrapper\Manager as PharStreamWrapperManager;
 use TYPO3\PharStreamWrapper\Behavior as PharStreamWrapperBehavior;
+use TYPO3\PharStreamWrapper\Manager as PharStreamWrapperManager;
 use TYPO3\PharStreamWrapper\PharStreamWrapper;
 
 /**

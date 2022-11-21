@@ -5,14 +5,14 @@
  * Controls the visual building blocks a page is constructed with.
  */
 
+use Drupal\block\Entity\Block;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Installer\InstallerKernel;
-use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Link;
+use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Url;
 use Drupal\language\ConfigurableLanguageInterface;
 use Drupal\system\Entity\Menu;
-use Drupal\block\Entity\Block;
 
 /**
  * Implements hook_help().

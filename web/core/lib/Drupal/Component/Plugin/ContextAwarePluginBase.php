@@ -2,10 +2,10 @@
 
 namespace Drupal\Component\Plugin;
 
+use Drupal\Component\Plugin\Context\Context;
 use Drupal\Component\Plugin\Context\ContextInterface;
 use Drupal\Component\Plugin\Definition\ContextAwarePluginDefinitionInterface;
 use Drupal\Component\Plugin\Exception\ContextException;
-use Drupal\Component\Plugin\Context\Context;
 use Symfony\Component\Validator\ConstraintViolationList;
 
 @trigger_error(__NAMESPACE__ . '\ContextAwarePluginBase is deprecated in drupal:9.1.0 and is removed from drupal:10.0.0 without replacement. See https://www.drupal.org/node/3120980', E_USER_DEPRECATED);

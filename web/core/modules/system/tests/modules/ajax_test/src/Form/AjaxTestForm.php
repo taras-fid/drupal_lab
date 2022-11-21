@@ -2,9 +2,9 @@
 
 namespace Drupal\ajax_test\Form;
 
-use Drupal\Core\Url;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Url;
 
 /**
  * Dummy form for testing DialogRenderer with _form routes.

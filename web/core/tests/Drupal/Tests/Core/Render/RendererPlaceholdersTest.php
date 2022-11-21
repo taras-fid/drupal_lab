@@ -11,8 +11,8 @@ use Drupal\Component\Utility\Crypt;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Render\Markup;
-use Drupal\Core\Security\TrustedCallbackInterface;
 use Drupal\Core\Render\RenderContext;
+use Drupal\Core\Security\TrustedCallbackInterface;
 
 /**
  * @coversDefaultClass \Drupal\Core\Render\Renderer

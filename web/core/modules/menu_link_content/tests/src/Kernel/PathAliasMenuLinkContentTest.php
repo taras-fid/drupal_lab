@@ -4,8 +4,8 @@ namespace Drupal\Tests\menu_link_content\Kernel;
 
 use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Core\Menu\MenuTreeParameters;
-use Drupal\menu_link_content\Entity\MenuLinkContent;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\menu_link_content\Entity\MenuLinkContent;
 use Drupal\Tests\Traits\Core\PathAliasTestTrait;
 
 /**

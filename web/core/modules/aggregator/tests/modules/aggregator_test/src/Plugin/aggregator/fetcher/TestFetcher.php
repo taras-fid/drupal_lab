@@ -2,9 +2,9 @@
 
 namespace Drupal\aggregator_test\Plugin\aggregator\fetcher;
 
-use Drupal\aggregator\Plugin\FetcherInterface;
-use Drupal\aggregator\Plugin\aggregator\fetcher\DefaultFetcher;
 use Drupal\aggregator\FeedInterface;
+use Drupal\aggregator\Plugin\aggregator\fetcher\DefaultFetcher;
+use Drupal\aggregator\Plugin\FetcherInterface;
 
 /**
  * Defines a test fetcher implementation.

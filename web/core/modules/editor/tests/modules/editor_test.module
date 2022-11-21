@@ -6,9 +6,9 @@
  */
 
 use Drupal\Core\Entity\EntityInterface;
-use Drupal\node\NodeInterface;
-use Drupal\filter\FilterFormatInterface;
 use Drupal\file\FileInterface;
+use Drupal\filter\FilterFormatInterface;
+use Drupal\node\NodeInterface;
 
 /**
  * Implements hook_entity_update().

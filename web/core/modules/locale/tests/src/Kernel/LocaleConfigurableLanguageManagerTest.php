@@ -3,8 +3,8 @@
 namespace Drupal\Tests\locale\Kernel;
 
 use Drupal\Core\Language\LanguageInterface;
-use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\language\Entity\ConfigurableLanguage;
 
 /**
  * Tests that the configurable language manager and locale operate correctly.

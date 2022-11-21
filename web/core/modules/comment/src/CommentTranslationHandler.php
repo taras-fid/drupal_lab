@@ -2,8 +2,8 @@
 
 namespace Drupal\comment;
 
-use Drupal\Core\Entity\EntityInterface;
 use Drupal\content_translation\ContentTranslationHandler;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Form\FormStateInterface;
 
 /**

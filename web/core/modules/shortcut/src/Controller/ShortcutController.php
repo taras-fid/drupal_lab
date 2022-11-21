@@ -3,8 +3,8 @@
 namespace Drupal\shortcut\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\shortcut\ShortcutSetInterface;
 use Drupal\shortcut\ShortcutInterface;
+use Drupal\shortcut\ShortcutSetInterface;
 
 /**
  * Provides route responses for taxonomy.module.

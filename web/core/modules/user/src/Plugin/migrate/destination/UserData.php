@@ -2,12 +2,12 @@
 
 namespace Drupal\user\Plugin\migrate\destination;
 
-use Drupal\migrate\Plugin\MigrationInterface;
-use Drupal\user\UserData as UserDataStorage;
-use Drupal\migrate\Row;
-use Drupal\migrate\Plugin\migrate\destination\DestinationBase;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
+use Drupal\migrate\Plugin\migrate\destination\DestinationBase;
+use Drupal\migrate\Plugin\MigrationInterface;
+use Drupal\migrate\Row;
+use Drupal\user\UserData as UserDataStorage;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * @MigrateDestination(

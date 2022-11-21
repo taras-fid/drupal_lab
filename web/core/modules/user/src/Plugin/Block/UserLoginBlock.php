@@ -4,13 +4,13 @@ namespace Drupal\user\Plugin\Block;
 
 use Drupal\Component\Utility\UrlHelper;
 use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\Core\Security\TrustedCallbackInterface;
 use Drupal\Core\Routing\RedirectDestinationTrait;
 use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\Core\Url;
+use Drupal\Core\Security\TrustedCallbackInterface;
 use Drupal\Core\Session\AccountInterface;
-use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Url;
 use Drupal\user\UserInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

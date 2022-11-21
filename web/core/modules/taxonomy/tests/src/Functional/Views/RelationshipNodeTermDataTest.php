@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\taxonomy\Functional\Views;
 
-use Drupal\views\Views;
 use Drupal\views\ViewExecutable;
+use Drupal\views\Views;
 
 /**
  * Tests the taxonomy term on node relationship handler.

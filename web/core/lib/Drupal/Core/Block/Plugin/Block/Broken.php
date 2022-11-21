@@ -6,8 +6,8 @@ use Drupal\Core\Block\BlockPluginInterface;
 use Drupal\Core\Block\BlockPluginTrait;
 use Drupal\Core\Cache\CacheableDependencyTrait;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Plugin\PluginBase;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
+use Drupal\Core\Plugin\PluginBase;
 use Drupal\Core\Session\AccountInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

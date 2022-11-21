@@ -3,12 +3,12 @@
 namespace Drupal\Tests\media\Kernel\Views;
 
 use Drupal\media\Entity\Media;
+use Drupal\Tests\media\Traits\MediaTypeCreationTrait;
 use Drupal\Tests\user\Traits\UserCreationTrait;
 use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Drupal\views\Tests\ViewResultAssertionTrait;
 use Drupal\views\Tests\ViewTestData;
 use Drupal\views\Views;
-use Drupal\Tests\media\Traits\MediaTypeCreationTrait;
 
 /**
  * Tests the media_revision_user field.

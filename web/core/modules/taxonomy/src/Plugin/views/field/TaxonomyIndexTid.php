@@ -3,11 +3,11 @@
 namespace Drupal\taxonomy\Plugin\views\field;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\views\ViewExecutable;
+use Drupal\taxonomy\VocabularyStorageInterface;
 use Drupal\views\Plugin\views\display\DisplayPluginBase;
 use Drupal\views\Plugin\views\field\PrerenderList;
+use Drupal\views\ViewExecutable;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Drupal\taxonomy\VocabularyStorageInterface;
 
 /**
  * Field handler to display all taxonomy terms of a node.

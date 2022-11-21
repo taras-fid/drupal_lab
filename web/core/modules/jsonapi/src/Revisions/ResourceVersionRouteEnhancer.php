@@ -7,8 +7,8 @@ use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Http\Exception\CacheableBadRequestHttpException;
 use Drupal\Core\Http\Exception\CacheableHttpException;
 use Drupal\Core\Routing\EnhancerInterface;
-use Drupal\jsonapi\Routing\Routes;
 use Drupal\Core\Routing\RouteObjectInterface;
+use Drupal\jsonapi\Routing\Routes;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 

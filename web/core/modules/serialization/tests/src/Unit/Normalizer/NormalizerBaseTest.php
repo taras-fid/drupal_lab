@@ -7,8 +7,8 @@
 
 namespace Drupal\Tests\serialization\Unit\Normalizer;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\serialization\Normalizer\NormalizerBase;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\serialization\Normalizer\NormalizerBase

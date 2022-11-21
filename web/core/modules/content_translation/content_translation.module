@@ -5,7 +5,6 @@
  * Allows entities to be translated into different languages.
  */
 
-use Drupal\Core\Url;
 use Drupal\content_translation\BundleTranslationSettingsInterface;
 use Drupal\content_translation\ContentTranslationManager;
 use Drupal\Core\Access\AccessResult;
@@ -18,6 +17,7 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
+use Drupal\Core\Url;
 use Drupal\language\ContentLanguageSettingsInterface;
 
 /**

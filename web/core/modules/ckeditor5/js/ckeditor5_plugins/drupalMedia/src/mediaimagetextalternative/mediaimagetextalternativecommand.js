@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { Command } from 'ckeditor5/src/core';
-import { getClosestSelectedDrupalMediaElement } from '../utils';
-import { METADATA_ERROR } from './utils';
+import {Command} from 'ckeditor5/src/core';
+import {getClosestSelectedDrupalMediaElement} from '../utils';
+import {METADATA_ERROR} from './utils';
 
 /**
  * The media image text alternative command.

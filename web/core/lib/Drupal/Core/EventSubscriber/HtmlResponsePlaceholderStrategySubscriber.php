@@ -4,9 +4,9 @@ namespace Drupal\Core\EventSubscriber;
 
 use Drupal\Core\Render\HtmlResponse;
 use Drupal\Core\Render\Placeholder\PlaceholderStrategyInterface;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\ResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * HTML response subscriber to allow for different placeholder strategies.

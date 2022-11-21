@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\field\Kernel\String;
 
+use Drupal\Component\Uuid\Uuid;
 use Drupal\entity_test\Entity\EntityTest;
 use Drupal\Tests\field\Kernel\FieldKernelTestBase;
-use Drupal\Component\Uuid\Uuid;
 
 /**
  * Tests the UUID field.

@@ -2,12 +2,12 @@
 
 namespace Drupal\content_translation\Plugin\Derivative;
 
-use Drupal\content_translation\ContentTranslationManagerInterface;
 use Drupal\Component\Plugin\Derivative\DeriverBase;
+use Drupal\content_translation\ContentTranslationManagerInterface;
 use Drupal\Core\Plugin\Discovery\ContainerDeriverInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\Core\StringTranslation\TranslationInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Provides dynamic local tasks for content translation.

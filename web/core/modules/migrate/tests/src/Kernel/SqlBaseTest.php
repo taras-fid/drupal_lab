@@ -7,11 +7,11 @@
 
 namespace Drupal\Tests\migrate\Kernel;
 
+use Drupal\Core\Database\Database;
 use Drupal\Core\Database\Query\ConditionInterface;
 use Drupal\Core\Database\Query\SelectInterface;
 use Drupal\Core\Database\StatementInterface;
 use Drupal\migrate\Exception\RequirementsException;
-use Drupal\Core\Database\Database;
 use Drupal\migrate\Plugin\migrate\source\SqlBase;
 use Drupal\migrate\Plugin\MigrationInterface;
 

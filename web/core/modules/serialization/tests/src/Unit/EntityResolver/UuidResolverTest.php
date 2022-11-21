@@ -3,8 +3,8 @@
 namespace Drupal\Tests\serialization\Unit\EntityResolver;
 
 use Drupal\Core\Entity\EntityRepositoryInterface;
-use Drupal\Tests\UnitTestCase;
 use Drupal\serialization\EntityResolver\UuidResolver;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\serialization\EntityResolver\UuidResolver

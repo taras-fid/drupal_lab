@@ -4,8 +4,8 @@ namespace Drupal\views\Plugin\views\cache;
 
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Cache\CacheableMetadata;
-use Drupal\views\Plugin\views\PluginBase;
 use Drupal\Core\Database\Query\SelectInterface;
+use Drupal\views\Plugin\views\PluginBase;
 use Drupal\views\ResultRow;
 
 /**

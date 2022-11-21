@@ -2,8 +2,8 @@
 
 namespace Drupal\config_translation\Plugin\Derivative;
 
-use Drupal\config_translation\ConfigMapperManagerInterface;
 use Drupal\Component\Plugin\Derivative\DeriverBase;
+use Drupal\config_translation\ConfigMapperManagerInterface;
 use Drupal\Core\Plugin\Discovery\ContainerDeriverInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

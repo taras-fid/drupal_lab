@@ -2,26 +2,26 @@
 
 namespace Drupal\quickedit;
 
+use Drupal\Core\Ajax\AjaxResponse;
 use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Entity\EntityDisplayRepositoryInterface;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityRepositoryInterface;
 use Drupal\Core\Form\FormState;
 use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\TempStore\PrivateTempStoreFactory;
 use Drupal\filter\Plugin\FilterInterface;
+use Drupal\quickedit\Ajax\EntitySavedCommand;
+use Drupal\quickedit\Ajax\FieldFormCommand;
+use Drupal\quickedit\Ajax\FieldFormSavedCommand;
+use Drupal\quickedit\Ajax\FieldFormValidationErrorsCommand;
+use Drupal\quickedit\Ajax\GetUntransformedTextCommand;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Drupal\Core\Ajax\AjaxResponse;
-use Drupal\Core\Entity\EntityInterface;
-use Drupal\Core\Entity\EntityDisplayRepositoryInterface;
-use Drupal\quickedit\Ajax\FieldFormCommand;
-use Drupal\quickedit\Ajax\FieldFormSavedCommand;
-use Drupal\quickedit\Ajax\FieldFormValidationErrorsCommand;
-use Drupal\quickedit\Ajax\EntitySavedCommand;
-use Drupal\quickedit\Ajax\GetUntransformedTextCommand;
 
 /**
  * Returns responses for Quick Edit module routes.

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\system\Kernel\Migrate\d7;
 
-use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
+use Drupal\Tests\SchemaCheckTestTrait;
 
 /**
  * Upgrade variables to null.

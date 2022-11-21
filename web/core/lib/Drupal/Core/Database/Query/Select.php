@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Database\Query;
 
-use Drupal\Core\Database\Database;
 use Drupal\Core\Database\Connection;
+use Drupal\Core\Database\Database;
 
 /**
  * Query builder for SELECT statements.

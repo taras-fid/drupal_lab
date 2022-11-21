@@ -4,8 +4,8 @@ namespace Drupal\migrate\Plugin;
 
 use Drupal\Core\Cache\CacheBackendInterface;
 use Drupal\Core\Extension\ModuleHandlerInterface;
-use Drupal\migrate\Plugin\Discovery\AnnotatedClassDiscoveryAutomatedProviders;
 use Drupal\Core\Plugin\Discovery\ContainerDerivativeDiscoveryDecorator;
+use Drupal\migrate\Plugin\Discovery\AnnotatedClassDiscoveryAutomatedProviders;
 use Drupal\migrate\Plugin\Discovery\ProviderFilterDecorator;
 
 /**

@@ -5,8 +5,8 @@ namespace Drupal\editor\EventSubscriber;
 use Drupal\config_translation\ConfigEntityMapper;
 use Drupal\config_translation\Event\ConfigMapperPopulateEvent;
 use Drupal\config_translation\Event\ConfigTranslationEvents;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Drupal\Core\Config\ConfigFactoryInterface;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * Adds configuration names to configuration mapper on POPULATE_MAPPER event.

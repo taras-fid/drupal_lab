@@ -2,8 +2,8 @@
 
 namespace Drupal\views_test_data\Plugin\views\style;
 
-use Drupal\views\Plugin\views\style\Mapping;
 use Drupal\views\Plugin\views\field\NumericField;
+use Drupal\views\Plugin\views\style\Mapping;
 
 /**
  * Provides a test plugin for the mapping style.

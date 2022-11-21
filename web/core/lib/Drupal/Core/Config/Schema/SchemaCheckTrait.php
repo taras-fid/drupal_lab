@@ -6,9 +6,9 @@ use Drupal\Core\Config\TypedConfigManagerInterface;
 use Drupal\Core\TypedData\PrimitiveInterface;
 use Drupal\Core\TypedData\TraversableTypedDataInterface;
 use Drupal\Core\TypedData\Type\BooleanInterface;
-use Drupal\Core\TypedData\Type\StringInterface;
 use Drupal\Core\TypedData\Type\FloatInterface;
 use Drupal\Core\TypedData\Type\IntegerInterface;
+use Drupal\Core\TypedData\Type\StringInterface;
 
 /**
  * Provides a trait for checking configuration schema.

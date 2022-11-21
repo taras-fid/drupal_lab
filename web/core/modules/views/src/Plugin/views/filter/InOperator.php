@@ -5,9 +5,9 @@ namespace Drupal\views\Plugin\views\filter;
 use Drupal\Component\Render\MarkupInterface;
 use Drupal\Component\Utility\Unicode;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Form\OptGroup;
 use Drupal\views\Plugin\views\display\DisplayPluginBase;
 use Drupal\views\ViewExecutable;
-use Drupal\Core\Form\OptGroup;
 
 /**
  * Simple filter to handle matching of multiple options selectable via checkboxes.

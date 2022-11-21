@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\taxonomy\Functional\Views;
 
-use Drupal\views\Views;
 use Drupal\taxonomy\Entity\Vocabulary;
+use Drupal\views\Views;
 
 /**
  * Tests the "All terms" taxonomy term field handler.

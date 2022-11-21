@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\locale\Functional;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\node\NodeInterface;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests you can enable multilingual support on content types and configure a

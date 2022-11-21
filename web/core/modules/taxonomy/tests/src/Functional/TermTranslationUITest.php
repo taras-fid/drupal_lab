@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\taxonomy\Functional;
 
-use Drupal\Tests\content_translation\Functional\ContentTranslationUITestBase;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\taxonomy\Entity\Vocabulary;
+use Drupal\Tests\content_translation\Functional\ContentTranslationUITestBase;
 
 /**
  * Tests the Term Translation UI.

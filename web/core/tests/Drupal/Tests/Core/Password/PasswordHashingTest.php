@@ -7,8 +7,8 @@
 
 namespace Drupal\Tests\Core\Password;
 
-use Drupal\Core\Password\PhpassHashedPassword;
 use Drupal\Core\Password\PasswordInterface;
+use Drupal\Core\Password\PhpassHashedPassword;
 use Drupal\Tests\UnitTestCase;
 
 /**

@@ -8,12 +8,12 @@
 use Drupal\Component\Utility\Crypt;
 use Drupal\Core\Http\InputBag;
 use Drupal\Core\Logger\RfcLogLevel;
+use Drupal\Core\StringTranslation\TranslatableMarkup;
 use Drupal\Core\Test\TestDatabase;
 use Drupal\Core\Utility\Error;
-use Drupal\Core\StringTranslation\TranslatableMarkup;
 use Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException;
-use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\InputBag as SymfonyInputBag;
+use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Minimum allowed version of PHP for Drupal to be bootstrapped.

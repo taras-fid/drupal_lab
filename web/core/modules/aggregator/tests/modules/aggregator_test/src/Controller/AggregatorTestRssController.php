@@ -3,10 +3,10 @@
 namespace Drupal\aggregator_test\Controller;
 
 use Drupal\Component\Datetime\DateTimePlus;
-use Drupal\Core\Controller\ControllerBase;
 use Drupal\Component\Utility\Crypt;
-use Symfony\Component\HttpFoundation\Response;
+use Drupal\Core\Controller\ControllerBase;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 /**
  * Controller for the aggregator_test module.

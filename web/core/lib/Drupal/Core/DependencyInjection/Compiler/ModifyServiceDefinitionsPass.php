@@ -2,10 +2,10 @@
 
 namespace Drupal\Core\DependencyInjection\Compiler;
 
-use Drupal\Core\DrupalKernelInterface;
 use Drupal\Core\DependencyInjection\ServiceModifierInterface;
-use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Drupal\Core\DrupalKernelInterface;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
  * Passes the container to the alter() method of all service providers.

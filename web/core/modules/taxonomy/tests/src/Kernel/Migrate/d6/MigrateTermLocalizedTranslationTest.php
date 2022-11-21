@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\taxonomy\Kernel\Migrate\d6;
 
-use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 use Drupal\taxonomy\Entity\Term;
 use Drupal\taxonomy\TermInterface;
+use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 
 /**
  * Tests migration of localized translated taxonomy terms.

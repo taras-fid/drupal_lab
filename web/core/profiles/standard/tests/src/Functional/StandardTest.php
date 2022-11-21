@@ -4,16 +4,16 @@ namespace Drupal\Tests\standard\Functional;
 
 use Drupal\ckeditor5\Plugin\Editor\CKEditor5;
 use Drupal\Component\Utility\Html;
-use Drupal\editor\Entity\Editor;
-use Drupal\media\Entity\MediaType;
-use Drupal\media\Plugin\media\Source\Image;
-use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\contact\Entity\ContactForm;
 use Drupal\Core\Url;
 use Drupal\dynamic_page_cache\EventSubscriber\DynamicPageCacheSubscriber;
+use Drupal\editor\Entity\Editor;
 use Drupal\filter\Entity\FilterFormat;
+use Drupal\media\Entity\MediaType;
+use Drupal\media\Plugin\media\Source\Image;
 use Drupal\Tests\BrowserTestBase;
 use Drupal\Tests\RequirementsPageTrait;
+use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\user\Entity\Role;
 use Symfony\Component\Validator\ConstraintViolation;
 

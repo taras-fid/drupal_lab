@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\config_translation\Kernel\Migrate\d6;
 
-use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
+use Drupal\Tests\SchemaCheckTestTrait;
 
 /**
  * Upgrade i18n variables to user.*.yml.

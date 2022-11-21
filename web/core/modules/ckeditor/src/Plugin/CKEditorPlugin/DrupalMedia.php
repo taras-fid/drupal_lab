@@ -6,9 +6,9 @@ use Drupal\ckeditor\CKEditorPluginContextualInterface;
 use Drupal\ckeditor\CKEditorPluginCssInterface;
 use Drupal\Core\Extension\ModuleExtensionList;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\Core\Plugin\PluginBase;
 use Drupal\editor\Entity\Editor;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Defines the "drupalmedia" plugin.

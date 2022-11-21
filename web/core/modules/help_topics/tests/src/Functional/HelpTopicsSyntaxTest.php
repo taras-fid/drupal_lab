@@ -2,13 +2,13 @@
 
 namespace Drupal\Tests\help_topics\Functional;
 
-use Drupal\Core\Extension\ExtensionLifecycle;
 use Drupal\Component\FrontMatter\FrontMatter;
-use Drupal\Tests\BrowserTestBase;
+use Drupal\Core\Extension\ExtensionLifecycle;
 use Drupal\help_topics\HelpTopicDiscovery;
 use Drupal\help_topics_twig_tester\HelpTestTwigNodeVisitor;
-use PHPUnit\Framework\ExpectationFailedException;
+use Drupal\Tests\BrowserTestBase;
 use PHPUnit\Framework\AssertionFailedError;
+use PHPUnit\Framework\ExpectationFailedException;
 
 /**
  * Verifies that all core Help topics can be rendered and comply with standards.

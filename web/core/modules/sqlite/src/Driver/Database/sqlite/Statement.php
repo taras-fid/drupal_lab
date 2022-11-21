@@ -2,8 +2,8 @@
 
 namespace Drupal\sqlite\Driver\Database\sqlite;
 
-use Drupal\Core\Database\StatementPrefetch;
 use Drupal\Core\Database\StatementInterface;
+use Drupal\Core\Database\StatementPrefetch;
 
 /**
  * SQLite implementation of \Drupal\Core\Database\Statement.

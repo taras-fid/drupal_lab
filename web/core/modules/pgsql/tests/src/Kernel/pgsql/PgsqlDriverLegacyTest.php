@@ -4,8 +4,8 @@ namespace Drupal\Tests\pgsql\Kernel\pgsql;
 
 use Drupal\Core\Database\Driver\pgsql\Connection;
 use Drupal\Core\Database\Driver\pgsql\Delete;
-use Drupal\Core\Database\Driver\pgsql\Install\Tasks;
 use Drupal\Core\Database\Driver\pgsql\Insert;
+use Drupal\Core\Database\Driver\pgsql\Install\Tasks;
 use Drupal\Core\Database\Driver\pgsql\Schema;
 use Drupal\Core\Database\Driver\pgsql\Select;
 use Drupal\Core\Database\Driver\pgsql\Truncate;

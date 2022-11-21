@@ -4,8 +4,8 @@ namespace Drupal\Tests\ckeditor\Functional;
 
 use Drupal\Component\Serialization\Json;
 use Drupal\editor\Entity\Editor;
-use Drupal\filter\FilterFormatInterface;
 use Drupal\filter\Entity\FilterFormat;
+use Drupal\filter\FilterFormatInterface;
 use Drupal\Tests\BrowserTestBase;
 
 /**

@@ -14,8 +14,8 @@ use Drupal\Core\State\StateInterface;
 use Drupal\Core\Update\UpdateRegistry;
 use Drupal\Core\Url;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 /**
  * Controller routines for database update routes.

@@ -3,8 +3,8 @@
 namespace Drupal\Tests\node\Functional;
 
 use Drupal\comment\CommentInterface;
-use Drupal\comment\Tests\CommentTestTrait;
 use Drupal\comment\Entity\Comment;
+use Drupal\comment\Tests\CommentTestTrait;
 use Drupal\Tests\BrowserTestBase;
 
 /**

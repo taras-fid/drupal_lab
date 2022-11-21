@@ -2,10 +2,10 @@
 
 namespace Drupal\Core\Render;
 
+use Drupal\Component\EventDispatcher\Event;
 use Drupal\Core\Cache\RefinableCacheableDependencyInterface;
 use Drupal\Core\Cache\RefinableCacheableDependencyTrait;
 use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\Component\EventDispatcher\Event;
 
 /**
  * Event fired when rendering main content, to select a page display variant.

@@ -5,11 +5,11 @@ namespace Drupal\Tests\views\Kernel\Handler;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\Core\Render\RenderContext;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\node\Entity\Node;
 use Drupal\node\Entity\NodeType;
 use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Drupal\views\Views;
-use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Tests the "Display all values in the same row" setting.

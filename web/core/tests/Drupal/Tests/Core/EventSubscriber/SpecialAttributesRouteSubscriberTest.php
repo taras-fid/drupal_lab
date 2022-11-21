@@ -4,8 +4,8 @@ namespace Drupal\Tests\Core\EventSubscriber;
 
 use Drupal\Core\EventSubscriber\SpecialAttributesRouteSubscriber;
 use Drupal\Core\Routing\RouteBuildEvent;
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\Routing\RouteObjectInterface;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
 

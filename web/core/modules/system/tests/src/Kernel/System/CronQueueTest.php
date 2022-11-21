@@ -6,8 +6,8 @@ use Drupal\Core\Database\Database;
 use Drupal\Core\Queue\DatabaseQueue;
 use Drupal\Core\Queue\Memory;
 use Drupal\Core\Queue\QueueWorkerManagerInterface;
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\cron_queue_test\Plugin\QueueWorker\CronQueueTestDatabaseDelayException;
+use Drupal\KernelTests\KernelTestBase;
 use Prophecy\Argument;
 
 /**

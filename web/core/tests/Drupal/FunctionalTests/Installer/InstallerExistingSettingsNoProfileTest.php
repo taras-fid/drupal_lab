@@ -2,8 +2,8 @@
 
 namespace Drupal\FunctionalTests\Installer;
 
-use Drupal\Core\DrupalKernel;
 use Drupal\Core\Database\Database;
+use Drupal\Core\DrupalKernel;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

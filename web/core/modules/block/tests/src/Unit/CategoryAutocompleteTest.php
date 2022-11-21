@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\block\Unit;
 
-use Drupal\Component\Utility\Html;
 use Drupal\block\Controller\CategoryAutocompleteController;
+use Drupal\Component\Utility\Html;
 use Drupal\Tests\UnitTestCase;
 use Symfony\Component\HttpFoundation\Request;
 

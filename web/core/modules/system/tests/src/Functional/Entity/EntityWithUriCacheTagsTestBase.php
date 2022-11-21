@@ -4,8 +4,8 @@ namespace Drupal\Tests\system\Functional\Entity;
 
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Language\LanguageInterface;
-use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Provides helper methods for Entity cache tags tests; for entities with URIs.

@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Entity;
 
-use Drupal\Core\Entity\Query\QueryInterface;
 use Drupal\Core\Cache\MemoryCache\MemoryCacheInterface;
+use Drupal\Core\Entity\Query\QueryInterface;
 
 /**
  * A base entity storage class.

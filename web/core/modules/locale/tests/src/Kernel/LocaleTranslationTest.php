@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\locale\Kernel;
 
-use Drupal\locale\LocaleTranslation;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\locale\LocaleTranslation;
 
 /**
  * @coversDefaultClass \Drupal\locale\LocaleTranslation

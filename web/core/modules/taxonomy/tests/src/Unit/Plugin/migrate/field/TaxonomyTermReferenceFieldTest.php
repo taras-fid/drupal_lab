@@ -3,8 +3,8 @@
 namespace Drupal\Tests\taxonomy\Unit\Plugin\migrate\field;
 
 use Drupal\migrate\Plugin\MigrationInterface;
-use Drupal\Tests\UnitTestCase;
 use Drupal\taxonomy\Plugin\migrate\field\TaxonomyTermReference;
+use Drupal\Tests\UnitTestCase;
 use Prophecy\Argument;
 
 /**

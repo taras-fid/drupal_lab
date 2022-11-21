@@ -3,9 +3,9 @@
 namespace Drupal\Core\EventSubscriber;
 
 use Drupal\Core\Config\ConfigEvents;
+use Drupal\Core\Config\ConfigImporterEvent;
 use Drupal\Core\Config\ConfigManagerInterface;
 use Drupal\Core\Config\StorageInterface;
-use Drupal\Core\Config\ConfigImporterEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**

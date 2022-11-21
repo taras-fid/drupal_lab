@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\system\Kernel\Token;
 
-use Drupal\Core\Url;
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Component\Utility\Html;
 use Drupal\Component\Utility\Xss;
 use Drupal\Core\Render\BubbleableMetadata;
+use Drupal\Core\Url;
 
 /**
  * Generates text using placeholders for dummy content to check token

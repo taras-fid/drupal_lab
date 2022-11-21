@@ -3,11 +3,11 @@
 namespace Drupal\Tests\Component\Bridge;
 
 use Drupal\Component\Bridge\ZfExtensionManagerSfContainer;
+use Laminas\Feed\Reader\Extension\Atom\Entry;
+use Laminas\Feed\Reader\StandaloneExtensionManager;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException;
-use Laminas\Feed\Reader\Extension\Atom\Entry;
-use Laminas\Feed\Reader\StandaloneExtensionManager;
 
 /**
  * @coversDefaultClass \Drupal\Component\Bridge\ZfExtensionManagerSfContainer

@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Field;
 
-use Drupal\Core\Entity\EntityLastInstalledSchemaRepositoryInterface;
 use Drupal\Core\Entity\EntityFieldManagerInterface;
+use Drupal\Core\Entity\EntityLastInstalledSchemaRepositoryInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Entity\FieldableEntityStorageInterface;
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;

@@ -5,9 +5,9 @@ namespace Drupal\Tests\node\Kernel;
 use Drupal\Core\Database\Database;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\user\Entity\User;
-use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Tests node_access and select queries with node_access tag functionality with

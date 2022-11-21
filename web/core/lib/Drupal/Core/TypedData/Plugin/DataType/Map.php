@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\TypedData\Plugin\DataType;
 
-use Drupal\Core\TypedData\TypedData;
 use Drupal\Core\TypedData\ComplexDataInterface;
+use Drupal\Core\TypedData\TypedData;
 
 /**
  * The "map" data type.

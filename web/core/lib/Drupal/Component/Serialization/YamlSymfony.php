@@ -3,8 +3,8 @@
 namespace Drupal\Component\Serialization;
 
 use Drupal\Component\Serialization\Exception\InvalidDataTypeException;
-use Symfony\Component\Yaml\Parser;
 use Symfony\Component\Yaml\Dumper;
+use Symfony\Component\Yaml\Parser;
 use Symfony\Component\Yaml\Yaml as SymfonyYaml;
 
 /**

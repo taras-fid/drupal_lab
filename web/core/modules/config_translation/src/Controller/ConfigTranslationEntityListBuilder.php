@@ -2,8 +2,8 @@
 
 namespace Drupal\config_translation\Controller;
 
-use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Config\Entity\ConfigEntityListBuilder;
+use Drupal\Core\Entity\EntityInterface;
 
 /**
  * Defines the configuration translation list builder for entities.

@@ -3,8 +3,8 @@
 namespace Drupal\Tests\Component\FileCache;
 
 use Drupal\Component\FileCache\FileCache;
-use Drupal\Component\FileCache\NullFileCache;
 use Drupal\Component\FileCache\FileCacheFactory;
+use Drupal\Component\FileCache\NullFileCache;
 use Drupal\Component\Utility\Random;
 use PHPUnit\Framework\TestCase;
 

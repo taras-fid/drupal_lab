@@ -5,8 +5,8 @@
  * breadcrumb.theme
  */
 
-use Drupal\node\NodeInterface;
 use Drupal\Core\Entity\ContentEntityInterface;
+use Drupal\node\NodeInterface;
 
 /**
  * Breadcrumb.

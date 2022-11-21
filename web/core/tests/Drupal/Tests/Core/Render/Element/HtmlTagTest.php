@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\Core\Render\Element;
 
+use Drupal\Core\Render\Element\HtmlTag;
 use Drupal\Core\Render\Markup;
 use Drupal\Tests\Core\Render\RendererTestBase;
-use Drupal\Core\Render\Element\HtmlTag;
 
 /**
  * @coversDefaultClass \Drupal\Core\Render\Element\HtmlTag

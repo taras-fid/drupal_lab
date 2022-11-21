@@ -5,8 +5,8 @@ namespace Drupal\Core\DependencyInjection;
 use Drupal\Component\DependencyInjection\ContainerInterface;
 use Drupal\Component\DependencyInjection\ServiceIdHashTrait;
 use Symfony\Component\DependencyInjection\Alias;
-use Symfony\Component\DependencyInjection\ContainerBuilder as SymfonyContainerBuilder;
 use Symfony\Component\DependencyInjection\Container as SymfonyContainer;
+use Symfony\Component\DependencyInjection\ContainerBuilder as SymfonyContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 

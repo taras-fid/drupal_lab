@@ -2,12 +2,12 @@
 
 namespace Drupal\Tests\text\Kernel;
 
-use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Field\FieldItemInterface;
+use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\field\Entity\FieldConfig;
-use Drupal\Tests\field\Kernel\FieldKernelTestBase;
 use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\filter\Entity\FilterFormat;
+use Drupal\Tests\field\Kernel\FieldKernelTestBase;
 
 /**
  * Tests using entity fields of the text summary field type.

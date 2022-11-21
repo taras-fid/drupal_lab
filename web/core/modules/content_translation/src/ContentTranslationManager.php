@@ -3,9 +3,9 @@
 namespace Drupal\content_translation;
 
 use Drupal\Core\Entity\EntityInterface;
-use Drupal\workflows\Entity\Workflow;
 use Drupal\Core\Entity\EntityTypeBundleInfoInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
+use Drupal\workflows\Entity\Workflow;
 
 /**
  * Provides common functionality for content translation.

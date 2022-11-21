@@ -6,10 +6,10 @@ use Drupal\Core\Config\Schema\Ignore;
 use Drupal\Core\Config\Schema\Mapping;
 use Drupal\Core\Config\Schema\Sequence;
 use Drupal\Core\Config\Schema\SequenceDataDefinition;
+use Drupal\Core\Config\Schema\Undefined;
 use Drupal\Core\TypedData\PrimitiveInterface;
 use Drupal\Core\TypedData\Type\FloatInterface;
 use Drupal\Core\TypedData\Type\IntegerInterface;
-use Drupal\Core\Config\Schema\Undefined;
 
 /**
  * Provides a base class for configuration objects with storage support.

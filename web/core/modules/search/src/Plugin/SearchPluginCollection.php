@@ -2,8 +2,8 @@
 
 namespace Drupal\search\Plugin;
 
-use Drupal\Core\Plugin\DefaultSingleLazyPluginCollection;
 use Drupal\Component\Plugin\PluginManagerInterface;
+use Drupal\Core\Plugin\DefaultSingleLazyPluginCollection;
 
 /**
  * Provides a container for lazily loading search plugins.

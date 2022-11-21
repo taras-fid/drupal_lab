@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\views\Kernel\Plugin;
 
+use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Drupal\views\Plugin\Block\ViewsBlock;
 use Drupal\views\Tests\ViewTestData;
-use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Drupal\views\Views;
 
 /**

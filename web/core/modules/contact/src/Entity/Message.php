@@ -2,8 +2,8 @@
 
 namespace Drupal\contact\Entity;
 
-use Drupal\Core\Entity\ContentEntityBase;
 use Drupal\contact\MessageInterface;
+use Drupal\Core\Entity\ContentEntityBase;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
 

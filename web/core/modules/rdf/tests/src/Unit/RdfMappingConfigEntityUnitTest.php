@@ -4,8 +4,8 @@ namespace Drupal\Tests\rdf\Unit;
 
 use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
-use Drupal\Tests\UnitTestCase;
 use Drupal\rdf\Entity\RdfMapping;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\rdf\Entity\RdfMapping

@@ -2,6 +2,7 @@
 
 namespace Drupal\Core\Validation\Plugin\Validation\Constraint;
 
+use Drupal\Component\Render\MarkupInterface;
 use Drupal\Core\TypedData\Type\BinaryInterface;
 use Drupal\Core\TypedData\Type\BooleanInterface;
 use Drupal\Core\TypedData\Type\DateTimeInterface;
@@ -11,7 +12,6 @@ use Drupal\Core\TypedData\Type\IntegerInterface;
 use Drupal\Core\TypedData\Type\StringInterface;
 use Drupal\Core\TypedData\Type\UriInterface;
 use Drupal\Core\TypedData\Validation\TypedDataAwareValidatorTrait;
-use Drupal\Component\Render\MarkupInterface;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 

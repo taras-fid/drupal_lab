@@ -4,7 +4,6 @@ namespace Drupal\modernizr_deprecation_test\Controller;
 
 use Drupal\Core\Asset\LibraryDiscoveryInterface;
 use Drupal\Core\DependencyInjection\ContainerInjectionInterface;
-
 use Drupal\Core\Extension\ModuleExtensionList;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

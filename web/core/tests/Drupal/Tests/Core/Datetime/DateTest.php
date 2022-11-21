@@ -6,9 +6,9 @@ use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Datetime\DateFormatter;
 use Drupal\Core\Datetime\FormattedDateDiff;
 use Drupal\Core\DependencyInjection\ContainerBuilder;
+use Drupal\Core\StringTranslation\TranslatableMarkup;
 use Drupal\Tests\UnitTestCase;
 use Symfony\Component\HttpFoundation\Request;
-use Drupal\Core\StringTranslation\TranslatableMarkup;
 
 /**
  * @coversDefaultClass \Drupal\Core\Datetime\DateFormatter

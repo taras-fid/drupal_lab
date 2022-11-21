@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Config;
 
-use Drupal\Component\Utility\NestedArray;
 use Drupal\Component\Render\MarkupInterface;
+use Drupal\Component\Utility\NestedArray;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Cache\RefinableCacheableDependencyInterface;
 use Drupal\Core\Cache\RefinableCacheableDependencyTrait;

@@ -2,8 +2,8 @@
 
 namespace Drupal\KernelTests\Core\Database;
 
-use Drupal\Core\Database\Log;
 use Drupal\Core\Database\Database;
+use Drupal\Core\Database\Log;
 
 /**
  * Tests the query logging facility.

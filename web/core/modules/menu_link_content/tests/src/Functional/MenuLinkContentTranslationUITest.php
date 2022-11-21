@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\menu_link_content\Functional;
 
-use Drupal\Tests\content_translation\Functional\ContentTranslationUITestBase;
 use Drupal\menu_link_content\Entity\MenuLinkContent;
+use Drupal\Tests\content_translation\Functional\ContentTranslationUITestBase;
 
 /**
  * Tests the menu link content translation UI.

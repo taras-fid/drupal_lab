@@ -5,8 +5,8 @@ namespace Drupal\Tests\image\Kernel\Migrate\d6;
 use Drupal\Core\Database\Database;
 use Drupal\image\Entity\ImageStyle;
 use Drupal\image\ImageEffectPluginCollection;
-use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\Exception\RequirementsException;
+use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 
 /**

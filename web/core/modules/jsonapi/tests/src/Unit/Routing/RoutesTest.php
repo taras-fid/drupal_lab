@@ -3,12 +3,12 @@
 namespace Drupal\Tests\jsonapi\Unit\Routing;
 
 use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Routing\RouteObjectInterface;
 use Drupal\jsonapi\ResourceType\ResourceType;
 use Drupal\jsonapi\ResourceType\ResourceTypeRelationship;
 use Drupal\jsonapi\ResourceType\ResourceTypeRepository;
 use Drupal\jsonapi\Routing\Routes;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Routing\RouteObjectInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

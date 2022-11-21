@@ -7,11 +7,11 @@
 
 namespace Drupal\Tests\field\Unit;
 
-use Drupal\Core\Entity\EntityType;
-use Drupal\Core\Field\FieldDefinitionInterface;
 use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Core\Entity\EntityFieldManagerInterface;
+use Drupal\Core\Entity\EntityType;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
+use Drupal\Core\Field\FieldDefinitionInterface;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\Tests\UnitTestCase;
 

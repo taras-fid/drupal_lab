@@ -2,9 +2,9 @@
 
 namespace Drupal\field_discovery_test;
 
+use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\Plugin\MigrationPluginManagerInterface;
 use Drupal\migrate_drupal\FieldDiscovery;
-use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate_drupal\Plugin\MigrateFieldPluginManagerInterface;
 use Psr\Log\LoggerInterface;
 

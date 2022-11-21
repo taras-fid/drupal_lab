@@ -4,8 +4,8 @@ namespace Drupal\Tests\mysql\Kernel\mysql;
 
 use Drupal\Core\Database\Driver\mysql\Connection;
 use Drupal\Core\Database\Driver\mysql\ExceptionHandler;
-use Drupal\Core\Database\Driver\mysql\Install\Tasks;
 use Drupal\Core\Database\Driver\mysql\Insert;
+use Drupal\Core\Database\Driver\mysql\Install\Tasks;
 use Drupal\Core\Database\Driver\mysql\Schema;
 use Drupal\Core\Database\Driver\mysql\Upsert;
 use Drupal\KernelTests\Core\Database\DriverSpecificDatabaseTestBase;

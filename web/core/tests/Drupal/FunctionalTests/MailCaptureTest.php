@@ -3,8 +3,8 @@
 namespace Drupal\FunctionalTests;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\Tests\BrowserTestBase;
 use Drupal\Core\Test\AssertMailTrait;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests the SimpleTest email capturing logic, the assertMail assertion and the

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\Composer;
 
-use Composer\Config;
 use Composer\Composer as ComposerClass;
+use Composer\Config;
 use Composer\DependencyResolver\Operation\UpdateOperation;
 use Composer\Installer\PackageEvent;
 use Composer\IO\IOInterface;

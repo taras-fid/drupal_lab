@@ -5,8 +5,8 @@ namespace Drupal\KernelTests\Core\RouteProcessor;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\GeneratedUrl;
 use Drupal\Core\Render\BubbleableMetadata;
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\Core\Routing\RouteObjectInterface;
+use Drupal\KernelTests\KernelTestBase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Route;
 

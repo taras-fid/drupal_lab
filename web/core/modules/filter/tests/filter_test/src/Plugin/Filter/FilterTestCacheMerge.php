@@ -2,9 +2,9 @@
 
 namespace Drupal\filter_test\Plugin\Filter;
 
+use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\filter\FilterProcessResult;
 use Drupal\filter\Plugin\FilterBase;
-use Drupal\Core\Cache\CacheableMetadata;
 
 /**
  * Provides a test filter to merge with CacheableMetadata.

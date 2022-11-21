@@ -2,13 +2,13 @@
 
 namespace Drupal\Tests\aggregator\Functional;
 
-use Drupal\Component\Render\FormattableMarkup;
-use Drupal\Core\Url;
 use Drupal\aggregator\Entity\Feed;
+use Drupal\aggregator\FeedInterface;
+use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Component\Utility\Html;
+use Drupal\Core\Url;
 use Drupal\node\NodeInterface;
 use Drupal\Tests\BrowserTestBase;
-use Drupal\aggregator\FeedInterface;
 
 /**
  * Defines a base class for testing the Aggregator module.

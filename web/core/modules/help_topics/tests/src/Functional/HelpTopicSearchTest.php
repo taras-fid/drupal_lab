@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\help_topics\Functional;
 
-use Drupal\Tests\Traits\Core\CronRunTrait;
 use Drupal\help_topics\Plugin\Search\HelpSearch;
+use Drupal\Tests\Traits\Core\CronRunTrait;
 
 // cspell:ignore asdrsad barmm foomm hilfetestmodul sdeeeee sqruct
 // cspell:ignore wcsrefsdf übersetzung

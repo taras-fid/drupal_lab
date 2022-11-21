@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\user\Kernel\Migrate\d6;
 
+use Drupal\migrate\Plugin\MigrateIdMapInterface;
+use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 use Drupal\user\Entity\Role;
 use Drupal\user\RoleInterface;
-use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
-use Drupal\migrate\Plugin\MigrateIdMapInterface;
 
 /**
  * Upgrade user roles to user.role.*.yml.

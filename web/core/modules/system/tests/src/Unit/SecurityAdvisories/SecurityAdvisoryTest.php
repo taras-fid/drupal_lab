@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\system\Unit\SecurityAdvisories;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\system\SecurityAdvisories\SecurityAdvisory;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\system\SecurityAdvisories\SecurityAdvisory

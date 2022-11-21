@@ -3,8 +3,8 @@
 namespace Drupal\Tests\datetime\Functional\EntityResource\EntityTest;
 
 use Drupal\Core\Url;
-use Drupal\entity_test\Entity\EntityTest;
 use Drupal\datetime\Plugin\Field\FieldType\DateTimeItem;
+use Drupal\entity_test\Entity\EntityTest;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\Tests\entity_test\Functional\Rest\EntityTestResourceTestBase;

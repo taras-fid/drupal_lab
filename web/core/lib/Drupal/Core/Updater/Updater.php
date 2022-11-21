@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Updater;
 
-use Drupal\Core\FileTransfer\FileTransferException;
 use Drupal\Core\FileTransfer\FileTransfer;
+use Drupal\Core\FileTransfer\FileTransferException;
 
 /**
  * Defines the base class for Updaters used in Drupal.

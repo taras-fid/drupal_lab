@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\taxonomy\Kernel\Migrate\d6;
 
-use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 use Drupal\migrate_drupal\NodeMigrateType;
 use Drupal\node\Entity\Node;
+use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 
 /**
  * Upgrade taxonomy term node associations.

@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\language\Kernel\Migrate\d6;
 
+use Drupal\Core\Language\LanguageInterface;
 use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\language\Entity\ContentLanguageSettings;
-use Drupal\Core\Language\LanguageInterface;
 use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 
 /**

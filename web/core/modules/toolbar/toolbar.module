@@ -5,12 +5,12 @@
  * Administration toolbar for quick access to top level administration items.
  */
 
+use Drupal\Component\Utility\Crypt;
 use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Render\Element;
 use Drupal\Core\Render\RenderContext;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Template\Attribute;
-use Drupal\Component\Utility\Crypt;
 use Drupal\Core\Url;
 use Drupal\toolbar\Controller\ToolbarController;
 

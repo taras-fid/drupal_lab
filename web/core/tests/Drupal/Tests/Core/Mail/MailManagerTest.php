@@ -7,12 +7,12 @@
 
 namespace Drupal\Tests\Core\Mail;
 
+use Drupal\Component\Plugin\Discovery\DiscoveryInterface;
 use Drupal\Core\DependencyInjection\ContainerBuilder;
+use Drupal\Core\Mail\MailManager;
 use Drupal\Core\Render\RenderContext;
 use Drupal\Core\Render\RendererInterface;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Mail\MailManager;
-use Drupal\Component\Plugin\Discovery\DiscoveryInterface;
 
 /**
  * @coversDefaultClass \Drupal\Core\Mail\MailManager

@@ -5,9 +5,9 @@ namespace Drupal\Tests\views_ui\FunctionalJavascript;
 use Drupal\FunctionalJavascriptTests\WebDriverTestBase;
 use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\locale\SourceString;
+use Drupal\Tests\node\Traits\NodeCreationTrait;
 use Drupal\views\Entity\View;
 use Drupal\views\Tests\ViewTestData;
-use Drupal\Tests\node\Traits\NodeCreationTrait;
 
 // cSpell:ignore Blokk hozzáadása
 

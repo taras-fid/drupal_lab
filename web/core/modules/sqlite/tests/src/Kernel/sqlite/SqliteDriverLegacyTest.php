@@ -3,8 +3,8 @@
 namespace Drupal\Tests\sqlite\Kernel\sqlite;
 
 use Drupal\Core\Database\Driver\sqlite\Connection;
-use Drupal\Core\Database\Driver\sqlite\Install\Tasks;
 use Drupal\Core\Database\Driver\sqlite\Insert;
+use Drupal\Core\Database\Driver\sqlite\Install\Tasks;
 use Drupal\Core\Database\Driver\sqlite\Schema;
 use Drupal\Core\Database\Driver\sqlite\Select;
 use Drupal\Core\Database\Driver\sqlite\Statement;

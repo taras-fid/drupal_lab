@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\toolbar\Unit\PageCache;
 
-use Drupal\toolbar\PageCache\AllowToolbarPath;
 use Drupal\Core\PageCache\RequestPolicyInterface;
 use Drupal\Tests\UnitTestCase;
+use Drupal\toolbar\PageCache\AllowToolbarPath;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

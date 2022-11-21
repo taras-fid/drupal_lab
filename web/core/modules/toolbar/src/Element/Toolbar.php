@@ -3,8 +3,8 @@
 namespace Drupal\toolbar\Element;
 
 use Drupal\Component\Utility\Html;
-use Drupal\Core\Render\Element\RenderElement;
 use Drupal\Core\Render\Element;
+use Drupal\Core\Render\Element\RenderElement;
 
 /**
  * Provides a render element for the default Drupal toolbar.

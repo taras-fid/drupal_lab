@@ -2,8 +2,8 @@
 
 namespace Drupal\pgsql\Driver\Database\pgsql;
 
-use Drupal\Core\Database\Query\Update as QueryUpdate;
 use Drupal\Core\Database\Query\SelectInterface;
+use Drupal\Core\Database\Query\Update as QueryUpdate;
 
 /**
  * PostgreSQL implementation of \Drupal\Core\Database\Query\Update.

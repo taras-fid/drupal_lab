@@ -2,8 +2,7 @@
 
 namespace Drupal\mymodule\Form;
 
-use Composer\Package\Package;
-use \Drupal\Core\Form\FormBase;
+use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
 

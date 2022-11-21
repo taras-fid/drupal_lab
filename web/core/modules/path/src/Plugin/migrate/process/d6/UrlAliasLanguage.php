@@ -2,10 +2,10 @@
 
 namespace Drupal\path\Plugin\migrate\process\d6;
 
+use Drupal\Core\Language\LanguageInterface;
 use Drupal\migrate\MigrateExecutableInterface;
 use Drupal\migrate\ProcessPluginBase;
 use Drupal\migrate\Row;
-use Drupal\Core\Language\LanguageInterface;
 
 /**
  * Url alias language code process.

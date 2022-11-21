@@ -3,9 +3,9 @@
 namespace Drupal\FunctionalTests;
 
 use Behat\Mink\Exception\ExpectationException;
+use Behat\Mink\Exception\ResponseTextException;
 use Drupal\Core\Url;
 use Drupal\Tests\BrowserTestBase;
-use Behat\Mink\Exception\ResponseTextException;
 use PHPUnit\Framework\AssertionFailedError;
 
 /**

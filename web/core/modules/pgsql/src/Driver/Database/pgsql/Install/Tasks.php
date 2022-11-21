@@ -3,8 +3,8 @@
 namespace Drupal\pgsql\Driver\Database\pgsql\Install;
 
 use Drupal\Core\Database\Database;
-use Drupal\Core\Database\Install\Tasks as InstallTasks;
 use Drupal\Core\Database\DatabaseNotFoundException;
+use Drupal\Core\Database\Install\Tasks as InstallTasks;
 
 /**
  * Specifies installation tasks for PostgreSQL databases.

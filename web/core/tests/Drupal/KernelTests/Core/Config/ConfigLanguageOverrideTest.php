@@ -2,8 +2,8 @@
 
 namespace Drupal\KernelTests\Core\Config;
 
-use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\language\Entity\ConfigurableLanguage;
 
 /**
  * Confirm that language overrides work.

@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\Composer\Generator;
 
+use Drupal\Composer\Composer;
 use Drupal\Composer\Generator\Builder\DrupalCoreRecommendedBuilder;
 use Drupal\Composer\Generator\Builder\DrupalDevDependenciesBuilder;
 use Drupal\Composer\Generator\Builder\DrupalPinnedDevDependenciesBuilder;
 use PHPUnit\Framework\TestCase;
-use Drupal\Composer\Composer;
 
 /**
  * Test DrupalCoreRecommendedBuilder.

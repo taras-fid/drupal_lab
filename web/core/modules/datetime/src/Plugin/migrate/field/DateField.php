@@ -3,8 +3,8 @@
 namespace Drupal\datetime\Plugin\migrate\field;
 
 use Drupal\datetime\Plugin\Field\FieldType\DateTimeItemInterface;
-use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\MigrateException;
+use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\Row;
 use Drupal\migrate_drupal\Plugin\migrate\field\FieldPluginBase;
 

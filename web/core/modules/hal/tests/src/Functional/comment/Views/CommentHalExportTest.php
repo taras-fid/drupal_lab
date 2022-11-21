@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\hal\Functional\comment\Views;
 
-use Drupal\Component\Serialization\Json;
 use Drupal\comment\Entity\Comment;
+use Drupal\Component\Serialization\Json;
 use Drupal\Tests\comment\Functional\Views\CommentTestBase;
 
 /**

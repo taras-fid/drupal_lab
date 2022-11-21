@@ -3,8 +3,8 @@
 namespace Drupal\Tests\taxonomy\Traits;
 
 use Drupal\Core\Language\LanguageInterface;
-use Drupal\taxonomy\Entity\Vocabulary;
 use Drupal\taxonomy\Entity\Term;
+use Drupal\taxonomy\Entity\Vocabulary;
 use Drupal\taxonomy\VocabularyInterface;
 
 /**

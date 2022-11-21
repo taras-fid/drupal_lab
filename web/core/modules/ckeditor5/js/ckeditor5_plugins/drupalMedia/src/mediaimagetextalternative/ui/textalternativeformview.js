@@ -4,17 +4,17 @@
 
 import {
   ButtonView,
-  FocusCycler,
-  LabeledFieldView,
-  View,
-  ViewCollection,
   createLabeledInputText,
+  FocusCycler,
   injectCssTransitionDisabler,
+  LabeledFieldView,
   submitHandler,
   Template,
+  View,
+  ViewCollection,
 } from 'ckeditor5/src/ui';
-import { FocusTracker, KeystrokeHandler } from 'ckeditor5/src/utils';
-import { icons } from 'ckeditor5/src/core';
+import {FocusTracker, KeystrokeHandler} from 'ckeditor5/src/utils';
+import {icons} from 'ckeditor5/src/core';
 
 // cspell:ignore focusables
 

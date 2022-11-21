@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\rdf\Kernel\Migrate\d7;
 
-use Drupal\Tests\migrate_drupal\Kernel\MigrateDrupalTestBase;
 use Drupal\rdf\RdfMappingInterface;
+use Drupal\Tests\migrate_drupal\Kernel\MigrateDrupalTestBase;
 
 /**
  * Tests RDF mappings migration from Drupal 7 to 8.

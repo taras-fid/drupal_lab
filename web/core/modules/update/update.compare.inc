@@ -6,10 +6,10 @@
  */
 
 use Drupal\Core\Extension\ExtensionVersion;
+use Drupal\update\ProjectCoreCompatibility;
 use Drupal\update\ProjectRelease;
 use Drupal\update\UpdateFetcherInterface;
 use Drupal\update\UpdateManagerInterface;
-use Drupal\update\ProjectCoreCompatibility;
 
 /**
  * Determines version and type information for currently installed projects.

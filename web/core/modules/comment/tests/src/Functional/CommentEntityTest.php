@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\comment\Functional;
 
+use Drupal\comment\CommentInterface;
+use Drupal\comment\Entity\Comment;
 use Drupal\comment\Entity\CommentType;
 use Drupal\comment\Plugin\Field\FieldType\CommentItemInterface;
 use Drupal\Core\Language\LanguageInterface;
-use Drupal\comment\CommentInterface;
-use Drupal\comment\Entity\Comment;
 use Drupal\Tests\taxonomy\Traits\TaxonomyTestTrait;
 
 /**

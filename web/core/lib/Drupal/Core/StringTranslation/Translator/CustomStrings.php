@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\StringTranslation\Translator;
 
-use Drupal\Core\Site\Settings;
 use Drupal\Core\DependencyInjection\DependencySerializationTrait;
+use Drupal\Core\Site\Settings;
 
 /**
  * String translator using overrides from variables.

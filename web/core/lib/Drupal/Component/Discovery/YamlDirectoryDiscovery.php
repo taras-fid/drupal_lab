@@ -2,10 +2,10 @@
 
 namespace Drupal\Component\Discovery;
 
+use Drupal\Component\FileCache\FileCacheFactory;
 use Drupal\Component\FileSystem\RegexDirectoryIterator;
 use Drupal\Component\Serialization\Exception\InvalidDataTypeException;
 use Drupal\Component\Serialization\Yaml;
-use Drupal\Component\FileCache\FileCacheFactory;
 
 /**
  * Discovers multiple YAML files in a set of directories.

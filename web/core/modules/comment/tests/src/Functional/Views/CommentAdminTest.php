@@ -6,9 +6,9 @@ use Drupal\block_content\Entity\BlockContent;
 use Drupal\block_content\Entity\BlockContentType;
 use Drupal\comment\Entity\Comment;
 use Drupal\comment\Plugin\Field\FieldType\CommentItemInterface;
-use Drupal\Tests\comment\Functional\CommentTestBase as CommentBrowserTestBase;
 use Drupal\Component\Utility\Html;
 use Drupal\Component\Utility\Unicode;
+use Drupal\Tests\comment\Functional\CommentTestBase as CommentBrowserTestBase;
 use Drupal\user\RoleInterface;
 use Drupal\views\Views;
 

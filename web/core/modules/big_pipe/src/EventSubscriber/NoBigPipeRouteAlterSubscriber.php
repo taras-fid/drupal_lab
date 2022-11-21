@@ -2,9 +2,9 @@
 
 namespace Drupal\big_pipe\EventSubscriber;
 
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use Drupal\Core\Routing\RoutingEvents;
 use Drupal\Core\Routing\RouteBuildEvent;
+use Drupal\Core\Routing\RoutingEvents;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * Sets the '_no_big_pipe' option on select routes.

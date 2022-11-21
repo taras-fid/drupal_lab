@@ -3,8 +3,8 @@
 namespace Drupal\Tests\media\Kernel;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\content_translation\ContentTranslationHandler;
+use Drupal\language\Entity\ConfigurableLanguage;
 
 /**
  * Tests multilanguage fields logic.

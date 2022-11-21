@@ -2,8 +2,8 @@
 
 namespace Drupal\FunctionalTests\Core\Render;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\Core\Url;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests deprecated render() function.

@@ -9,8 +9,8 @@ use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Menu\DefaultMenuLinkTreeManipulators;
 use Drupal\Core\Menu\MenuLinkTreeElement;
-use Drupal\Tests\UnitTestCase;
 use Drupal\node\NodeInterface;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * Tests the default menu link tree manipulators.

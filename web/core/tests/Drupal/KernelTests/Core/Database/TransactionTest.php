@@ -3,8 +3,8 @@
 namespace Drupal\KernelTests\Core\Database;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\Core\Database\TransactionOutOfOrderException;
 use Drupal\Core\Database\TransactionNoActiveException;
+use Drupal\Core\Database\TransactionOutOfOrderException;
 use PHPUnit\Framework\Error\Warning;
 
 /**

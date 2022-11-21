@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\node\Kernel;
 
-use Drupal\user\UserInterface;
 use Drupal\Core\Field\Entity\BaseFieldOverride;
 use Drupal\KernelTests\Core\Entity\EntityKernelTestBase;
 use Drupal\node\Entity\Node;
 use Drupal\node\Entity\NodeType;
+use Drupal\user\UserInterface;
 
 /**
  * Tests node field overrides.

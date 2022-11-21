@@ -1,18 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* cspell:words textalternativeformview */
 
-import { Plugin, icons } from 'ckeditor5/src/core';
-import {
-  ButtonView,
-  ContextualBalloon,
-  clickOutsideHandler,
-} from 'ckeditor5/src/ui';
+import {icons, Plugin} from 'ckeditor5/src/core';
+import {ButtonView, clickOutsideHandler, ContextualBalloon,} from 'ckeditor5/src/ui';
 
-import { getClosestSelectedDrupalMediaWidget, isDrupalMedia } from '../utils';
-import {
-  getBalloonPositionData,
-  repositionContextualBalloon,
-} from '../ui/utils';
+import {getClosestSelectedDrupalMediaWidget, isDrupalMedia} from '../utils';
+import {getBalloonPositionData, repositionContextualBalloon,} from '../ui/utils';
 
 import TextAlternativeFormView from './ui/textalternativeformview';
 

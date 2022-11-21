@@ -2,8 +2,8 @@
 
 namespace Drupal\KernelTests\Core\Config\Storage;
 
-use Drupal\Core\Config\FileStorage;
 use Drupal\Core\Config\CachedStorage;
+use Drupal\Core\Config\FileStorage;
 use Drupal\Core\StreamWrapper\PublicStream;
 
 /**

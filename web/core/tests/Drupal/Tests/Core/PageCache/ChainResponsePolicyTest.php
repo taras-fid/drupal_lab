@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\PageCache;
 
-use Drupal\Core\PageCache\ResponsePolicyInterface;
 use Drupal\Core\PageCache\ChainResponsePolicy;
+use Drupal\Core\PageCache\ResponsePolicyInterface;
 use Drupal\Tests\UnitTestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

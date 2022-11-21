@@ -2,8 +2,8 @@
 
 namespace Drupal\KernelTests\Core\Entity;
 
-use Drupal\Core\Config\Entity\Query\QueryFactory;
 use Drupal\config_test\Entity\ConfigQueryTest;
+use Drupal\Core\Config\Entity\Query\QueryFactory;
 use Drupal\KernelTests\KernelTestBase;
 
 /**

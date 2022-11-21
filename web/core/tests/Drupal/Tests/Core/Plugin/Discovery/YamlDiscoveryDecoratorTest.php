@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\Plugin\Discovery;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\Plugin\Discovery\YamlDiscoveryDecorator;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * YamlDiscoveryDecorator unit tests.

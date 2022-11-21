@@ -3,14 +3,14 @@
 namespace Drupal\Tests\config_translation\Functional;
 
 use Drupal\block_content\Entity\BlockContentType;
+use Drupal\contact\Entity\ContactForm;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
-use Drupal\language\Entity\ConfigurableLanguage;
-use Drupal\Tests\BrowserTestBase;
-use Drupal\shortcut\Entity\ShortcutSet;
-use Drupal\contact\Entity\ContactForm;
 use Drupal\filter\Entity\FilterFormat;
+use Drupal\language\Entity\ConfigurableLanguage;
+use Drupal\shortcut\Entity\ShortcutSet;
 use Drupal\taxonomy\Entity\Vocabulary;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Visit all lists.

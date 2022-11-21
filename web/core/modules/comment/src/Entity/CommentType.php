@@ -2,8 +2,8 @@
 
 namespace Drupal\comment\Entity;
 
-use Drupal\Core\Config\Entity\ConfigEntityBundleBase;
 use Drupal\comment\CommentTypeInterface;
+use Drupal\Core\Config\Entity\ConfigEntityBundleBase;
 
 /**
  * Defines the comment type entity.

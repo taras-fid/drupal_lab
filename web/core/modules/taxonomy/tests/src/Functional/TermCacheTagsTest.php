@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\taxonomy\Functional;
 
-use Drupal\taxonomy\Entity\Vocabulary;
 use Drupal\taxonomy\Entity\Term;
+use Drupal\taxonomy\Entity\Vocabulary;
 use Drupal\Tests\system\Functional\Entity\EntityWithUriCacheTagsTestBase;
 
 /**

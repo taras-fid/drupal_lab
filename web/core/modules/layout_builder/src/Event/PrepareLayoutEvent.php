@@ -2,8 +2,8 @@
 
 namespace Drupal\layout_builder\Event;
 
-use Drupal\layout_builder\SectionStorageInterface;
 use Drupal\Component\EventDispatcher\Event;
+use Drupal\layout_builder\SectionStorageInterface;
 
 /**
  * Event fired in #pre_render of \Drupal\layout_builder\Element\LayoutBuilder.

@@ -5,8 +5,8 @@ namespace Drupal\field_layout;
 use Drupal\Core\DependencyInjection\ContainerInjectionInterface;
 use Drupal\Core\Entity\EntityFieldManagerInterface;
 use Drupal\Core\Field\FieldDefinitionInterface;
-use Drupal\field_layout\Display\EntityDisplayWithLayoutInterface;
 use Drupal\Core\Layout\LayoutPluginManagerInterface;
+use Drupal\field_layout\Display\EntityDisplayWithLayoutInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

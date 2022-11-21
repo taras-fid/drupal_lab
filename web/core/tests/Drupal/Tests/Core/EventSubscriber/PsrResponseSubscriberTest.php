@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\EventSubscriber;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\EventSubscriber\PsrResponseSubscriber;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\ViewEvent;

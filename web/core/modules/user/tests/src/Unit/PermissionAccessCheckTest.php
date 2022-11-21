@@ -3,11 +3,11 @@
 namespace Drupal\Tests\user\Unit;
 
 use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Cache\Context\CacheContextsManager;
 use Drupal\Tests\UnitTestCase;
 use Drupal\user\Access\PermissionAccessCheck;
-use Symfony\Component\Routing\Route;
-use Drupal\Core\Cache\Context\CacheContextsManager;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\Routing\Route;
 
 /**
  * @coversDefaultClass \Drupal\user\Access\PermissionAccessCheck

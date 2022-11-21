@@ -4,8 +4,8 @@ namespace Drupal\menu_ui\Form;
 
 use Drupal\Core\Database\Connection;
 use Drupal\Core\Entity\EntityDeleteForm;
-use Drupal\Core\Menu\MenuLinkManagerInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Menu\MenuLinkManagerInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

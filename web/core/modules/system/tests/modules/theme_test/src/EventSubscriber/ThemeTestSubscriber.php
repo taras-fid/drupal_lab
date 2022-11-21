@@ -3,11 +3,11 @@
 namespace Drupal\theme_test\EventSubscriber;
 
 use Drupal\Core\Render\RendererInterface;
-use Drupal\Core\Url;
 use Drupal\Core\Routing\RouteMatchInterface;
-use Symfony\Component\HttpKernel\KernelEvents;
-use Symfony\Component\HttpKernel\Event\RequestEvent;
+use Drupal\Core\Url;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+use Symfony\Component\HttpKernel\Event\RequestEvent;
+use Symfony\Component\HttpKernel\KernelEvents;
 
 /**
  * Theme test subscriber for controller requests.

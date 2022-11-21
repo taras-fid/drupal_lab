@@ -2,8 +2,8 @@
 
 namespace Drupal\contact\Controller;
 
-use Drupal\Core\Controller\ControllerBase;
 use Drupal\contact\ContactFormInterface;
+use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\Url;
 use Drupal\user\UserInterface;

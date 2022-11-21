@@ -3,8 +3,8 @@
 namespace Drupal\Core\Security;
 
 use TYPO3\PharStreamWrapper\Assertable;
-use TYPO3\PharStreamWrapper\Helper;
 use TYPO3\PharStreamWrapper\Exception;
+use TYPO3\PharStreamWrapper\Helper;
 
 /**
  * An alternate PharExtensionInterceptor to support phar-based CLI tools.

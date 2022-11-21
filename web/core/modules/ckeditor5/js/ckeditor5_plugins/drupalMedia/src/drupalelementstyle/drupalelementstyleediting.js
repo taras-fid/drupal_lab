@@ -1,9 +1,9 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* cspell:words drupalelementstylecommand */
-import { Plugin, icons } from 'ckeditor5/src/core';
-import { first } from 'ckeditor5/src/utils';
+import {icons, Plugin} from 'ckeditor5/src/core';
+import {first} from 'ckeditor5/src/utils';
 import DrupalElementStyleCommand from './drupalelementstylecommand';
-import { groupNameToModelAttributeKey } from '../utils';
+import {groupNameToModelAttributeKey} from '../utils';
 
 /**
  * @module drupalMedia/drupalelementstyle/drupalelementstyleediting

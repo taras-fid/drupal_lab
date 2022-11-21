@@ -3,8 +3,8 @@
 namespace Drupal\Tests\field\Functional;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\language\Entity\ConfigurableLanguage;
 
 /**

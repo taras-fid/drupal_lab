@@ -2,13 +2,13 @@
 
 namespace Drupal\Tests\views\Kernel\Entity;
 
+use Drupal\comment\Entity\CommentType;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\node\Entity\NodeType;
-use Drupal\views\Tests\ViewTestData;
 use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
+use Drupal\views\Tests\ViewTestData;
 use Drupal\views\Views;
-use Drupal\comment\Entity\CommentType;
 
 /**
  * Tests the calculation of dependencies for views.

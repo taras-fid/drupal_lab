@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Flood;
 
+use Drupal\Core\Database\Connection;
 use Drupal\Core\Database\DatabaseException;
 use Symfony\Component\HttpFoundation\RequestStack;
-use Drupal\Core\Database\Connection;
 
 /**
  * Defines the database flood backend. This is the default Drupal backend.

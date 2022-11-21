@@ -4,11 +4,11 @@ namespace Drupal\router_test;
 
 use Drupal\Core\Cache\CacheableResponse;
 use Drupal\Core\ParamConverter\ParamNotConvertedException;
-use Drupal\user\UserInterface;
 use Drupal\Core\Routing\RouteObjectInterface;
+use Drupal\user\UserInterface;
+use Laminas\Diactoros\Response\HtmlResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Laminas\Diactoros\Response\HtmlResponse;
 
 /**
  * Controller routines for testing the routing system.

@@ -2,8 +2,8 @@
 
 namespace Drupal\FunctionalTests\Rest;
 
-use Drupal\Tests\rest\Functional\EntityResource\ConfigEntityResourceTestBase;
 use Drupal\Core\Entity\Entity\EntityFormMode;
+use Drupal\Tests\rest\Functional\EntityResource\ConfigEntityResourceTestBase;
 
 abstract class EntityFormModeResourceTestBase extends ConfigEntityResourceTestBase {
 

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\book\Kernel\Migrate\d6;
 
-use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
+use Drupal\Tests\SchemaCheckTestTrait;
 
 /**
  * Upgrade variables to book.settings.yml.

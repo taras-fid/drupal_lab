@@ -3,9 +3,9 @@
 namespace Drupal\Tests\Core\Extension;
 
 use Drupal\Core\Cache\CacheBackendInterface;
+use Drupal\Core\Extension\Exception\UnknownExtensionException;
 use Drupal\Core\Extension\Extension;
 use Drupal\Core\Extension\ModuleHandler;
-use Drupal\Core\Extension\Exception\UnknownExtensionException;
 use Drupal\Tests\UnitTestCase;
 
 /**

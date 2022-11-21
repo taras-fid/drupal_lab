@@ -3,7 +3,6 @@
 namespace Drupal\Core\EventSubscriber;
 
 use Psr\Http\Message\ResponseInterface;
-
 use Symfony\Bridge\PsrHttpMessage\HttpFoundationFactoryInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\ViewEvent;

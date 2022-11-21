@@ -4,8 +4,8 @@ namespace Drupal\Tests\node\Kernel\Config;
 
 use Drupal\Core\Site\Settings;
 use Drupal\field\Entity\FieldConfig;
-use Drupal\node\Entity\NodeType;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\node\Entity\NodeType;
 
 /**
  * Create content types during config create method invocation.

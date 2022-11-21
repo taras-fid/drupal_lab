@@ -2,12 +2,12 @@
 
 namespace Drupal\aggregator\Entity;
 
+use Drupal\aggregator\FeedInterface;
 use Drupal\aggregator\FeedStorageInterface;
 use Drupal\Core\Entity\ContentEntityBase;
+use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
-use Drupal\Core\Entity\EntityStorageInterface;
-use Drupal\aggregator\FeedInterface;
 
 /**
  * Defines the aggregator feed entity class.

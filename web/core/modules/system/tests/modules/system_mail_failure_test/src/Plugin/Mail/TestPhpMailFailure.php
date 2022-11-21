@@ -2,8 +2,8 @@
 
 namespace Drupal\system_mail_failure_test\Plugin\Mail;
 
-use Drupal\Core\Mail\Plugin\Mail\PhpMail;
 use Drupal\Core\Mail\MailInterface;
+use Drupal\Core\Mail\Plugin\Mail\PhpMail;
 
 /**
  * Defines a mail sending implementation that always fails.

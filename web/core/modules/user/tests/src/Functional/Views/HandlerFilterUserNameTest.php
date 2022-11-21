@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\user\Functional\Views;
 
-use Drupal\views\Views;
 use Drupal\Tests\views\Functional\ViewTestBase;
+use Drupal\views\Views;
 
 /**
  * Tests the handler of the user: name filter.

@@ -3,8 +3,8 @@
 namespace Drupal\Tests\user\Kernel\Form;
 
 use Drupal\Core\Flood\FloodInterface;
-use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\Render\BareHtmlPageRendererInterface;
+use Drupal\Core\Render\RendererInterface;
 use Drupal\KernelTests\KernelTestBase;
 use Drupal\user\Form\UserLoginForm;
 use Drupal\user\UserAuthInterface;

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\comment\Unit\Plugin\views\field;
 
-use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\comment\Plugin\views\field\CommentBulkForm;
+use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Core\Entity\EntityRepositoryInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Tests\UnitTestCase;

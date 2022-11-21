@@ -2,8 +2,8 @@
 
 namespace Drupal\action\Form;
 
-use Drupal\Core\Form\FormBase;
 use Drupal\Core\Action\ActionManager;
+use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

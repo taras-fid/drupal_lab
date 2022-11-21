@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Access;
 
-use Symfony\Component\HttpFoundation\Request;
-use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Session\AccountInterface;
+use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Provides an interface for attaching and running access check services.

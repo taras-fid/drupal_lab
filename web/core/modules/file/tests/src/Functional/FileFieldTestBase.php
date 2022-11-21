@@ -3,11 +3,11 @@
 namespace Drupal\Tests\file\Functional;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\file\Entity\File;
 use Drupal\file\FileInterface;
 use Drupal\Tests\BrowserTestBase;
-use Drupal\file\Entity\File;
 use Drupal\Tests\TestFileCreationTrait;
 
 /**

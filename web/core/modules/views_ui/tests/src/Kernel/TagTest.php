@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\views_ui\Kernel;
 
-use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
-use Drupal\views_ui\Controller\ViewsUIController;
 use Drupal\Component\Utility\Html;
+use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
 use Drupal\views\Entity\View;
+use Drupal\views_ui\Controller\ViewsUIController;
 
 /**
  * Tests the views ui tagging functionality.

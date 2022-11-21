@@ -9,10 +9,10 @@ use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\Language\LanguageManagerInterface;
 use Drupal\Core\Plugin\DefaultPluginManager;
 use Drupal\Core\Plugin\Discovery\ContainerDerivativeDiscoveryDecorator;
-use Drupal\migrate\Plugin\Discovery\ProviderFilterDecorator;
 use Drupal\Core\Plugin\Discovery\YamlDirectoryDiscovery;
 use Drupal\Core\Plugin\Factory\ContainerFactory;
 use Drupal\migrate\MigrateBuildDependencyInterface;
+use Drupal\migrate\Plugin\Discovery\ProviderFilterDecorator;
 
 /**
  * Plugin manager for migration plugins.

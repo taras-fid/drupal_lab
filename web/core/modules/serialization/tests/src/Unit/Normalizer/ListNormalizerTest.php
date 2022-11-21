@@ -3,10 +3,10 @@
 namespace Drupal\Tests\serialization\Unit\Normalizer;
 
 use Drupal\Core\TypedData\DataDefinition;
-use Drupal\Core\TypedData\TypedDataManagerInterface;
-use Drupal\Tests\UnitTestCase;
-use Drupal\serialization\Normalizer\ListNormalizer;
 use Drupal\Core\TypedData\Plugin\DataType\ItemList;
+use Drupal\Core\TypedData\TypedDataManagerInterface;
+use Drupal\serialization\Normalizer\ListNormalizer;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\Serializer\Serializer;
 
 /**

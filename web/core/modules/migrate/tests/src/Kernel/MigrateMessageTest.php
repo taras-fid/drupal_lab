@@ -3,12 +3,12 @@
 namespace Drupal\Tests\migrate\Kernel;
 
 use Drupal\KernelTests\KernelTestBase;
-use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\Event\MigrateEvents;
 use Drupal\migrate\Event\MigrateIdMapMessageEvent;
 use Drupal\migrate\MigrateExecutable;
 use Drupal\migrate\MigrateMessageInterface;
 use Drupal\migrate\Plugin\migrate\id_map\Sql;
+use Drupal\migrate\Plugin\MigrationInterface;
 
 /**
  * Tests whether idmap messages are sent to message interface when requested.

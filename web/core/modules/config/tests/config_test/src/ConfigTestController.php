@@ -2,8 +2,8 @@
 
 namespace Drupal\config_test;
 
-use Drupal\Core\Controller\ControllerBase;
 use Drupal\config_test\Entity\ConfigTest;
+use Drupal\Core\Controller\ControllerBase;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
 /**

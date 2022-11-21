@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\file\Functional;
 
+use Drupal\file\Entity\File;
 use Drupal\node\Entity\Node;
 use Drupal\user\RoleInterface;
-use Drupal\file\Entity\File;
 
 /**
  * Confirm that file field submissions work correctly for anonymous visitors.

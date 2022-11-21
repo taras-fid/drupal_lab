@@ -3,9 +3,9 @@
 namespace Drupal\Tests\hal\Kernel;
 
 use Drupal\node\Entity\Node;
+use Drupal\node\Entity\NodeType;
 use Drupal\node\NodeInterface;
 use Drupal\user\Entity\User;
-use Drupal\node\Entity\NodeType;
 
 /**
  * Tests that translated nodes are correctly (de-)normalized.

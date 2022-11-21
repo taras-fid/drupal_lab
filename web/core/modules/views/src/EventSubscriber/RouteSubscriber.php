@@ -3,9 +3,9 @@
 namespace Drupal\views\EventSubscriber;
 
 use Drupal\Core\Entity\EntityTypeManagerInterface;
-use Drupal\Core\State\StateInterface;
 use Drupal\Core\Routing\RouteSubscriberBase;
 use Drupal\Core\Routing\RoutingEvents;
+use Drupal\Core\State\StateInterface;
 use Drupal\views\Plugin\views\display\DisplayRouterInterface;
 use Drupal\views\ViewExecutable;
 use Drupal\views\Views;

@@ -3,8 +3,8 @@
 namespace Drupal\Tests\user\Functional;
 
 use Drupal\Tests\BrowserTestBase;
-use Drupal\user\RoleInterface;
 use Drupal\user\Entity\Role;
+use Drupal\user\RoleInterface;
 
 /**
  * Verify that role permissions can be added and removed via the permissions

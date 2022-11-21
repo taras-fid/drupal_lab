@@ -2,8 +2,8 @@
 
 namespace Drupal\block\Controller;
 
-use Drupal\Component\Utility\Html;
 use Drupal\block\BlockInterface;
+use Drupal\Component\Utility\Html;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Extension\ThemeHandlerInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;

@@ -3,8 +3,8 @@
 namespace Drupal\Tests\user\Kernel\Views;
 
 use Drupal\language\Entity\ConfigurableLanguage;
-use Drupal\user\Entity\User;
 use Drupal\Tests\views\Kernel\Handler\FieldFieldAccessTestBase;
+use Drupal\user\Entity\User;
 
 /**
  * Tests base field access in Views for the user entity.

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\system\Unit;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\Tests\system\Traits\TestTrait;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * Test whether traits are autoloaded during PHPUnit discovery time.

@@ -4,9 +4,9 @@ namespace Drupal\Tests\jsonapi\Kernel\Controller;
 
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\jsonapi\CacheableResourceResponse;
-use Drupal\jsonapi\ResourceType\ResourceType;
 use Drupal\jsonapi\JsonApiResource\Data;
 use Drupal\jsonapi\JsonApiResource\JsonApiDocumentTopLevel;
+use Drupal\jsonapi\ResourceType\ResourceType;
 use Drupal\node\Entity\Node;
 use Drupal\node\Entity\NodeType;
 use Drupal\Tests\jsonapi\Kernel\JsonapiKernelTestBase;

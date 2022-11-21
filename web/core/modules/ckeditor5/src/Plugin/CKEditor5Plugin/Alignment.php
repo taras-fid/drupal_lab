@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Drupal\ckeditor5\Plugin\CKEditor5Plugin;
 
+use Drupal\ckeditor5\HTMLRestrictions;
+use Drupal\ckeditor5\Plugin\CKEditor5PluginConfigurableInterface;
 use Drupal\ckeditor5\Plugin\CKEditor5PluginConfigurableTrait;
 use Drupal\ckeditor5\Plugin\CKEditor5PluginDefault;
-use Drupal\ckeditor5\Plugin\CKEditor5PluginConfigurableInterface;
 use Drupal\ckeditor5\Plugin\CKEditor5PluginElementsSubsetInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\editor\EditorInterface;
-use Drupal\ckeditor5\HTMLRestrictions;
 
 /**
  * CKEditor 5 Alignment plugin.

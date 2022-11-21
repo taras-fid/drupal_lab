@@ -2,10 +2,10 @@
 
 namespace Drupal\content_moderation\Plugin\Validation\Constraint;
 
+use Drupal\content_moderation\ModerationInformationInterface;
 use Drupal\content_moderation\StateTransitionValidationInterface;
 use Drupal\Core\DependencyInjection\ContainerInjectionInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
-use Drupal\content_moderation\ModerationInformationInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Validation\Plugin\Validation\Constraint\NotNullConstraint;
 use Symfony\Component\DependencyInjection\ContainerInterface;

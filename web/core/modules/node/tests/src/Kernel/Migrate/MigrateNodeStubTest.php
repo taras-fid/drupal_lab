@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\node\Kernel\Migrate;
 
-use Drupal\Tests\migrate_drupal\Kernel\MigrateDrupalTestBase;
 use Drupal\migrate_drupal\Tests\StubTestTrait;
 use Drupal\node\Entity\NodeType;
+use Drupal\Tests\migrate_drupal\Kernel\MigrateDrupalTestBase;
 
 /**
  * Test stub creation for nodes.

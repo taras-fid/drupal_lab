@@ -4,8 +4,8 @@ namespace Drupal\text;
 
 use Drupal\Core\Cache\CacheableDependencyInterface;
 use Drupal\Core\TypedData\DataDefinitionInterface;
-use Drupal\Core\TypedData\TypedDataInterface;
 use Drupal\Core\TypedData\TypedData;
+use Drupal\Core\TypedData\TypedDataInterface;
 use Drupal\filter\FilterProcessResult;
 use Drupal\filter\Render\FilteredMarkup;
 

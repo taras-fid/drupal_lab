@@ -2,10 +2,10 @@
 
 namespace Drupal\comment\Plugin\EntityReferenceSelection;
 
+use Drupal\comment\CommentInterface;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Database\Query\SelectInterface;
 use Drupal\Core\Entity\Plugin\EntityReferenceSelection\DefaultSelection;
-use Drupal\comment\CommentInterface;
 
 /**
  * Provides specific access control for the comment entity type.

@@ -3,8 +3,8 @@
 namespace Drupal\Tests\comment\Kernel;
 
 use Drupal\comment\Entity\CommentType;
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\KernelTests\KernelTestBase;
 
 /**
  * Tests that comment fields cannot be added to entities with non-integer IDs.

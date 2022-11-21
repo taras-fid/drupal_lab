@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\block\Functional;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\block\Entity\Block;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests that an active block assigned to a non-existing region triggers the

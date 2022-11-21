@@ -8,8 +8,8 @@ use Drupal\Core\Ajax\InvokeCommand;
 use Drupal\Core\Cache\RefinableCacheableDependencyInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Entity\FieldableEntityInterface;
-use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Field\EntityReferenceFieldItemList;
+use Drupal\Core\Session\AccountInterface;
 
 /**
  * The media library opener for field widgets.

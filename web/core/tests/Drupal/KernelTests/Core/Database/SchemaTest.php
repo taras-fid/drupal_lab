@@ -3,11 +3,11 @@
 namespace Drupal\KernelTests\Core\Database;
 
 use Drupal\Component\Render\FormattableMarkup;
+use Drupal\Component\Utility\Unicode;
 use Drupal\Core\Database\Database;
 use Drupal\Core\Database\IntegrityConstraintViolationException;
 use Drupal\Core\Database\SchemaException;
 use Drupal\KernelTests\KernelTestBase;
-use Drupal\Component\Utility\Unicode;
 use Drupal\Tests\Core\Database\SchemaIntrospectionTestTrait;
 
 /**

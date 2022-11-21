@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\migrate\Unit\process;
 
-use Drupal\migrate\Plugin\migrate\process\MachineName;
 use Drupal\migrate\MigrateException;
+use Drupal\migrate\Plugin\migrate\process\MachineName;
 
 /**
  * Tests the machine name process plugin.

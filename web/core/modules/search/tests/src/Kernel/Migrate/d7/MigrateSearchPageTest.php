@@ -3,8 +3,8 @@
 namespace Drupal\Tests\search\Kernel\Migrate\d7;
 
 use Drupal\Core\Database\Database;
-use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 use Drupal\search\Entity\SearchPage;
+use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 
 /**
  * Tests migration of search page status and settings.

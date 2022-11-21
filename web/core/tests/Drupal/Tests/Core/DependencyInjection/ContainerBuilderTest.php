@@ -3,8 +3,8 @@
 namespace Drupal\Tests\Core\DependencyInjection;
 
 use Drupal\Core\DependencyInjection\ContainerBuilder;
-use Drupal\Tests\UnitTestCase;
 use Drupal\Tests\Core\DependencyInjection\Fixture\BarClass;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\DependencyInjection\Definition;
 
 /**

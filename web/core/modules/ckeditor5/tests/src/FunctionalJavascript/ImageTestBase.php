@@ -6,8 +6,8 @@ use Drupal\Component\Utility\Html;
 use Drupal\editor\Entity\Editor;
 use Drupal\filter\Entity\FilterFormat;
 use Drupal\node\Entity\Node;
-use Drupal\Tests\TestFileCreationTrait;
 use Drupal\Tests\ckeditor5\Traits\CKEditor5TestTrait;
+use Drupal\Tests\TestFileCreationTrait;
 
 // cspell:ignore imageresize imageupload
 

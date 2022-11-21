@@ -5,16 +5,16 @@
  * Provides integration with the CKEditor WYSIWYG editor.
  */
 
-use Drupal\Core\Url;
+use Drupal\ckeditor\CKEditorPluginButtonsInterface;
+use Drupal\ckeditor\CKEditorPluginContextualInterface;
 use Drupal\Component\Serialization\Json;
 use Drupal\Component\Utility\UrlHelper;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\ckeditor\CKEditorPluginButtonsInterface;
-use Drupal\ckeditor\CKEditorPluginContextualInterface;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
-use Drupal\editor\Entity\Editor;
+use Drupal\Core\Url;
 use Drupal\editor\EditorInterface;
+use Drupal\editor\Entity\Editor;
 
 /**
  * Implements hook_help().

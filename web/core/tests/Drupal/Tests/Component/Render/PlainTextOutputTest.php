@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\Component\Render;
 
-use Drupal\Component\Render\PlainTextOutput;
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Component\Render\MarkupInterface;
+use Drupal\Component\Render\PlainTextOutput;
 use PHPUnit\Framework\TestCase;
 
 /**

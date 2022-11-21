@@ -2,8 +2,8 @@
 
 namespace Drupal\filter\Plugin\migrate\source\d7;
 
-use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 use Drupal\migrate\Row;
+use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 
 /**
  * Drupal 7 filter source from database.

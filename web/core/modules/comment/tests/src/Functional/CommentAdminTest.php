@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\comment\Functional;
 
+use Drupal\comment\Entity\Comment;
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Component\Utility\Html;
 use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\user\RoleInterface;
-use Drupal\comment\Entity\Comment;
 
 /**
  * Tests comment approval functionality.

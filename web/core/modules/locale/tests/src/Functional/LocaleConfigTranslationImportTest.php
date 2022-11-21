@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\locale\Functional;
 
+use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\locale\Locale;
 use Drupal\Tests\BrowserTestBase;
-use Drupal\language\Entity\ConfigurableLanguage;
 
 /**
  * Tests translation update's effects on configuration translations.

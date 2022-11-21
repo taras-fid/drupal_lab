@@ -3,11 +3,11 @@
 namespace Drupal\Core\EventSubscriber;
 
 use Drupal\Core\Cache\Cache;
+use Drupal\Core\Database\Connection;
 use Drupal\Core\Database\ReplicaKillSwitch;
 use Drupal\Core\Lock\LockBackendInterface;
 use Drupal\Core\Menu\MenuLinkManagerInterface;
 use Drupal\Core\Routing\RoutingEvents;
-use Drupal\Core\Database\Connection;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**

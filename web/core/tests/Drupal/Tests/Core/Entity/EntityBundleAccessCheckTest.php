@@ -2,16 +2,16 @@
 
 namespace Drupal\Tests\Core\Entity;
 
+use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Cache\Context\CacheContextsManager;
 use Drupal\Core\DependencyInjection\Container;
+use Drupal\Core\Entity\EntityBundleAccessCheck;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\node\NodeInterface;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\Routing\Route;
-use Drupal\Core\Access\AccessResult;
-use Drupal\Core\Entity\EntityBundleAccessCheck;
-use Drupal\Tests\UnitTestCase;
 
 /**
  * Unit test of entity access checking system.

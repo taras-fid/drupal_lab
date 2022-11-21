@@ -5,12 +5,12 @@
  * Used to aggregate syndicated content (RSS, RDF, and Atom).
  */
 
+use Drupal\aggregator\Entity\Feed;
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Entity\EntityTypeInterface;
+use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Url;
-use Drupal\aggregator\Entity\Feed;
-use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
  * Implements hook_help().

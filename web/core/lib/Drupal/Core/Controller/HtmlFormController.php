@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Controller;
 
+use Drupal\Core\DependencyInjection\ClassResolverInterface;
 use Drupal\Core\Form\FormBuilderInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\Core\DependencyInjection\ClassResolverInterface;
 use Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface;
 
 /**

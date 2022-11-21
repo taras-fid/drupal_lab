@@ -2,21 +2,21 @@
 
 namespace Drupal\views_ui\Controller;
 
+use Drupal\Component\Utility\Html;
 use Drupal\Component\Utility\Tags;
+use Drupal\Core\Ajax\AjaxResponse;
+use Drupal\Core\Ajax\ReplaceCommand;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Link;
 use Drupal\Core\Url;
-use Drupal\views\ViewExecutable;
 use Drupal\views\ViewEntityInterface;
+use Drupal\views\ViewExecutable;
 use Drupal\views\Views;
-use Drupal\views_ui\ViewUI;
 use Drupal\views\ViewsData;
+use Drupal\views_ui\ViewUI;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
-use Drupal\Core\Ajax\AjaxResponse;
-use Drupal\Core\Ajax\ReplaceCommand;
-use Drupal\Component\Utility\Html;
+use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Returns responses for Views UI routes.

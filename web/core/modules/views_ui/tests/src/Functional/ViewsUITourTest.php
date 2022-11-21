@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\views_ui\Functional;
 
-use Drupal\Tests\tour\Functional\TourTestBase;
 use Drupal\language\Entity\ConfigurableLanguage;
+use Drupal\Tests\tour\Functional\TourTestBase;
 
 /**
  * Tests the Views UI tour.

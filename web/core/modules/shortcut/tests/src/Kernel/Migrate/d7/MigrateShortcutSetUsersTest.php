@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\shortcut\Kernel\Migrate\d7;
 
-use Drupal\user\Entity\User;
 use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
+use Drupal\user\Entity\User;
 
 /**
  * Test shortcut_set_users migration.

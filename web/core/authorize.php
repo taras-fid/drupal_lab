@@ -22,12 +22,12 @@
 
 use Drupal\Core\DrupalKernel;
 use Drupal\Core\Form\EnforcedResponseException;
+use Drupal\Core\Routing\RouteObjectInterface;
+use Drupal\Core\Site\Settings;
 use Drupal\Core\Url;
-use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Drupal\Core\Site\Settings;
-use Drupal\Core\Routing\RouteObjectInterface;
+use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 use Symfony\Component\Routing\Route;
 
 // Change the directory to the Drupal root.

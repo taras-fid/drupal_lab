@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\config\Functional;
 
-use Drupal\Core\Routing\RedirectDestinationTrait;
 use Drupal\config_test\Entity\ConfigTest;
 use Drupal\Core\Entity\EntityStorageInterface;
+use Drupal\Core\Routing\RedirectDestinationTrait;
 use Drupal\Tests\BrowserTestBase;
 
 /**

@@ -3,11 +3,11 @@
 namespace Drupal\Tests\Core\DependencyInjection\Compiler;
 
 use Drupal\Core\DependencyInjection\Compiler\MimeTypePass;
+use Drupal\Core\File\MimeType\MimeTypeGuesser;
 use Drupal\Tests\UnitTestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpFoundation\File\MimeType\MimeTypeGuesserInterface as LegacyMimeTypeGuesserInterface;
 use Symfony\Component\Mime\MimeTypeGuesserInterface;
-use Drupal\Core\File\MimeType\MimeTypeGuesser;
 
 /**
  * @coversDefaultClass \Drupal\Core\DependencyInjection\Compiler\MimeTypePass

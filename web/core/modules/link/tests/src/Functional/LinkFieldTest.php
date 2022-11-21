@@ -9,10 +9,10 @@ use Drupal\Core\Link;
 use Drupal\Core\Url;
 use Drupal\entity_test\Entity\EntityTest;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\link\LinkItemInterface;
 use Drupal\node\NodeInterface;
 use Drupal\Tests\BrowserTestBase;
-use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\Tests\Traits\Core\PathAliasTestTrait;
 
 /**

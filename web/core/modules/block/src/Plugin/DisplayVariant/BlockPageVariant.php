@@ -4,13 +4,13 @@ namespace Drupal\block\Plugin\DisplayVariant;
 
 use Drupal\block\BlockRepositoryInterface;
 use Drupal\Core\Block\MainContentBlockPluginInterface;
-use Drupal\Core\Block\TitleBlockPluginInterface;
 use Drupal\Core\Block\MessagesBlockPluginInterface;
+use Drupal\Core\Block\TitleBlockPluginInterface;
 use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Display\PageVariantInterface;
+use Drupal\Core\Display\VariantBase;
 use Drupal\Core\Entity\EntityViewBuilderInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\Core\Display\VariantBase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

@@ -2,12 +2,12 @@
 
 namespace Drupal\KernelTests\Core\TempStore;
 
-use Drupal\Core\KeyValueStore\KeyValueExpirableFactory;
-use Drupal\Core\Session\AccountProxyInterface;
-use Drupal\KernelTests\KernelTestBase;
-use Drupal\Core\TempStore\SharedTempStoreFactory;
-use Drupal\Core\Lock\DatabaseLockBackend;
 use Drupal\Core\Database\Database;
+use Drupal\Core\KeyValueStore\KeyValueExpirableFactory;
+use Drupal\Core\Lock\DatabaseLockBackend;
+use Drupal\Core\Session\AccountProxyInterface;
+use Drupal\Core\TempStore\SharedTempStoreFactory;
+use Drupal\KernelTests\KernelTestBase;
 
 /**
  * Tests the temporary object storage system.

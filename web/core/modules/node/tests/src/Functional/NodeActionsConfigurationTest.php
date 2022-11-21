@@ -3,8 +3,8 @@
 namespace Drupal\Tests\node\Functional;
 
 use Drupal\Component\Serialization\Json;
-use Drupal\Tests\BrowserTestBase;
 use Drupal\system\Entity\Action;
+use Drupal\Tests\BrowserTestBase;
 use Drupal\user\Entity\User;
 
 /**

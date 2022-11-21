@@ -2,9 +2,9 @@
 
 namespace Drupal\KernelTests;
 
+use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Component\Serialization\Json;
 use Drupal\Component\Utility\Html;
-use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Component\Utility\Xss;
 use Drupal\Core\Render\RenderContext;
 use Symfony\Component\CssSelector\CssSelectorConverter;

@@ -2,8 +2,8 @@
 
 namespace Drupal\quickedit\Plugin;
 
-use Drupal\Core\Plugin\PluginBase;
 use Drupal\Core\Field\FieldItemListInterface;
+use Drupal\Core\Plugin\PluginBase;
 
 /**
  * Defines a base in-place editor implementation.

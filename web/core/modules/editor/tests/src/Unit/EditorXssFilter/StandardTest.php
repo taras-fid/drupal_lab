@@ -3,8 +3,8 @@
 namespace Drupal\Tests\editor\Unit\EditorXssFilter;
 
 use Drupal\editor\EditorXssFilter\Standard;
-use Drupal\Tests\UnitTestCase;
 use Drupal\filter\Plugin\FilterInterface;
+use Drupal\Tests\UnitTestCase;
 
 // cspell:ignore ascript attributename bgsound bscript ckers cript datafld
 // cspell:ignore dataformatas datasrc dynsrc ession livescript msgbox nmouseover

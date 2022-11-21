@@ -3,9 +3,9 @@
 namespace Drupal\Tests\comment\Kernel\Migrate;
 
 use Drupal\comment\Entity\CommentType;
-use Drupal\Tests\migrate_drupal\Kernel\MigrateDrupalTestBase;
 use Drupal\migrate_drupal\Tests\StubTestTrait;
 use Drupal\node\Entity\NodeType;
+use Drupal\Tests\migrate_drupal\Kernel\MigrateDrupalTestBase;
 
 /**
  * Test stub creation for comment entities.

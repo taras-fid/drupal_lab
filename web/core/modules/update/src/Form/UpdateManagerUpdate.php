@@ -3,13 +3,13 @@
 namespace Drupal\update\Form;
 
 use Drupal\Core\Batch\BatchBuilder;
+use Drupal\Core\Extension\ExtensionVersion;
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Link;
 use Drupal\Core\State\StateInterface;
 use Drupal\Core\Url;
-use Drupal\Core\Extension\ExtensionVersion;
 use Drupal\update\ProjectRelease;
 use Drupal\update\UpdateFetcherInterface;
 use Drupal\update\UpdateManagerInterface;

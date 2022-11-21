@@ -2,12 +2,12 @@
 
 namespace Drupal\Tests\taxonomy\Functional\Views;
 
-use Drupal\Tests\field\Traits\EntityReferenceTestTrait;
 use Drupal\taxonomy\Entity\Term;
 use Drupal\taxonomy\Entity\Vocabulary;
+use Drupal\Tests\field\Traits\EntityReferenceTestTrait;
 use Drupal\Tests\views_ui\Functional\UITestBase;
-use Drupal\views\Tests\ViewTestData;
 use Drupal\views\Entity\View;
+use Drupal\views\Tests\ViewTestData;
 
 /**
  * Tests the taxonomy index filter handler UI.

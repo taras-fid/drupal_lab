@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\mysql\Kernel\mysql;
 
-use Drupal\KernelTests\Core\Database\DriverSpecificSchemaTestBase;
 use Drupal\Core\Database\SchemaException;
 use Drupal\Core\Database\SchemaObjectDoesNotExistException;
 use Drupal\Core\Database\SchemaObjectExistsException;
+use Drupal\KernelTests\Core\Database\DriverSpecificSchemaTestBase;
 
 /**
  * Tests schema API for the MySQL driver.

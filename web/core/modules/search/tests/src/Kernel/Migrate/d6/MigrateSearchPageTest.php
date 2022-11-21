@@ -3,8 +3,8 @@
 namespace Drupal\Tests\search\Kernel\Migrate\d6;
 
 use Drupal\Core\Database\Database;
-use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 use Drupal\search\Entity\SearchPage;
+use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 
 /**
  * Upgrade search page variables.

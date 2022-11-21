@@ -2,8 +2,8 @@
 
 namespace Drupal\FunctionalTests\Update;
 
-use Drupal\Component\Utility\Html;
 use Drupal\Component\Render\FormattableMarkup;
+use Drupal\Component\Utility\Html;
 use Drupal\Core\Database\Database;
 
 /**

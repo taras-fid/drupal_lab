@@ -3,8 +3,8 @@
 namespace Drupal\basic_auth\Authentication\Provider;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\Core\Authentication\AuthenticationProviderInterface;
 use Drupal\Core\Authentication\AuthenticationProviderChallengeInterface;
+use Drupal\Core\Authentication\AuthenticationProviderInterface;
 use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;

@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\language\Functional;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\language\Entity\ConfigurableLanguage;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests browser language detection with different accept-language headers.

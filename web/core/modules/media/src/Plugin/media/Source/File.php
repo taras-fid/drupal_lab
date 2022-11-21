@@ -4,8 +4,8 @@ namespace Drupal\media\Plugin\media\Source;
 
 use Drupal\file\FileInterface;
 use Drupal\media\MediaInterface;
-use Drupal\media\MediaTypeInterface;
 use Drupal\media\MediaSourceBase;
+use Drupal\media\MediaTypeInterface;
 
 /**
  * File entity media source.

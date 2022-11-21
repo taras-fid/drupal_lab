@@ -5,13 +5,13 @@ namespace Drupal\Tests\block\Functional\Views;
 use Drupal\Component\Serialization\Json;
 use Drupal\Component\Utility\Crypt;
 use Drupal\Core\Site\Settings;
+use Drupal\Core\Template\Attribute;
 use Drupal\Core\Url;
 use Drupal\Tests\block\Functional\AssertBlockAppearsTrait;
 use Drupal\Tests\system\Functional\Cache\AssertPageCacheContextsAndTagsTrait;
 use Drupal\Tests\views\Functional\ViewTestBase;
 use Drupal\views\Entity\View;
 use Drupal\views\Views;
-use Drupal\Core\Template\Attribute;
 
 /**
  * Tests the block display plugin.

@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\link\Unit\Plugin\migrate\field\d6;
 
+use Drupal\link\Plugin\migrate\field\d6\LinkField;
 use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\Tests\UnitTestCase;
-use Drupal\link\Plugin\migrate\field\d6\LinkField;
 use Prophecy\Argument;
 
 /**

@@ -3,8 +3,8 @@
 namespace Drupal\block_content;
 
 use Drupal\block_content\Entity\BlockContentType;
-use Drupal\Core\Entity\EntityInterface;
 use Drupal\content_translation\ContentTranslationHandler;
+use Drupal\Core\Entity\EntityInterface;
 
 /**
  * Defines the translation handler for custom blocks.

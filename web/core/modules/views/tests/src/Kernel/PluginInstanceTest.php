@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\views\Kernel;
 
-use Drupal\views\Views;
 use Drupal\views\Plugin\views\PluginBase;
+use Drupal\views\Views;
 
 /**
  * Tests that an instance of all views plugins can be created.

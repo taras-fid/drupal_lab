@@ -3,8 +3,8 @@
 namespace Drupal\Tests;
 
 use Drupal\Core\Extension\ExtensionDiscovery;
-use PHPUnit\Util\Test;
 use PHPUnit\Framework\SkippedTestError;
+use PHPUnit\Util\Test;
 
 /**
  * Allows test classes to require Drupal modules as dependencies.

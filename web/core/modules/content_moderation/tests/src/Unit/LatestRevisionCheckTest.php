@@ -3,6 +3,8 @@
 namespace Drupal\Tests\content_moderation\Unit;
 
 use Drupal\block_content\Entity\BlockContent;
+use Drupal\content_moderation\Access\LatestRevisionCheck;
+use Drupal\content_moderation\ModerationInformation;
 use Drupal\Core\Access\AccessResultAllowed;
 use Drupal\Core\Access\AccessResultForbidden;
 use Drupal\Core\Access\AccessResultNeutral;
@@ -10,8 +12,6 @@ use Drupal\Core\Cache\Context\CacheContextsManager;
 use Drupal\Core\Routing\RouteMatch;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\node\Entity\Node;
-use Drupal\content_moderation\Access\LatestRevisionCheck;
-use Drupal\content_moderation\ModerationInformation;
 use Drupal\Tests\UnitTestCase;
 use Drupal\user\EntityOwnerInterface;
 use Prophecy\Argument;

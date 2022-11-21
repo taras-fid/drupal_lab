@@ -3,8 +3,8 @@
 namespace Drupal\Tests\comment\Kernel\Migrate\d7;
 
 use Drupal\comment\Entity\Comment;
-use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 use Drupal\node\NodeInterface;
+use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 
 /**
  * Tests the migration of comments from Drupal 7.

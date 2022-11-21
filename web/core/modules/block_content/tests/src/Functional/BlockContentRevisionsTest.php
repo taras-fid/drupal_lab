@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\block_content\Functional;
 
-use Drupal\Component\Render\FormattableMarkup;
 use Drupal\block_content\Entity\BlockContent;
+use Drupal\Component\Render\FormattableMarkup;
 use Drupal\user\UserInterface;
 
 /**

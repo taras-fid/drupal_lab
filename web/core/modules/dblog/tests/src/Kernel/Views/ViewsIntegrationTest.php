@@ -4,12 +4,12 @@ namespace Drupal\Tests\dblog\Kernel\Views;
 
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Component\Utility\Xss;
-use Drupal\Core\Logger\RfcLogLevel;
 use Drupal\Core\Link;
+use Drupal\Core\Logger\RfcLogLevel;
 use Drupal\Core\Url;
 use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
-use Drupal\views\Views;
 use Drupal\views\Tests\ViewTestData;
+use Drupal\views\Views;
 
 /**
  * Tests the views integration of dblog module.

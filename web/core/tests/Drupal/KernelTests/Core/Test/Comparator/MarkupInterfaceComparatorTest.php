@@ -8,8 +8,8 @@ use Drupal\KernelTests\KernelTestBase;
 use Drupal\TestTools\Comparator\MarkupInterfaceComparator;
 use PHPUnit\Framework\Error\Notice;
 use PHPUnit\Framework\Error\Warning;
-use SebastianBergmann\Comparator\Factory;
 use SebastianBergmann\Comparator\ComparisonFailure;
+use SebastianBergmann\Comparator\Factory;
 
 /**
  * Tests \Drupal\TestTools\Comparator\MarkupInterfaceComparator.

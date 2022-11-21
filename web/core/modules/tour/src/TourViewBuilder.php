@@ -2,9 +2,9 @@
 
 namespace Drupal\tour;
 
+use Drupal\Component\Utility\Html;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Entity\EntityViewBuilder;
-use Drupal\Component\Utility\Html;
 
 /**
  * Provides a Tour view builder.

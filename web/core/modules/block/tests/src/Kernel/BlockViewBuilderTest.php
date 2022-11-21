@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\block\Kernel;
 
+use Drupal\block\Entity\Block;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\KernelTests\KernelTestBase;
-use Drupal\block\Entity\Block;
 
 /**
  * Tests the block view builder.

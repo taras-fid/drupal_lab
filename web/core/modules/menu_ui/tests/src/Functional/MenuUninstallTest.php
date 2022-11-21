@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\menu_ui\Functional;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\system\Entity\Menu;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests that uninstalling menu does not remove custom menus.

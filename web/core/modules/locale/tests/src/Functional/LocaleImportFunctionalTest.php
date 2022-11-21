@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\locale\Functional;
 
-use Drupal\Core\Url;
 use Drupal\Core\Database\Database;
 use Drupal\Core\File\FileSystemInterface;
-use Drupal\Tests\BrowserTestBase;
 use Drupal\Core\Language\LanguageInterface;
+use Drupal\Core\Url;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests the import of locale files.

@@ -3,8 +3,8 @@
 namespace Drupal\Tests\breakpoint\Unit;
 
 use Drupal\breakpoint\Breakpoint;
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\breakpoint\Breakpoint

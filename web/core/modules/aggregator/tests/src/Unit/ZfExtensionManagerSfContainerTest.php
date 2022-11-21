@@ -4,10 +4,10 @@ namespace Drupal\Tests\aggregator\Unit;
 
 use Drupal\aggregator\ZfExtensionManagerSfContainer;
 use Drupal\Tests\UnitTestCase;
-use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException;
 use Laminas\Feed\Reader\Extension\Atom\Entry;
 use Laminas\Feed\Reader\StandaloneExtensionManager;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException;
 
 /**
  * @coversDefaultClass \Drupal\aggregator\ZfExtensionManagerSfContainer

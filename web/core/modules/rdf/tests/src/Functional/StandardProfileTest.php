@@ -2,14 +2,14 @@
 
 namespace Drupal\Tests\rdf\Functional;
 
+use Drupal\comment\Entity\Comment;
 use Drupal\Core\Url;
 use Drupal\file\Entity\File;
 use Drupal\image\Entity\ImageStyle;
 use Drupal\node\Entity\NodeType;
 use Drupal\node\NodeInterface;
-use Drupal\Tests\BrowserTestBase;
-use Drupal\comment\Entity\Comment;
 use Drupal\taxonomy\Entity\Term;
+use Drupal\Tests\BrowserTestBase;
 use Drupal\Tests\rdf\Traits\RdfParsingTrait;
 
 /**

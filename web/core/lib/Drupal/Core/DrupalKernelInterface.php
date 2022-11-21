@@ -3,8 +3,8 @@
 namespace Drupal\Core;
 
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
-use Symfony\Component\HttpKernel\HttpKernelInterface;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpKernel\HttpKernelInterface;
 
 /**
  * The interface for DrupalKernel, the core of Drupal.

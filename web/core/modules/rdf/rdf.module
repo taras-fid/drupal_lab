@@ -5,9 +5,9 @@
  * Enables semantically enriched output for Drupal sites in the form of RDFa.
  */
 
-use Drupal\Core\Url;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Template\Attribute;
+use Drupal\Core\Url;
 use Drupal\node\NodeInterface;
 use Drupal\rdf\Entity\RdfMapping;
 

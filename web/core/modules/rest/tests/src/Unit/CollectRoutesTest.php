@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\rest\Unit;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\rest\Plugin\views\display\RestExport;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
 

@@ -5,10 +5,10 @@
  * Provide views data for node.module.
  */
 
-use Drupal\user\RoleInterface;
-use Drupal\views\ViewExecutable;
 use Drupal\user\Entity\Role;
+use Drupal\user\RoleInterface;
 use Drupal\views\Analyzer;
+use Drupal\views\ViewExecutable;
 
 /**
  * Implements hook_views_analyze().

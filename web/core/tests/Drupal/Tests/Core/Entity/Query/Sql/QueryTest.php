@@ -3,9 +3,9 @@
 namespace Drupal\Tests\Core\Entity\Query\Sql;
 
 use Drupal\Core\Entity\EntityType;
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\Entity\Query\QueryException;
 use Drupal\Core\Entity\Query\Sql\Query;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\Core\Entity\Query\Sql\Query

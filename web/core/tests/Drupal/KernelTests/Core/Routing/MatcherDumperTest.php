@@ -2,15 +2,15 @@
 
 namespace Drupal\KernelTests\Core\Routing;
 
+use Drupal\Core\Database\Database;
 use Drupal\Core\KeyValueStore\KeyValueMemoryFactory;
+use Drupal\Core\Routing\MatcherDumper;
 use Drupal\Core\Routing\RouteCompiler;
 use Drupal\Core\State\State;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\Tests\Core\Routing\RoutingFixtures;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
-use Drupal\Core\Database\Database;
-use Drupal\Core\Routing\MatcherDumper;
-use Drupal\Tests\Core\Routing\RoutingFixtures;
 
 /**
  * Confirm that the matcher dumper is functioning properly.

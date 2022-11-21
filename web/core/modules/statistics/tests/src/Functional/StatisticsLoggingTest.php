@@ -3,8 +3,8 @@
 namespace Drupal\Tests\statistics\Functional;
 
 use Drupal\Core\Database\Database;
-use Drupal\Tests\BrowserTestBase;
 use Drupal\node\Entity\Node;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests request logging for cached and uncached pages.

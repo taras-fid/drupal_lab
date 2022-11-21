@@ -12,8 +12,8 @@ use Drupal\Core\Url;
 use Drupal\menu_link_content\Entity\MenuLinkContent;
 use Drupal\migrate\MigrateLookupInterface;
 use Drupal\migrate\MigrateSkipRowException;
-use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\Plugin\migrate\process\MenuLinkParent;
+use Drupal\migrate\Plugin\MigrationInterface;
 
 /**
  * Tests the menu link parent process plugin.

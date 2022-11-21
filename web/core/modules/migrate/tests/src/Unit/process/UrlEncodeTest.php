@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\migrate\Unit\process;
 
-use Drupal\migrate\Plugin\migrate\process\UrlEncode;
 use Drupal\migrate\MigrateExecutable;
+use Drupal\migrate\Plugin\migrate\process\UrlEncode;
 use Drupal\migrate\Row;
 use Drupal\Tests\migrate\Unit\MigrateTestCase;
 

@@ -3,17 +3,17 @@
 namespace Drupal\KernelTests\Core\Entity;
 
 use Drupal\Component\Render\FormattableMarkup;
-use Drupal\Core\Language\LanguageInterface;
-use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Access\AccessibleInterface;
 use Drupal\Core\Entity\EntityAccessControlHandler;
+use Drupal\Core\Language\LanguageInterface;
+use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Session\AnonymousUserSession;
 use Drupal\entity_test\Entity\EntityTest;
-use Drupal\entity_test\Entity\EntityTestStringId;
 use Drupal\entity_test\Entity\EntityTestDefaultAccess;
-use Drupal\entity_test\Entity\EntityTestNoUuid;
 use Drupal\entity_test\Entity\EntityTestLabel;
+use Drupal\entity_test\Entity\EntityTestNoUuid;
 use Drupal\entity_test\Entity\EntityTestRev;
+use Drupal\entity_test\Entity\EntityTestStringId;
 use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\user\Entity\User;
 

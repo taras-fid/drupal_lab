@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\comment\Functional\Views;
 
+use Drupal\comment\Entity\Comment;
 use Drupal\comment\Tests\CommentTestTrait;
 use Drupal\Tests\views\Functional\ViewTestBase;
-use Drupal\comment\Entity\Comment;
 
 /**
  * Provides setup and helper methods for comment views tests.

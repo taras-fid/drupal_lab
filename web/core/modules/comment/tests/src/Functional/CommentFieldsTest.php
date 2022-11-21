@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\comment\Functional;
 
-use Drupal\Component\Render\FormattableMarkup;
-use Drupal\comment\Plugin\Field\FieldType\CommentItemInterface;
-use Drupal\field\Entity\FieldStorageConfig;
-use Drupal\field\Entity\FieldConfig;
 use Drupal\comment\Entity\CommentType;
+use Drupal\comment\Plugin\Field\FieldType\CommentItemInterface;
+use Drupal\Component\Render\FormattableMarkup;
+use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Tests fields on comments.

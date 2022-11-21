@@ -3,10 +3,8 @@
 namespace Drupal\student_registration\Form;
 
 use Drupal;
-use Drupal\Core\Database\Database;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Url;
 use Exception;
 
 class StudentDeleteForm extends FormBase

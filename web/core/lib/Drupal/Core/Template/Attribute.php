@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Template;
 
-use Drupal\Component\Render\PlainTextOutput;
 use Drupal\Component\Render\MarkupInterface;
+use Drupal\Component\Render\PlainTextOutput;
 use Drupal\Component\Utility\NestedArray;
 
 /**

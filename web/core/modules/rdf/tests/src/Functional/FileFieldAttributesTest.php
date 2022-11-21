@@ -3,8 +3,8 @@
 namespace Drupal\Tests\rdf\Functional;
 
 use Drupal\Core\Url;
-use Drupal\Tests\file\Functional\FileFieldTestBase;
 use Drupal\file\Entity\File;
+use Drupal\Tests\file\Functional\FileFieldTestBase;
 use Drupal\Tests\rdf\Traits\RdfParsingTrait;
 
 /**

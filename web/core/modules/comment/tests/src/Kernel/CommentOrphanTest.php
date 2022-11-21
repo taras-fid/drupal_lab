@@ -3,9 +3,9 @@
 namespace Drupal\Tests\comment\Kernel;
 
 use Drupal\Core\Datetime\Entity\DateFormat;
+use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\KernelTests\Core\Entity\EntityKernelTestBase;
 use Drupal\Tests\EntityViewTrait;
-use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Tests loading and rendering orphan comments.

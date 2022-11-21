@@ -2,10 +2,10 @@
 
 namespace Drupal\render_attached_test\Plugin\Block;
 
-use Drupal\render_attached_test\Controller\RenderAttachedTestController;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Render\BubbleableMetadata;
+use Drupal\render_attached_test\Controller\RenderAttachedTestController;
 
 /**
  * A block we can use to test caching of #attached headers.

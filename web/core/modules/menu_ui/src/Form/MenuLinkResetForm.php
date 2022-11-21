@@ -3,11 +3,11 @@
 namespace Drupal\menu_ui\Form;
 
 use Drupal\Core\Access\AccessResult;
-use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Url;
 use Drupal\Core\Form\ConfirmFormBase;
-use Drupal\Core\Menu\MenuLinkManagerInterface;
+use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Menu\MenuLinkInterface;
+use Drupal\Core\Menu\MenuLinkManagerInterface;
+use Drupal\Core\Url;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

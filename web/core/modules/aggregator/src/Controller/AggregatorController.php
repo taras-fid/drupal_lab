@@ -2,10 +2,10 @@
 
 namespace Drupal\aggregator\Controller;
 
+use Drupal\aggregator\FeedInterface;
 use Drupal\Component\Utility\Xss;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Datetime\DateFormatterInterface;
-use Drupal\aggregator\FeedInterface;
 use Drupal\Core\Url;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

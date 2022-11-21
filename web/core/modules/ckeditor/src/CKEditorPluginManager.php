@@ -3,10 +3,10 @@
 namespace Drupal\ckeditor;
 
 use Drupal\Component\Utility\NestedArray;
-use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Plugin\DefaultPluginManager;
 use Drupal\Core\Cache\CacheBackendInterface;
 use Drupal\Core\Extension\ModuleHandlerInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Plugin\DefaultPluginManager;
 use Drupal\editor\Entity\Editor;
 
 /**

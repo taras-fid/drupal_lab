@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\views_ui\Functional;
 
-use Drupal\views\Views;
 use Drupal\views\Entity\View;
+use Drupal\views\Views;
 
 /**
  * Tests query plugins.

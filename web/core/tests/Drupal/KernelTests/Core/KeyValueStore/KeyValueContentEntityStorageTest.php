@@ -4,8 +4,8 @@ namespace Drupal\KernelTests\Core\KeyValueStore;
 
 use Drupal\Core\Entity\EntityMalformedException;
 use Drupal\Core\Entity\EntityStorageException;
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\entity_test\Entity\EntityTestLabel;
+use Drupal\KernelTests\KernelTestBase;
 
 /**
  * Tests KeyValueEntityStorage for content entities.

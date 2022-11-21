@@ -2,9 +2,9 @@
 
 namespace Drupal\KernelTests\Core\Entity;
 
-use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\language\Entity\ConfigurableLanguage;
 
 /**
  * Base class for language-aware entity tests.

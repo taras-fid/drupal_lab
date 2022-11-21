@@ -2,8 +2,8 @@
 
 namespace Drupal\user\Plugin\migrate\source;
 
-use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 use Drupal\migrate\Plugin\migrate\source\DummyQueryTrait;
+use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 
 /**
  * Drupal 6/7 user picture field instance source from database.

@@ -10,8 +10,8 @@ use Drupal\Core\Form\FormState;
 use Drupal\Core\Render\Element;
 use Drupal\Core\Render\Element\Checkboxes;
 use Drupal\Core\Render\Element\Radios;
-use Drupal\Core\Url;
 use Drupal\Core\Template\Attribute;
+use Drupal\Core\Url;
 
 /**
  * Prepares variables for Views UI display tab setting templates.

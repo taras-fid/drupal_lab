@@ -2,20 +2,20 @@
 
 namespace Drupal\Tests;
 
-use Behat\Mink\Exception\ExpectationException;
-use Behat\Mink\Exception\ResponseTextException;
-use Behat\Mink\WebAssert as MinkWebAssert;
 use Behat\Mink\Element\ElementInterface;
 use Behat\Mink\Element\TraversableElement;
 use Behat\Mink\Exception\ElementNotFoundException;
+use Behat\Mink\Exception\ExpectationException;
+use Behat\Mink\Exception\ResponseTextException;
 use Behat\Mink\Session;
+use Behat\Mink\WebAssert as MinkWebAssert;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Url;
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\AssertionFailedError;
 use PHPUnit\Framework\Constraint\ArrayHasKey;
-use PHPUnit\Framework\Constraint\IsIdentical;
 use PHPUnit\Framework\Constraint\IsEqual;
+use PHPUnit\Framework\Constraint\IsIdentical;
 use PHPUnit\Framework\Constraint\LogicalNot;
 
 /**

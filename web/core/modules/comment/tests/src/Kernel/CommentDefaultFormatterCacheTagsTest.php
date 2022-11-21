@@ -2,14 +2,14 @@
 
 namespace Drupal\Tests\comment\Kernel;
 
+use Drupal\comment\CommentInterface;
+use Drupal\comment\Entity\Comment;
 use Drupal\comment\Tests\CommentTestTrait;
 use Drupal\Core\Cache\Cache;
-use Drupal\comment\CommentInterface;
+use Drupal\entity_test\Entity\EntityTest;
 use Drupal\KernelTests\Core\Entity\EntityKernelTestBase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Session\Session;
-use Drupal\comment\Entity\Comment;
-use Drupal\entity_test\Entity\EntityTest;
 
 /**
  * Tests the bubbling up of comment cache tags when using the Comment list

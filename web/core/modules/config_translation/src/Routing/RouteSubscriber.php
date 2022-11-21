@@ -2,8 +2,8 @@
 
 namespace Drupal\config_translation\Routing;
 
-use Drupal\Core\Routing\RouteSubscriberBase;
 use Drupal\config_translation\ConfigMapperManagerInterface;
+use Drupal\Core\Routing\RouteSubscriberBase;
 use Drupal\Core\Routing\RoutingEvents;
 use Symfony\Component\Routing\RouteCollection;
 

@@ -3,17 +3,17 @@
 namespace Drupal\help_topics\Plugin\HelpSection;
 
 use Drupal\Core\Cache\CacheableMetadata;
-use Drupal\help_topics\SearchableHelpInterface;
-use Drupal\help_topics\HelpTopicPluginInterface;
-use Drupal\help_topics\HelpTopicPluginManagerInterface;
 use Drupal\Core\Language\LanguageDefault;
 use Drupal\Core\Language\LanguageInterface;
 use Drupal\Core\Language\LanguageManagerInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\help\Plugin\HelpSection\HelpSectionPluginBase;
-use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\Render\RenderContext;
+use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\StringTranslation\TranslationManager;
+use Drupal\help\Plugin\HelpSection\HelpSectionPluginBase;
+use Drupal\help_topics\HelpTopicPluginInterface;
+use Drupal\help_topics\HelpTopicPluginManagerInterface;
+use Drupal\help_topics\SearchableHelpInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

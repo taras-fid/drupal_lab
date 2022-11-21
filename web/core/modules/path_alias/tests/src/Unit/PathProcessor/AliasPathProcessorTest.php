@@ -3,8 +3,8 @@
 namespace Drupal\Tests\path_alias\Unit\PathProcessor;
 
 use Drupal\Core\Cache\Cache;
-use Drupal\path_alias\PathProcessor\AliasPathProcessor;
 use Drupal\Core\Render\BubbleableMetadata;
+use Drupal\path_alias\PathProcessor\AliasPathProcessor;
 use Drupal\Tests\UnitTestCase;
 use Symfony\Component\HttpFoundation\Request;
 

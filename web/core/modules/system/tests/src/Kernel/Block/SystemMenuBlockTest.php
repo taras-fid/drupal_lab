@@ -2,15 +2,15 @@
 
 namespace Drupal\Tests\system\Kernel\Block;
 
+use Drupal\block\Entity\Block;
 use Drupal\Component\Render\FormattableMarkup;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Routing\RouteObjectInterface;
 use Drupal\KernelTests\KernelTestBase;
 use Drupal\system\Entity\Menu;
-use Drupal\block\Entity\Block;
-use Drupal\Core\Render\Element;
 use Drupal\system\Tests\Routing\MockRouteProvider;
 use Drupal\Tests\Core\Menu\MenuLinkMock;
 use Drupal\user\Entity\User;
-use Drupal\Core\Routing\RouteObjectInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;

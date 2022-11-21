@@ -5,8 +5,8 @@
  * Provides views data and hooks for views_test_data module.
  */
 
-use Drupal\views\ViewExecutable;
 use Drupal\views\Analyzer;
+use Drupal\views\ViewExecutable;
 
 /**
  * Implements hook_views_data().

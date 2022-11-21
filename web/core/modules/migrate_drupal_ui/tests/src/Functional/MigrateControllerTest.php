@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\migrate_drupal_ui\Functional;
 
-use Drupal\views\Entity\View;
 use Drupal\Tests\BrowserTestBase;
+use Drupal\views\Entity\View;
 
 /**
  * Tests for the MigrateController class.

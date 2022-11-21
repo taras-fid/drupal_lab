@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\options\Functional;
 
+use Drupal\entity_test\Entity\EntityTestRev;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
-use Drupal\entity_test\Entity\EntityTestRev;
 use Drupal\Tests\field\Functional\FieldTestBase;
 
 /**

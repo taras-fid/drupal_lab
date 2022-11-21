@@ -8,8 +8,8 @@
 namespace Drupal\Tests\Core\Cache\Context;
 
 use Drupal\Core\Cache\CacheableMetadata;
-use Drupal\Core\Cache\Context\CacheContextsManager;
 use Drupal\Core\Cache\Context\CacheContextInterface;
+use Drupal\Core\Cache\Context\CacheContextsManager;
 use Drupal\Core\Cache\Context\CalculatedCacheContextInterface;
 use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Tests\UnitTestCase;

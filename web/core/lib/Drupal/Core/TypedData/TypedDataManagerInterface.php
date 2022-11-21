@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\TypedData;
 
-use Drupal\Component\Plugin\PluginManagerInterface;
 use Drupal\Component\Plugin\Discovery\CachedDiscoveryInterface;
+use Drupal\Component\Plugin\PluginManagerInterface;
 use Drupal\Core\Validation\ConstraintManager;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 

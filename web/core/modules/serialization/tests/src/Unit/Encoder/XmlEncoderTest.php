@@ -3,10 +3,10 @@
 namespace Drupal\Tests\serialization\Unit\Encoder;
 
 use Drupal\serialization\Encoder\XmlEncoder;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\Serializer\Encoder\XmlEncoder as BaseXmlEncoder;
 use Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer;
 use Symfony\Component\Serializer\Serializer;
-use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\serialization\Encoder\XmlEncoder

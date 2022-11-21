@@ -3,9 +3,9 @@
 namespace Drupal\node\Plugin\views\argument;
 
 use Drupal\Core\DependencyInjection\DeprecatedServicePropertyTrait;
+use Drupal\node\NodeStorageInterface;
 use Drupal\views\Plugin\views\argument\NumericArgument;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Drupal\node\NodeStorageInterface;
 
 /**
  * Argument handler to accept a node revision id.

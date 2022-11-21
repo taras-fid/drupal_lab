@@ -3,8 +3,8 @@
 namespace Drupal\Core\Installer;
 
 use Drupal\Core\DependencyInjection\ContainerBuilder;
-use Drupal\Core\DependencyInjection\ServiceProviderInterface;
 use Drupal\Core\DependencyInjection\ServiceModifierInterface;
+use Drupal\Core\DependencyInjection\ServiceProviderInterface;
 use Symfony\Component\DependencyInjection\Reference;
 
 /**

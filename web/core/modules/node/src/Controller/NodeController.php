@@ -10,9 +10,9 @@ use Drupal\Core\Entity\EntityRepositoryInterface;
 use Drupal\Core\Link;
 use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\Url;
+use Drupal\node\NodeInterface;
 use Drupal\node\NodeStorageInterface;
 use Drupal\node\NodeTypeInterface;
-use Drupal\node\NodeInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

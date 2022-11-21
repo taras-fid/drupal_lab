@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\Component\Annotation\Doctrine;
 
-use Drupal\Component\Annotation\Doctrine\DocParser;
-use Doctrine\Common\Annotations\AnnotationRegistry;
 use Doctrine\Common\Annotations\Annotation\Target;
+use Doctrine\Common\Annotations\AnnotationRegistry;
+use Drupal\Component\Annotation\Doctrine\DocParser;
 use Drupal\Tests\Component\Annotation\Doctrine\Fixtures\AnnotationWithConstants;
 use Drupal\Tests\Component\Annotation\Doctrine\Fixtures\ClassWithConstants;
 use Drupal\Tests\Component\Annotation\Doctrine\Fixtures\IntefaceWithConstants;

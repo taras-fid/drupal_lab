@@ -2,15 +2,15 @@
 
 namespace Drupal\content_moderation\Plugin\Field\FieldWidget;
 
+use Drupal\content_moderation\ModerationInformation;
 use Drupal\content_moderation\Plugin\Field\ModerationStateFieldItemList;
+use Drupal\content_moderation\StateTransitionValidationInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Field\FieldDefinitionInterface;
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Field\Plugin\Field\FieldWidget\OptionsSelectWidget;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Session\AccountInterface;
-use Drupal\content_moderation\ModerationInformation;
-use Drupal\content_moderation\StateTransitionValidationInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

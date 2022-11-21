@@ -3,8 +3,8 @@
 namespace Drupal\Tests\language\Kernel;
 
 use Drupal\Core\Language\LanguageInterface;
-use Drupal\language\Entity\ContentLanguageSettings;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\language\Entity\ContentLanguageSettings;
 
 /**
  * Tests default language code is properly generated for entities.

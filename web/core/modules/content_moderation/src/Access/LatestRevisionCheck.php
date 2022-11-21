@@ -2,12 +2,12 @@
 
 namespace Drupal\content_moderation\Access;
 
+use Drupal\content_moderation\ModerationInformationInterface;
 use Drupal\Core\Access\AccessException;
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Routing\Access\AccessInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\content_moderation\ModerationInformationInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\user\EntityOwnerInterface;
 use Symfony\Component\Routing\Route;

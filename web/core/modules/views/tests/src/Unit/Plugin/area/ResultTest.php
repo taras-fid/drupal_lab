@@ -6,9 +6,9 @@ use Drupal\Core\Routing\RouteProviderInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Tests\UnitTestCase;
 use Drupal\views\Entity\View;
+use Drupal\views\Plugin\views\area\Result;
 use Drupal\views\Plugin\views\pager\PagerPluginBase;
 use Drupal\views\ViewExecutable;
-use Drupal\views\Plugin\views\area\Result;
 use Drupal\views\ViewsData;
 use Prophecy\Argument;
 

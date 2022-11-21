@@ -6,12 +6,12 @@ use Drupal\Component\Plugin\Discovery\DiscoveryInterface;
 use Drupal\Core\Block\BlockManager;
 use Drupal\Core\Block\Plugin\Block\Broken;
 use Drupal\Core\Cache\CacheBackendInterface;
+use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\Session\AccountInterface;
+use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\Tests\UnitTestCase;
 use Psr\Log\LoggerInterface;
-use Drupal\Core\DependencyInjection\ContainerBuilder;
-use Drupal\Core\StringTranslation\StringTranslationTrait;
 
 /**
  * @coversDefaultClass \Drupal\Core\Block\BlockManager

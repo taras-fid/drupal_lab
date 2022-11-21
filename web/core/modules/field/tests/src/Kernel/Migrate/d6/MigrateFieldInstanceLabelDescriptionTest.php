@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\field\Kernel\Migrate\d6;
 
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\Core\Database\Database;
+use Drupal\KernelTests\KernelTestBase;
 use Drupal\Tests\migrate\Kernel\MigrateDumpAlterInterface;
 use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 

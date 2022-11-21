@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\book\Kernel;
 
+use Drupal\KernelTests\KernelTestBase;
 use Drupal\node\Entity\Node;
 use Drupal\node\Entity\NodeType;
-use Drupal\KernelTests\KernelTestBase;
 
 /**
  * Tests that the Book module cannot be uninstalled if books exist.

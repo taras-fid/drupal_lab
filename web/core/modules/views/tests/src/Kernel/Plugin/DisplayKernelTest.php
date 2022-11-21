@@ -2,15 +2,15 @@
 
 namespace Drupal\Tests\views\Kernel\Plugin;
 
-use Drupal\views\Views;
 use Drupal\Tests\views\Kernel\ViewsKernelTestBase;
-use Drupal\views\Plugin\views\style\StylePluginBase;
 use Drupal\views\Plugin\views\access\AccessPluginBase;
+use Drupal\views\Plugin\views\cache\CachePluginBase;
 use Drupal\views\Plugin\views\exposed_form\ExposedFormPluginInterface;
 use Drupal\views\Plugin\views\pager\PagerPluginBase;
 use Drupal\views\Plugin\views\query\QueryPluginBase;
-use Drupal\views\Plugin\views\cache\CachePluginBase;
 use Drupal\views\Plugin\views\row\RowPluginBase;
+use Drupal\views\Plugin\views\style\StylePluginBase;
+use Drupal\views\Views;
 
 /**
  * Drupal unit tests for the DisplayPluginBase class.

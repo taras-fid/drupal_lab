@@ -2,8 +2,8 @@
 
 namespace Drupal\statistics\Plugin\views\field;
 
-use Drupal\views\Plugin\views\field\NumericField;
 use Drupal\Core\Session\AccountInterface;
+use Drupal\views\Plugin\views\field\NumericField;
 
 /**
  * Field handler to display numeric values from the statistics module.

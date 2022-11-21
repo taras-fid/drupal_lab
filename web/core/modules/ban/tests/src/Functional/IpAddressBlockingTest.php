@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\ban\Functional;
 
-use Drupal\Tests\BrowserTestBase;
-use Drupal\Core\Database\Database;
 use Drupal\ban\BanIpManager;
+use Drupal\Core\Database\Database;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests IP address banning.

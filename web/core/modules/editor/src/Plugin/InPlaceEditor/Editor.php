@@ -5,8 +5,8 @@ namespace Drupal\editor\Plugin\InPlaceEditor;
 use Drupal\Component\Plugin\PluginBase;
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\filter\Entity\FilterFormat;
-use Drupal\quickedit\Plugin\InPlaceEditorInterface;
 use Drupal\filter\Plugin\FilterInterface;
+use Drupal\quickedit\Plugin\InPlaceEditorInterface;
 
 /**
  * Defines the formatted text in-place editor.

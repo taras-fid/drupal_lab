@@ -4,9 +4,9 @@ namespace Drupal\Tests\text\Kernel;
 
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\filter\Entity\FilterFormat;
 use Drupal\KernelTests\Core\Entity\EntityKernelTestBase;
-use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Tests the text formatters functionality.

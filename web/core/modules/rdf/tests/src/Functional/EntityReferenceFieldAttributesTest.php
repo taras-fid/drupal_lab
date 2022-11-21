@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\rdf\Functional;
 
-use Drupal\Core\Url;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
+use Drupal\Core\Url;
 use Drupal\Tests\rdf\Traits\RdfParsingTrait;
 use Drupal\Tests\taxonomy\Functional\TaxonomyTestBase;
 

@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\book\Functional;
 
-use Drupal\Core\Link;
-use Drupal\Core\Url;
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Link;
+use Drupal\Core\Url;
 
 /**
  * Provides common functionality for Book test classes.

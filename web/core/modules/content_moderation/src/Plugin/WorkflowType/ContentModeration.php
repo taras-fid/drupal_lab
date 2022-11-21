@@ -2,14 +2,14 @@
 
 namespace Drupal\content_moderation\Plugin\WorkflowType;
 
+use Drupal\content_moderation\ContentModerationState;
 use Drupal\content_moderation\ModerationInformationInterface;
 use Drupal\Core\Entity\ContentEntityInterface;
+use Drupal\Core\Entity\EntityPublishedInterface;
 use Drupal\Core\Entity\EntityTypeBundleInfoInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
-use Drupal\Core\Entity\EntityPublishedInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
-use Drupal\content_moderation\ContentModerationState;
 use Drupal\workflows\Plugin\WorkflowTypeBase;
 use Drupal\workflows\StateInterface;
 use Drupal\workflows\WorkflowInterface;

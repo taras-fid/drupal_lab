@@ -5,8 +5,8 @@ namespace Drupal\Core\Layout;
 use Drupal\Component\Plugin\Definition\ContextAwarePluginDefinitionInterface;
 use Drupal\Component\Plugin\Definition\ContextAwarePluginDefinitionTrait;
 use Drupal\Component\Plugin\Definition\DerivablePluginDefinitionInterface;
-use Drupal\Component\Plugin\Definition\PluginDefinitionInterface;
 use Drupal\Component\Plugin\Definition\PluginDefinition;
+use Drupal\Component\Plugin\Definition\PluginDefinitionInterface;
 use Drupal\Core\Plugin\Definition\DependentPluginDefinitionInterface;
 use Drupal\Core\Plugin\Definition\DependentPluginDefinitionTrait;
 

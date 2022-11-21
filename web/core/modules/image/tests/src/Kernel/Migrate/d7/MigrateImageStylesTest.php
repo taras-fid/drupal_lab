@@ -3,8 +3,8 @@
 namespace Drupal\Tests\image\Kernel\Migrate\d7;
 
 use Drupal\image\Entity\ImageStyle;
-use Drupal\image\ImageStyleInterface;
 use Drupal\image\ImageEffectBase;
+use Drupal\image\ImageStyleInterface;
 use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 
 /**

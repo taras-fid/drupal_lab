@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
-import { BalloonPanelView } from 'ckeditor5/src/ui';
-import { getClosestSelectedDrupalMediaWidget } from '../utils';
+import {BalloonPanelView} from 'ckeditor5/src/ui';
+import {getClosestSelectedDrupalMediaWidget} from '../utils';
 
 /**
  * Returns the positioning options that control the geometry of the contextual

@@ -4,9 +4,9 @@ namespace Drupal\Core\Routing;
 
 use Drupal\Core\Path\CurrentPathStack;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Routing\Matcher\UrlMatcher as BaseUrlMatcher;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
-use Symfony\Component\Routing\Matcher\UrlMatcher as BaseUrlMatcher;
 
 /**
  * Drupal-specific URL Matcher; handles the Drupal "system path" mapping.

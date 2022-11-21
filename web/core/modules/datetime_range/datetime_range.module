@@ -5,8 +5,8 @@
  * Field hooks to implement a datetime field that stores a start and end date.
  */
 
-use Drupal\Core\Url;
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
 
 /**
  * Implements hook_help().

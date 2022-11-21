@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\ckeditor\Kernel;
 
-use Drupal\KernelTests\KernelTestBase;
-use Drupal\language\Entity\ConfigurableLanguage;
 use Drupal\editor\Entity\Editor;
 use Drupal\filter\Entity\FilterFormat;
+use Drupal\KernelTests\KernelTestBase;
+use Drupal\language\Entity\ConfigurableLanguage;
 
 /**
  * Tests for the 'CKEditor' text editor plugin.

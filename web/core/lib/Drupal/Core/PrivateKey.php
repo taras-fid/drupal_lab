@@ -2,8 +2,8 @@
 
 namespace Drupal\Core;
 
-use Drupal\Core\State\StateInterface;
 use Drupal\Component\Utility\Crypt;
+use Drupal\Core\State\StateInterface;
 
 /**
  * Manages the Drupal private key.

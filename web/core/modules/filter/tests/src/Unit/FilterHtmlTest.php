@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\filter\Unit;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\filter\Plugin\Filter\FilterHtml;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * @coversDefaultClass \Drupal\filter\Plugin\Filter\FilterHtml

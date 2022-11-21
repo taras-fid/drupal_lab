@@ -2,8 +2,8 @@
 
 namespace Drupal\FunctionalTests\Theme;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\menu_link_content\Entity\MenuLinkContent;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests the Olivero theme.

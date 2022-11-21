@@ -3,8 +3,8 @@
 namespace Drupal\Tests\options\Kernel;
 
 use Drupal\field\Entity\FieldConfig;
-use Drupal\Tests\field\Kernel\FieldKernelTestBase;
 use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\Tests\field\Kernel\FieldKernelTestBase;
 
 /**
  * Base class for Options module integration tests.

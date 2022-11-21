@@ -2,8 +2,8 @@
 
 namespace Drupal\views\Plugin\views\area;
 
-use Drupal\Core\Form\FormStateInterface;
 use Drupal\Component\Utility\Xss;
+use Drupal\Core\Form\FormStateInterface;
 
 /**
  * Views area text handler.

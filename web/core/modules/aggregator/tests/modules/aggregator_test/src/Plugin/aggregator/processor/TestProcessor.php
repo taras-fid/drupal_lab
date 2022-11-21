@@ -2,9 +2,9 @@
 
 namespace Drupal\aggregator_test\Plugin\aggregator\processor;
 
+use Drupal\aggregator\FeedInterface;
 use Drupal\aggregator\Plugin\AggregatorPluginSettingsBase;
 use Drupal\aggregator\Plugin\ProcessorInterface;
-use Drupal\aggregator\FeedInterface;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Form\ConfigFormBaseTrait;
 use Drupal\Core\Form\FormStateInterface;

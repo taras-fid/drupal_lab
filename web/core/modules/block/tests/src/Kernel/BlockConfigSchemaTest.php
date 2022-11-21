@@ -3,8 +3,8 @@
 namespace Drupal\Tests\block\Kernel;
 
 use Drupal\block\Entity\Block;
-use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\Tests\SchemaCheckTestTrait;
 
 /**
  * Tests the block config schema.

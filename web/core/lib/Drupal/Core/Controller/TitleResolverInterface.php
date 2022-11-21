@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Controller;
 
-use Symfony\Component\Routing\Route;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Routing\Route;
 
 /**
  * Defines a class which knows how to generate the title from a given route.

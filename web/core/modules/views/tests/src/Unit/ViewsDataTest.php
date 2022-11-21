@@ -4,8 +4,8 @@ namespace Drupal\Tests\views\Unit;
 
 use Drupal\Core\Language\Language;
 use Drupal\Tests\UnitTestCase;
-use Drupal\views\ViewsData;
 use Drupal\views\Tests\ViewTestData;
+use Drupal\views\ViewsData;
 
 /**
  * @coversDefaultClass \Drupal\views\ViewsData

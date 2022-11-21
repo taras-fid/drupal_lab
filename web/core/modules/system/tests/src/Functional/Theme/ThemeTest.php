@@ -3,8 +3,8 @@
 namespace Drupal\Tests\system\Functional\Theme;
 
 use Drupal\Component\Serialization\Json;
-use Drupal\Tests\BrowserTestBase;
 use Drupal\Core\Routing\RouteObjectInterface;
+use Drupal\Tests\BrowserTestBase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Route;
 

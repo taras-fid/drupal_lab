@@ -3,8 +3,8 @@
 namespace Drupal\Tests\quickedit\Kernel;
 
 use Drupal\field\Entity\FieldConfig;
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\KernelTests\KernelTestBase;
 
 /**
  * Base class for testing Quick Edit functionality.

@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\ckeditor\Functional;
 
-use Drupal\filter\Entity\FilterFormat;
-use Drupal\editor\Entity\Editor;
-use Drupal\Tests\BrowserTestBase;
 use Drupal\Component\Serialization\Json;
+use Drupal\editor\Entity\Editor;
+use Drupal\filter\Entity\FilterFormat;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests CKEditor toolbar buttons when the language direction is RTL.

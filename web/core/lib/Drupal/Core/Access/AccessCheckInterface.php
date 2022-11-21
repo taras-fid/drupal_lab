@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\Access;
 
-use Symfony\Component\Routing\Route;
 use Drupal\Core\Routing\Access\AccessInterface as RoutingAccessInterface;
+use Symfony\Component\Routing\Route;
 
 /**
  * An access check service determines access rules for particular routes.

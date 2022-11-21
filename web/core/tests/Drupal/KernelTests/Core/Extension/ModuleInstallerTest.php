@@ -3,8 +3,8 @@
 namespace Drupal\KernelTests\Core\Extension;
 
 use Drupal\Core\Database\Database;
-use Drupal\Core\Extension\MissingDependencyException;
 use Drupal\Core\Extension\Exception\ObsoleteExtensionException;
+use Drupal\Core\Extension\MissingDependencyException;
 use Drupal\KernelTests\KernelTestBase;
 use Symfony\Component\Routing\Exception\RouteNotFoundException;
 

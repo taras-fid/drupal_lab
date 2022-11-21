@@ -2,11 +2,11 @@
 
 namespace Drupal\views\Plugin\views\display;
 
-use Drupal\Core\Url;
 use Drupal\Component\Plugin\Discovery\CachedDiscoveryInterface;
 use Drupal\Core\Block\BlockManagerInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Url;
 use Drupal\views\Plugin\Block\ViewsBlock;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

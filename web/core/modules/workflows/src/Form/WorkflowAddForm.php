@@ -3,10 +3,10 @@
 namespace Drupal\workflows\Form;
 
 use Drupal\Component\Plugin\PluginManagerInterface;
-use Drupal\workflows\Entity\Workflow;
 use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\workflows\Entity\Workflow;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

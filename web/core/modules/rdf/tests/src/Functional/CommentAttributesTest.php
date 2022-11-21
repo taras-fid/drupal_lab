@@ -2,14 +2,14 @@
 
 namespace Drupal\Tests\rdf\Functional;
 
-use Drupal\Core\Url;
 use Drupal\comment\CommentInterface;
 use Drupal\comment\CommentManagerInterface;
+use Drupal\comment\Entity\Comment;
+use Drupal\Core\Url;
 use Drupal\Tests\comment\Functional\CommentTestBase;
 use Drupal\Tests\rdf\Traits\RdfParsingTrait;
 use Drupal\user\Entity\User;
 use Drupal\user\RoleInterface;
-use Drupal\comment\Entity\Comment;
 
 /**
  * Tests the RDFa markup of comments.

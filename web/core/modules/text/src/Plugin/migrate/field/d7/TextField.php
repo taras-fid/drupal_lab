@@ -2,8 +2,8 @@
 
 namespace Drupal\text\Plugin\migrate\field\d7;
 
-use Drupal\migrate\Row;
 use Drupal\migrate\MigrateSkipRowException;
+use Drupal\migrate\Row;
 use Drupal\migrate_drupal\Plugin\migrate\field\FieldPluginBase;
 
 /**

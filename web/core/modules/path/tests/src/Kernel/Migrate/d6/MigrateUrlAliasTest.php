@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\path\Kernel\Migrate\d6;
 
-use Drupal\path_alias\PathAliasInterface;
-use Drupal\migrate\Plugin\MigrateIdMapInterface;
 use Drupal\Core\Database\Database;
+use Drupal\migrate\Plugin\MigrateIdMapInterface;
+use Drupal\path_alias\PathAliasInterface;
 use Drupal\Tests\migrate_drupal\Kernel\d6\MigrateDrupal6TestBase;
 use Drupal\Tests\Traits\Core\PathAliasTestTrait;
 

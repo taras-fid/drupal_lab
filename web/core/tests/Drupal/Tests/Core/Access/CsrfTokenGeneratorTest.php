@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\Core\Access;
 
+use Drupal\Component\Utility\Crypt;
+use Drupal\Core\Access\CsrfTokenGenerator;
 use Drupal\Core\Site\Settings;
 use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Access\CsrfTokenGenerator;
-use Drupal\Component\Utility\Crypt;
 
 /**
  * Tests the CsrfTokenGenerator class.

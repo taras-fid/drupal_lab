@@ -8,11 +8,11 @@
 namespace Drupal\Tests\Core\Controller;
 
 use Drupal\Core\Controller\TitleResolver;
+use Drupal\Core\StringTranslation\TranslatableMarkup;
 use Drupal\Tests\UnitTestCase;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Route;
-use Drupal\Core\StringTranslation\TranslatableMarkup;
 
 /**
  * @coversDefaultClass \Drupal\Core\Controller\TitleResolver

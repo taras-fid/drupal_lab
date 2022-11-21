@@ -3,9 +3,9 @@
 namespace Drupal\display_variant_test\Plugin\DisplayVariant;
 
 use Drupal\Core\Cache\CacheableMetadata;
-use Drupal\Core\Display\VariantBase;
-use Drupal\Core\Display\PageVariantInterface;
 use Drupal\Core\Display\ContextAwareVariantInterface;
+use Drupal\Core\Display\PageVariantInterface;
+use Drupal\Core\Display\VariantBase;
 
 /**
  * Provides a display variant that requires configuration.

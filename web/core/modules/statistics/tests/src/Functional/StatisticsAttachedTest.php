@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\statistics\Functional;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\node\Entity\Node;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests if statistics.js is loaded when content is not printed.

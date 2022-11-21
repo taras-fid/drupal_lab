@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\hal\Functional\user;
 
+use Drupal\Core\Test\AssertMailTrait;
 use Drupal\Core\Url;
 use Drupal\Tests\rest\Functional\CookieResourceTestTrait;
 use Drupal\Tests\rest\Functional\ResourceTestBase;
-use Drupal\Core\Test\AssertMailTrait;
 use Drupal\user\UserInterface;
 use GuzzleHttp\RequestOptions;
 

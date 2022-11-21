@@ -3,8 +3,8 @@
 namespace Drupal\Tests\system\Kernel\Migrate\d7;
 
 use Drupal\Core\Database\Database;
-use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 use Drupal\system\Entity\Menu;
+use Drupal\Tests\migrate_drupal\Kernel\d7\MigrateDrupal7TestBase;
 
 /**
  * Upgrade menus to system.menu.*.yml.

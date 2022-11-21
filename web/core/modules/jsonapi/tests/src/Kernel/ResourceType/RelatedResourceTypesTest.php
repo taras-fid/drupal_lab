@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\jsonapi\Kernel\ResourceType;
 
-use Drupal\Tests\jsonapi\Kernel\JsonapiKernelTestBase;
 use Drupal\node\Entity\NodeType;
+use Drupal\Tests\jsonapi\Kernel\JsonapiKernelTestBase;
 use PHPUnit\Framework\Error\Warning;
 
 /**

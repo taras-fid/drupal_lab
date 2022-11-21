@@ -10,8 +10,8 @@ namespace Drupal\KernelTests\Core\Theme;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\GeneratedLink;
 use Drupal\Core\Link;
-use Drupal\Core\Render\RenderContext;
 use Drupal\Core\Render\Markup;
+use Drupal\Core\Render\RenderContext;
 use Drupal\Core\Url;
 use Drupal\KernelTests\KernelTestBase;
 

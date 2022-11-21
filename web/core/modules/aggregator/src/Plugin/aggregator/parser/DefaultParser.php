@@ -2,12 +2,12 @@
 
 namespace Drupal\aggregator\Plugin\aggregator\parser;
 
-use Drupal\aggregator\Plugin\ParserInterface;
 use Drupal\aggregator\FeedInterface;
+use Drupal\aggregator\Plugin\ParserInterface;
 use Drupal\Core\Messenger\MessengerTrait;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
-use Laminas\Feed\Reader\Reader;
 use Laminas\Feed\Reader\Exception\ExceptionInterface;
+use Laminas\Feed\Reader\Reader;
 
 /**
  * Defines a default parser implementation.

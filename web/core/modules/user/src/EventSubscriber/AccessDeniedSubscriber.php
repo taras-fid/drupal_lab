@@ -2,8 +2,8 @@
 
 namespace Drupal\user\EventSubscriber;
 
-use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Routing\RouteMatch;
+use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Url;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;

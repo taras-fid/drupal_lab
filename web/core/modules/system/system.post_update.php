@@ -5,15 +5,15 @@
  * Post update functions for System.
  */
 
-use Drupal\Core\Site\Settings;
 use Drupal\Core\Config\Entity\ConfigEntityUpdater;
 use Drupal\Core\Database\Database;
-use Drupal\Core\Entity\Display\EntityDisplayInterface;
-use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
 use Drupal\Core\Entity\ContentEntityType;
 use Drupal\Core\Entity\ContentEntityTypeInterface;
+use Drupal\Core\Entity\Display\EntityDisplayInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Extension\Exception\UnknownExtensionException;
+use Drupal\Core\Site\Settings;
 
 /**
  * Implements hook_removed_post_updates().

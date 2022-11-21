@@ -2,9 +2,9 @@
 
 namespace Drupal\filter_test\Plugin\Filter;
 
+use Drupal\Component\Utility\Xss;
 use Drupal\filter\FilterProcessResult;
 use Drupal\filter\Plugin\FilterBase;
-use Drupal\Component\Utility\Xss;
 
 /**
  * Provides a test filter to restrict HTML tags and attributes.

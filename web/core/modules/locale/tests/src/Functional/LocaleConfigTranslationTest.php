@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\locale\Functional;
 
-use Drupal\Tests\BrowserTestBase;
 use Drupal\Core\Language\LanguageInterface;
+use Drupal\Tests\BrowserTestBase;
 
 /**
  * Tests translation of configuration strings.

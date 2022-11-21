@@ -2,11 +2,11 @@
 
 namespace Drupal\KernelTests\Core\Config;
 
-use Drupal\Tests\SchemaCheckTestTrait;
 use Drupal\config_test\TestInstallStorage;
 use Drupal\Core\Config\InstallStorage;
 use Drupal\Core\DependencyInjection\ContainerBuilder;
 use Drupal\KernelTests\KernelTestBase;
+use Drupal\Tests\SchemaCheckTestTrait;
 use Symfony\Component\DependencyInjection\Reference;
 
 /**

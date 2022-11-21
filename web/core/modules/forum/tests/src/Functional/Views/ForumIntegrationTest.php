@@ -3,8 +3,8 @@
 namespace Drupal\Tests\forum\Functional\Views;
 
 use Drupal\node\NodeInterface;
-use Drupal\views\Views;
 use Drupal\Tests\views\Functional\ViewTestBase;
+use Drupal\views\Views;
 
 /**
  * Tests the forum integration into views.

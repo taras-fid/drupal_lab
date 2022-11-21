@@ -4,9 +4,9 @@ namespace Drupal\Tests\Core\TempStore;
 
 use Drupal\Core\Http\RequestStack;
 use Drupal\Core\TempStore\Lock;
-use Drupal\Tests\UnitTestCase;
 use Drupal\Core\TempStore\PrivateTempStore;
 use Drupal\Core\TempStore\TempStoreException;
+use Drupal\Tests\UnitTestCase;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

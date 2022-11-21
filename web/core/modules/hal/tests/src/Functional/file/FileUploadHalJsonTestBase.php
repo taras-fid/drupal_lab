@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\hal\Functional\file;
 
-use Drupal\Tests\rest\Functional\FileUploadResourceTestBase;
 use Drupal\Tests\hal\Functional\EntityResource\HalEntityNormalizationTrait;
+use Drupal\Tests\rest\Functional\FileUploadResourceTestBase;
 
 /**
  * Tests binary data file upload route for HAL JSON.

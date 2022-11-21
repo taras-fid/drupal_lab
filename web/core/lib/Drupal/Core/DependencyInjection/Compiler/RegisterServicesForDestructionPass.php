@@ -2,8 +2,8 @@
 
 namespace Drupal\Core\DependencyInjection\Compiler;
 
-use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
  * Adds services tagged "needs_destruction" to the "kernel_destruct_subscriber"

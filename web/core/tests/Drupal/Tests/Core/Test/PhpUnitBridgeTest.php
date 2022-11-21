@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\Core\Test;
 
-use Drupal\Tests\UnitTestCase;
 use Drupal\deprecation_test\Deprecation\FixtureDeprecatedClass;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * Test how unit tests interact with deprecation errors.

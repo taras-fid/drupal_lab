@@ -2,11 +2,11 @@
 
 namespace Drupal\Tests\comment\Functional;
 
+use Drupal\comment\Entity\Comment;
 use Drupal\comment\Plugin\Field\FieldType\CommentItemInterface;
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Component\Utility\Html;
 use Drupal\Component\Utility\UrlHelper;
-use Drupal\comment\Entity\Comment;
 use Drupal\Core\Render\BubbleableMetadata;
 use Drupal\node\Entity\Node;
 use Drupal\taxonomy\Entity\Term;

@@ -7,17 +7,17 @@
 
 import {
   ButtonView,
+  createLabeledInputText,
   FocusCycler,
+  injectCssTransitionDisabler,
   LabeledFieldView,
+  submitHandler,
   SwitchButtonView,
   View,
   ViewCollection,
-  createLabeledInputText,
-  injectCssTransitionDisabler,
-  submitHandler,
 } from 'ckeditor5/src/ui';
-import { FocusTracker, KeystrokeHandler } from 'ckeditor5/src/utils';
-import { icons } from 'ckeditor5/src/core';
+import {FocusTracker, KeystrokeHandler} from 'ckeditor5/src/utils';
+import {icons} from 'ckeditor5/src/core';
 
 /**
  * A class rendering alternative text form view.

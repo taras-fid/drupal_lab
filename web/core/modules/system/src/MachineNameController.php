@@ -5,10 +5,10 @@ namespace Drupal\system;
 use Drupal\Component\Transliteration\TransliterationInterface;
 use Drupal\Core\Access\CsrfTokenGenerator;
 use Drupal\Core\DependencyInjection\ContainerInjectionInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Controller routines for machine name transliteration routes.

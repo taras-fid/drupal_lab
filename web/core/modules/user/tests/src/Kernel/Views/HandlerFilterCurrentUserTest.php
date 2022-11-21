@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\user\Kernel\Views;
 
-use Drupal\views\Views;
 use Drupal\Core\Session\AnonymousUserSession;
+use Drupal\views\Views;
 
 /**
  * Tests the current user filter handler.

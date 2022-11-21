@@ -2,8 +2,8 @@
 
 namespace Drupal\Tests\aggregator\Kernel\Migrate;
 
-use Drupal\Tests\migrate_drupal\Kernel\MigrateDrupalTestBase;
 use Drupal\migrate_drupal\Tests\StubTestTrait;
+use Drupal\Tests\migrate_drupal\Kernel\MigrateDrupalTestBase;
 
 /**
  * Test stub creation for aggregator feeds and items.

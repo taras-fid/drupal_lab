@@ -2,9 +2,9 @@
 
 namespace Drupal\Core\Routing;
 
-use Symfony\Component\Routing\RouteCompilerInterface;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCompiler as SymfonyRouteCompiler;
+use Symfony\Component\Routing\RouteCompilerInterface;
 
 /**
  * Compiler to generate derived information from a Route necessary for matching.

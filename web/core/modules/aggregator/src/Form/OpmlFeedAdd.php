@@ -7,9 +7,9 @@ use Drupal\Component\Utility\UrlHelper;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
-use Symfony\Component\DependencyInjection\ContainerInterface;
-use GuzzleHttp\Exception\TransferException;
 use GuzzleHttp\ClientInterface;
+use GuzzleHttp\Exception\TransferException;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Imports feeds from OPML.

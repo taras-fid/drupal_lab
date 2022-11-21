@@ -4,10 +4,10 @@ namespace Drupal\Core\Entity\Entity;
 
 use Drupal\Component\Utility\NestedArray;
 use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\Core\Entity\EntityDisplayBase;
 use Drupal\Core\Entity\EntityDisplayPluginCollection;
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Entity\FieldableEntityInterface;
-use Drupal\Core\Entity\EntityDisplayBase;
 use Drupal\Core\Render\Element;
 use Drupal\Core\TypedData\TranslatableInterface as TranslatableDataInterface;
 

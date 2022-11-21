@@ -2,14 +2,14 @@
 
 namespace Drupal\block\Entity;
 
+use Drupal\block\BlockInterface;
+use Drupal\block\BlockPluginCollection;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Condition\ConditionPluginCollection;
 use Drupal\Core\Config\Entity\ConfigEntityBase;
-use Drupal\block\BlockPluginCollection;
-use Drupal\block\BlockInterface;
 use Drupal\Core\Config\Entity\ConfigEntityInterface;
-use Drupal\Core\Entity\EntityWithPluginCollectionInterface;
 use Drupal\Core\Entity\EntityStorageInterface;
+use Drupal\Core\Entity\EntityWithPluginCollectionInterface;
 
 /**
  * Defines a Block configuration entity class.

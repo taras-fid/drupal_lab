@@ -5,9 +5,9 @@
  * Hooks specific to the Node module.
  */
 
-use Drupal\node\NodeInterface;
 use Drupal\Component\Utility\Html;
 use Drupal\Component\Utility\Xss;
+use Drupal\node\NodeInterface;
 
 /**
  * @addtogroup hooks

@@ -2,8 +2,8 @@
 
 namespace Drupal\config_test;
 
-use Drupal\Core\Config\Entity\ConfigEntityStorage;
 use Drupal\Core\Config\Config;
+use Drupal\Core\Config\Entity\ConfigEntityStorage;
 
 /**
  * @todo.

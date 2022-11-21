@@ -7,8 +7,8 @@
 
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Url;
-use Drupal\views\ViewExecutable;
 use Drupal\views\Analyzer;
+use Drupal\views\ViewExecutable;
 
 /**
  * Implements hook_help().

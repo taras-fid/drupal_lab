@@ -3,10 +3,10 @@
 namespace Drupal\history\Plugin\views\field;
 
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\node\Plugin\views\field\Node;
+use Drupal\views\Plugin\views\display\DisplayPluginBase;
 use Drupal\views\ResultRow;
 use Drupal\views\ViewExecutable;
-use Drupal\views\Plugin\views\display\DisplayPluginBase;
-use Drupal\node\Plugin\views\field\Node;
 
 /**
  * Field handler to display the marker for new content.

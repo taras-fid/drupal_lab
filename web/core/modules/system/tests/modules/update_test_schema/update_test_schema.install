@@ -5,9 +5,9 @@
  * Update hooks and schema definition for the update_test_schema module.
  */
 
+use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Core\Database\Database;
 use Drupal\Core\Url;
-use Drupal\Component\Render\FormattableMarkup;
 
 /**
  * Implements hook_requirements().

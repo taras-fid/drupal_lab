@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* cspell:words imagetextalternative missingalternativetextview imagealternativetext */
 
-import { View, ButtonView } from 'ckeditor5/src/ui';
+import {ButtonView, View} from 'ckeditor5/src/ui';
 
 /**
  * @module drupalImage/imagealternativetext/ui/missingalternativetextview

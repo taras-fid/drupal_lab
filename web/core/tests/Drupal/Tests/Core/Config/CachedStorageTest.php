@@ -2,9 +2,9 @@
 
 namespace Drupal\Tests\Core\Config;
 
-use Drupal\Tests\UnitTestCase;
-use Drupal\Core\Config\CachedStorage;
 use Drupal\Core\Cache\NullBackend;
+use Drupal\Core\Config\CachedStorage;
+use Drupal\Tests\UnitTestCase;
 
 /**
  * Tests the interaction of cache and file storage in CachedStorage.

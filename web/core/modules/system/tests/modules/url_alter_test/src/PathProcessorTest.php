@@ -5,8 +5,8 @@ namespace Drupal\url_alter_test;
 use Drupal\Core\PathProcessor\InboundPathProcessorInterface;
 use Drupal\Core\PathProcessor\OutboundPathProcessorInterface;
 use Drupal\Core\Render\BubbleableMetadata;
-use Symfony\Component\HttpFoundation\Request;
 use Drupal\user\Entity\User;
+use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Path processor for url_alter_test.

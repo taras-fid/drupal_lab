@@ -4,9 +4,9 @@ namespace Drupal\Tests\migrate\Kernel\Plugin\id_map;
 
 use Drupal\Core\Database\Database;
 use Drupal\Core\Database\DatabaseExceptionWrapper;
+use Drupal\migrate\MigrateException;
 use Drupal\Tests\migrate\Kernel\MigrateTestBase;
 use Drupal\Tests\migrate\Unit\TestSqlIdMap;
-use Drupal\migrate\MigrateException;
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 // cspell:ignore sourceid

@@ -1,6 +1,5 @@
-import { execSync } from 'child_process';
-import { URL } from 'url';
-import { commandAsWebserver } from '../globals';
+import {execSync} from 'child_process';
+import {commandAsWebserver} from '../globals';
 
 /**
  * Logs in as the admin user.

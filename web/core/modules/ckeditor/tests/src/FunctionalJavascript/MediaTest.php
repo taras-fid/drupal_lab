@@ -5,6 +5,7 @@ namespace Drupal\Tests\ckeditor\FunctionalJavascript;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Database\Database;
 use Drupal\Core\Entity\Entity\EntityViewDisplay;
+use Drupal\Core\Entity\Entity\EntityViewMode;
 use Drupal\editor\Entity\Editor;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\file\Entity\File;
@@ -18,7 +19,6 @@ use Drupal\Tests\media\Traits\MediaTypeCreationTrait;
 use Drupal\Tests\TestFileCreationTrait;
 use Drupal\user\Entity\Role;
 use Drupal\user\RoleInterface;
-use Drupal\Core\Entity\Entity\EntityViewMode;
 
 /**
  * @coversDefaultClass \Drupal\ckeditor\Plugin\CKEditorPlugin\DrupalMedia

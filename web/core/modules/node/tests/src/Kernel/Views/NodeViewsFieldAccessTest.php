@@ -4,8 +4,8 @@ namespace Drupal\Tests\node\Kernel\Views;
 
 use Drupal\node\Entity\Node;
 use Drupal\node\Entity\NodeType;
-use Drupal\user\Entity\User;
 use Drupal\Tests\views\Kernel\Handler\FieldFieldAccessTestBase;
+use Drupal\user\Entity\User;
 
 /**
  * Tests base field access in Views for the node entity.
