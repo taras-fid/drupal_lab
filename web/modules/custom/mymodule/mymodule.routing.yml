@@ -5,6 +5,20 @@ mymodule.first:
   requirements:
     _permission: 'access content'
 
+mymodule.latestNode:
+  path: '/latest-node'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\LatestNodeController::getNodeList'
+  requirements:
+    _permission: 'access content'
+
+mymodule.latestNodeDI:
+  path: '/latest-node-service'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\LatestNodeController::getNodeListService'
+  requirements:
+    _permission: 'access content'
+
 mymodule.form:
   path: '/example/route2'
   defaults:

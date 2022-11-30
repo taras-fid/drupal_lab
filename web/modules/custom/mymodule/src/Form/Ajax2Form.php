@@ -48,7 +48,7 @@ class Ajax2Form extends FormBase
     $response->addCommand(
       new HtmlCommand(
         '.result_message',
-        '<div class="my_top_message">The result is ' . t('The results is ') . ($form_state->getValue('number_1') + $form_state->getValue('number_2')) . '</div>')
+        '<div class="my_top_message">' . $this->t('The results is ') . ($form_state->getValue('number_1') + $form_state->getValue('number_2')) . '</div>')
     );
     return $response;
   }

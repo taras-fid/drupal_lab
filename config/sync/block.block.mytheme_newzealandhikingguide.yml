@@ -1,0 +1,30 @@
+uuid: c97df2a3-d5c2-4c36-ad59-0b748da8ba63
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:broshure_block:9437d38b-0028-49d1-9850-5e63c7efee6d'
+  module:
+    - block_content
+    - system
+  theme:
+    - mytheme
+id: mytheme_newzealandhikingguide
+theme: mytheme
+region: highlighted
+weight: -5
+provider: null
+plugin: 'block_content:9437d38b-0028-49d1-9850-5e63c7efee6d'
+settings:
+  id: 'block_content:9437d38b-0028-49d1-9850-5e63c7efee6d'
+  label: 'New Zealand Hiking Guide'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about-us

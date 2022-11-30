@@ -1,0 +1,42 @@
+uuid: 7fc12014-01a6-4fc1-881f-bbe1f072de4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.masonry
+    - field.field.node.blog.body
+    - field.field.node.blog.field_category
+    - field.field.node.blog.field_image
+    - field.field.node.blog.field_tags
+    - image.style.thumbnail
+    - node.type.blog
+  module:
+    - image
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.blog.masonry
+targetEntityType: node
+bundle: blog
+mode: masonry
+content:
+  field_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  content_moderation_control: true
+  field_category: true
+  field_tags: true
+  links: true

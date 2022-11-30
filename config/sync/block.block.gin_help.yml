@@ -1,17 +1,17 @@
-uuid: 50400841-b251-484b-9028-a64dd524b469
+uuid: 324ccc3f-4687-43e3-801a-294676ccf415
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - olivero
+    - gin
 _core:
-  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
-id: olivero_help
-theme: olivero
-region: content_above
-weight: -10
+  default_config_hash: 8nOAry2oKqJOr0zbrlJ3sZHDFJLIO6j-0vT0K_TYca4
+id: gin_help
+theme: gin
+region: help
+weight: 0
 provider: null
 plugin: help_block
 settings:

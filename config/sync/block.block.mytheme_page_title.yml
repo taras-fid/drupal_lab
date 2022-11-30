@@ -1,13 +1,13 @@
-uuid: 9fb4c35c-c30d-4860-80f9-73f20ce08d93
+uuid: 212e6e65-a4ec-46ba-9622-0099d0bae0d3
 langcode: en
 status: true
 dependencies:
   theme:
-    - olivero
+    - mytheme
 _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: olivero_page_title
-theme: olivero
+id: mytheme_page_title
+theme: mytheme
 region: content_above
 weight: -11
 provider: null
