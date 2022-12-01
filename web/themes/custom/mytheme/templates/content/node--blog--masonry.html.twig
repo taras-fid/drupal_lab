@@ -76,9 +76,7 @@
   <div{{ content_attributes }}>
     <div class="hover-content">
       {% if label and not page %}
-        <h3{{ title_attributes }}>
-          <a href="{{ url }}" rel="bookmark">{{ content }}</a>
-        </h3>
+        <a href="{{ url }}" rel="bookmark">{{ content }}</a>
       {% endif %}
     </div>
   </div>

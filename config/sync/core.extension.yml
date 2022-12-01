@@ -15,6 +15,7 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  diff: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -31,6 +32,7 @@ module:
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  mymodule: 0
   mysql: 0
   node: 0
   options: 0
@@ -39,6 +41,7 @@ module:
   path_alias: 0
   search: 0
   shortcut: 0
+  student_registration: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -55,4 +58,6 @@ module:
 theme:
   olivero: 0
   claro: 0
+  mytheme: 0
+  gin: 0
 profile: standard
