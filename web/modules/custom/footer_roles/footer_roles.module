@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function footer_roles_theme($existing, $type, $theme, $path)
+{
+    return [
+      'region__footer_bottom' => [
+        'variables' => [
+          'userRoles' => [
+            'rolesString' => NULL
+          ]
+        ]
+      ]
+    ];
+}
+
+
+/**
+ * Implements hook_preprocess().
+ */
+function footer_roles_preprocess(&$variables)
+{
+  $roles = Drupal::currentUser()->getRoles();
+
+  $variables['userRoles'] = [
+    '#theme' => 'region__footer_bottom',
+    'rolesString' => implode(', ', $roles),
+    '#cache' => [
+      'max-age' => 300,
+      'contexts' => ['user.roles'],
+    ],
+  ];
+}
