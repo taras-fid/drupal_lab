@@ -14,7 +14,9 @@ class LatestNodeService
   protected QueryInterface $query;
 
   public function __construct() {
+
     $this->query = \Drupal::entityQuery('node');
+
   }
 
   public function htmlEntityList() {

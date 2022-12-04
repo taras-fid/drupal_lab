@@ -43,7 +43,6 @@ class LatestNodeController extends ControllerBase implements ContainerInjectionI
     return [
       '#markup' => $htmlList
     ];
-
   }
 
   public function getNodeListService() {
