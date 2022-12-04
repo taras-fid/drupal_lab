@@ -1,3 +1,4 @@
+
 services:
   mymodule.latestNodeService:
     class: Drupal\mymodule\Form\LatestNodeService
