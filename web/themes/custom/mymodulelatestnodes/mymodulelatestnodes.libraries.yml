@@ -1,4 +1,0 @@
-node-latest-css:
-  css:
-    theme:
-      css/custom.css: {}
