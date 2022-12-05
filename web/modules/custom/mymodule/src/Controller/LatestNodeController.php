@@ -2,12 +2,28 @@
 
 namespace Drupal\mymodule\Controller;
 
+use Symfony\Component\DependencyInjection\ContainerInterface;
+use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\DependencyInjection\ContainerInjectionInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
+use Drupal\mymodule\Form\LatestNodeService;
 use Drupal\node\Entity\Node;
 
-class LatestNodeController {
+class LatestNodeController extends ControllerBase implements ContainerInjectionInterface {
 
   use StringTranslationTrait;
+
+  protected LatestNodeService $myService;
+
+  public function __construct(LatestNodeService $myService) {
+    $this->myService = $myService;
+  }
+
+  public static function create(ContainerInterface $container) {
+    return new static(
+      $container->get('mymodule.latestNodeService')
+    );
+  }
 
   public function getNodeList() {
     $query = \Drupal::entityQuery('node');
@@ -27,12 +43,11 @@ class LatestNodeController {
     return [
       '#markup' => $htmlList
     ];
-
   }
 
   public function getNodeListService() {
-    $service = \Drupal::service('mymodule.latestNodeService');
-    $htmlList = $service->htmlEntityList();
+//    $service = \Drupal::service('mymodule.latestNodeService');
+    $htmlList = $this->myService->htmlEntityList();
 
     return [
       '#markup' => $htmlList
